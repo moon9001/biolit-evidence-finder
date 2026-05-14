@@ -1,0 +1,24 @@
+version: "3.9"
+
+# Lightweight backend container. Frontend is meant to run with `npm run dev`
+# on the host so you can iterate on the UI freely.
+
+services:
+  backend:
+    image: python:3.11-slim
+    working_dir: /app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./backend:/app
+      - ./data:/data
+    environment:
+      DATA_DIR: /data
+      DB_PATH: /data/app.db
+    command: >
+      bash -lc "
+        apt-get update && apt-get install -y --no-install-recommends
+          tesseract-ocr tesseract-ocr-chi-sim libgl1 libglib2.0-0 &&
+        pip install --no-cache-dir -r requirements.txt &&
+        uvicorn app.main:app --host 0.0.0.0 --port 8000
+      "

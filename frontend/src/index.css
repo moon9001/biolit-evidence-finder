@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(180deg, #f7faf8 0%, #eef3ef 100%);
+}
+
+/* Highlight matched terms in viewer */
+.hl {
+  background: #f4e4a3;
+  border-radius: 2px;
+  padding: 0 1px;
+  color: #1c3e2c;
+  font-weight: 600;
+}
+
+/* Scrollbar polish */
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: #c8d4cd; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #99ad9f; }

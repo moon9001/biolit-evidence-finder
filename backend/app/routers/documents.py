@@ -1,0 +1,173 @@
+"""Document upload, processing, listing, files."""
+from __future__ import annotations
+
+import logging
+import threading
+import unicodedata
+from datetime import datetime
+from pathlib import Path
+from typing import List
+
+from fastapi import APIRouter, BackgroundTasks, Depends, File, HTTPException, UploadFile
+from fastapi.responses import FileResponse, JSONResponse
+from sqlalchemy.orm import Session
+
+from ..config import settings
+from ..database import get_db
+from ..models import Document, Page
+from ..schemas import DocumentOut, PageOut
+from ..services import pdf_service
+
+logger = logging.getLogger(__name__)
+router = APIRouter(prefix="/api/documents", tags=["documents"])
+
+
+def _safe_filename(name: str) -> str:
+    name = unicodedata.normalize("NFKC", name)
+    name = name.replace("\\", "/").split("/")[-1]
+    name = "".join(c for c in name if c.isprintable())
+    if not name:
+        name = "upload.pdf"
+    return name[:200]
+
+
+@router.post("/upload", response_model=List[DocumentOut])
+async def upload_documents(
+    background_tasks: BackgroundTasks,
+    files: List[UploadFile] = File(...),
+    auto_process: bool = True,
+    db: Session = Depends(get_db),
+):
+    if not files:
+        raise HTTPException(status_code=400, detail="No files uploaded.")
+    out: List[DocumentOut] = []
+    for f in files:
+        if not f.filename:
+            continue
+        safe = _safe_filename(f.filename)
+        if not safe.lower().endswith(".pdf"):
+            raise HTTPException(
+                status_code=400, detail=f"Only PDF files are supported: {safe}"
+            )
+        ts = datetime.utcnow().strftime("%Y%m%d_%H%M%S_%f")
+        stored = settings.uploads_dir / f"{ts}__{safe}"
+        try:
+            with open(stored, "wb") as w:
+                while True:
+                    chunk = await f.read(1024 * 1024)
+                    if not chunk:
+                        break
+                    w.write(chunk)
+        except Exception as e:
+            raise HTTPException(status_code=500, detail=f"Failed to save file: {e}")
+
+        try:
+            doc = pdf_service.init_document(db, file_name=safe, stored_path=stored)
+        except Exception as e:
+            try:
+                stored.unlink(missing_ok=True)
+            except Exception:
+                pass
+            raise HTTPException(status_code=400, detail=f"Invalid PDF: {e}")
+
+        if auto_process:
+            doc_id = doc.id
+            background_tasks.add_task(_run_processing, doc_id)
+
+        out.append(DocumentOut.model_validate(doc))
+    return out
+
+
+def _run_processing(doc_id: int) -> None:
+    """Run processing in a background thread to avoid blocking event loop."""
+    t = threading.Thread(
+        target=pdf_service.process_document, args=(doc_id,), daemon=True
+    )
+    t.start()
+
+
+@router.get("", response_model=List[DocumentOut])
+def list_documents(db: Session = Depends(get_db)):
+    docs = db.query(Document).order_by(Document.created_at.desc()).all()
+    return [DocumentOut.model_validate(d) for d in docs]
+
+
+@router.get("/{doc_id}", response_model=DocumentOut)
+def get_document(doc_id: int, db: Session = Depends(get_db)):
+    d = db.get(Document, doc_id)
+    if not d:
+        raise HTTPException(status_code=404, detail="Document not found")
+    return DocumentOut.model_validate(d)
+
+
+@router.delete("/{doc_id}")
+def delete_document(doc_id: int, db: Session = Depends(get_db)):
+    d = db.get(Document, doc_id)
+    if not d:
+        raise HTTPException(status_code=404, detail="Document not found")
+    stored_path = d.stored_path
+    db.delete(d)
+    db.commit()
+    pdf_service.delete_document_files(doc_id, stored_path)
+    return {"deleted": doc_id}
+
+
+@router.post("/{doc_id}/process")
+def process_document(
+    doc_id: int,
+    background_tasks: BackgroundTasks,
+    db: Session = Depends(get_db),
+):
+    d = db.get(Document, doc_id)
+    if not d:
+        raise HTTPException(status_code=404, detail="Document not found")
+    if d.status == "processing":
+        return {"status": "already_processing", "document_id": doc_id}
+    background_tasks.add_task(_run_processing, doc_id)
+    d.status = "queued"
+    db.commit()
+    return {"status": "queued", "document_id": doc_id}
+
+
+@router.get("/{doc_id}/pages", response_model=List[PageOut])
+def list_pages(doc_id: int, db: Session = Depends(get_db)):
+    pages = (
+        db.query(Page)
+        .filter(Page.document_id == doc_id)
+        .order_by(Page.page_number.asc())
+        .all()
+    )
+    return [PageOut.model_validate(p) for p in pages]
+
+
+@router.get("/{doc_id}/pages/{page_number}", response_model=PageOut)
+def get_page(doc_id: int, page_number: int, db: Session = Depends(get_db)):
+    p = (
+        db.query(Page)
+        .filter(Page.document_id == doc_id, Page.page_number == page_number)
+        .first()
+    )
+    if not p:
+        raise HTTPException(status_code=404, detail="Page not found")
+    return PageOut.model_validate(p)
+
+
+@router.get("/{doc_id}/file")
+def get_file(doc_id: int, db: Session = Depends(get_db)):
+    d = db.get(Document, doc_id)
+    if not d:
+        raise HTTPException(status_code=404, detail="Document not found")
+    p = Path(d.stored_path)
+    if not p.exists():
+        raise HTTPException(status_code=404, detail="Stored file missing")
+    return FileResponse(p, media_type="application/pdf", filename=d.file_name)
+
+
+@router.get("/{doc_id}/page-image/{page_number}")
+def get_page_image(doc_id: int, page_number: int):
+    p = pdf_service.page_image_path(doc_id, page_number)
+    if not p:
+        return JSONResponse(
+            status_code=404, content={"detail": "Page image not available"}
+        )
+    return FileResponse(p, media_type="image/png")
