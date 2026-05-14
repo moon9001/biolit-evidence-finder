@@ -41,7 +41,7 @@ def chat_test() -> Dict[str, Any]:
     if not is_enabled():
         return {"ok": False, "reason": "not_configured"}
     try:
-        with httpx.Client(timeout=20.0) as client:
+        with httpx.Client(timeout=60.0) as client:
             r = client.post(
                 f"{settings.llm_api_base_url.rstrip('/')}/chat/completions",
                 headers={
@@ -51,11 +51,27 @@ def chat_test() -> Dict[str, Any]:
                 json={
                     "model": settings.llm_model,
                     "messages": [{"role": "user", "content": "ping"}],
-                    "max_tokens": 4,
+                    # Generous budget for reasoning models that consume
+                    # tokens for hidden chain-of-thought.
+                    "max_tokens": 256,
+                    "reasoning_effort": "low",
                 },
             )
-            return {"ok": r.status_code == 200, "status": r.status_code,
-                    "snippet": r.text[:200]}
+            ok = r.status_code == 200
+            reply = ""
+            if ok:
+                try:
+                    data = r.json()
+                    reply = (data["choices"][0]["message"].get("content")
+                             or "").strip()
+                except Exception:
+                    pass
+            return {
+                "ok": ok,
+                "status": r.status_code,
+                "reply": reply[:80],
+                "snippet": r.text[:200] if not ok else "",
+            }
     except Exception as e:  # pragma: no cover
         return {"ok": False, "error": str(e)}
 
@@ -83,7 +99,11 @@ def extract_from_page(page_text: str) -> Optional[Dict[str, List[str]]]:
             {"role": "user", "content": text},
         ],
         "temperature": 0.0,
-        "max_tokens": 800,
+        # deepseek-v4-flash and other reasoning models charge "reasoning"
+        # tokens against max_tokens, so we leave plenty of headroom and
+        # ask for low reasoning effort for this extraction task.
+        "max_tokens": 2048,
+        "reasoning_effort": "low",
     }
     try:
         with httpx.Client(timeout=60.0) as client:

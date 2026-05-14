@@ -5,6 +5,7 @@ export interface DocumentItem {
   author?: string | null;
   year?: string | null;
   page_count: number;
+  processed_pages: number;
   status: string;
   error?: string | null;
   created_at: string;

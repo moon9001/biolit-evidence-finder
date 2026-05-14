@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../api/client';
+import { useI18n } from '../i18n';
 import type { SearchResponse } from '../types';
 
 const MODES = [
-  { value: 'exact', label: '精确检索' },
-  { value: 'scientific', label: '学名检索' },
-  { value: 'fulltext', label: '全文检索 (FTS)' },
-  { value: 'semantic', label: '语义检索' },
-  { value: 'hybrid', label: '混合检索' },
+  { value: 'exact', labelKey: 'search_exact' },
+  { value: 'scientific', labelKey: 'search_scientific' },
+  { value: 'fulltext', labelKey: 'search_fulltext' },
+  { value: 'semantic', labelKey: 'search_semantic' },
+  { value: 'hybrid', labelKey: 'search_hybrid' },
 ];
 
 export default function Search() {
+  const { t } = useI18n();
   const [q, setQ] = useState('');
   const [mode, setMode] = useState('hybrid');
   const [busy, setBusy] = useState(false);
@@ -35,7 +37,7 @@ export default function Search() {
 
   return (
     <div className="space-y-4">
-      <h1 className="text-xl font-semibold text-forest-800">页级证据检索</h1>
+      <h1 className="text-xl font-semibold text-forest-800">{t('search_title')}</h1>
 
       <form
         onSubmit={run}
@@ -44,7 +46,7 @@ export default function Search() {
         <input
           value={q}
           onChange={(e) => setQ(e.target.value)}
-          placeholder="输入物种名、关键词或自然语言问题，例如 Camellia sinensis、云南山茶分布"
+          placeholder={t('search_placeholder')}
           className="flex-1 px-3 py-2 border border-stone-300 rounded focus:outline-none focus:ring-2 focus:ring-forest-400"
         />
         <select
@@ -54,7 +56,7 @@ export default function Search() {
         >
           {MODES.map((m) => (
             <option key={m.value} value={m.value}>
-              {m.label}
+              {t(m.labelKey as any)}
             </option>
           ))}
         </select>
@@ -63,7 +65,7 @@ export default function Search() {
           disabled={busy}
           className="px-4 py-2 rounded bg-forest-600 text-white hover:bg-forest-700 disabled:opacity-50"
         >
-          {busy ? '检索中...' : '检索'}
+          {busy ? t('search_searching') : t('search_button')}
         </button>
       </form>
 
@@ -77,8 +79,7 @@ export default function Search() {
         <div className="space-y-3">
           <div className="flex items-center justify-between text-sm text-stone-600">
             <div>
-              共找到 <strong>{resp.result_count}</strong> 条结果，模式：
-              <code className="text-forest-700">{resp.mode}</code>
+              {t('search_results', { count: resp.result_count })} <code className="text-forest-700">{resp.mode}</code>
               {resp.notes && (
                 <span className="ml-2 text-amber-700">[{resp.notes}]</span>
               )}
@@ -88,13 +89,13 @@ export default function Search() {
                 href={api.exportSearchUrl(resp.query, resp.mode, 'csv')}
                 className="text-forest-700 hover:underline"
               >
-                导出 CSV
+                {t('search_export_csv')}
               </a>
               <a
                 href={api.exportSearchUrl(resp.query, resp.mode, 'json')}
                 className="text-forest-700 hover:underline"
               >
-                导出 JSON
+                {t('search_export_json')}
               </a>
             </div>
           </div>
@@ -103,20 +104,20 @@ export default function Search() {
             <table className="w-full text-sm">
               <thead className="bg-stone-50 text-stone-600 text-left">
                 <tr>
-                  <th className="px-3 py-2">文献</th>
-                  <th className="px-3 py-2">页码</th>
-                  <th className="px-3 py-2">命中</th>
-                  <th className="px-3 py-2">类型</th>
-                  <th className="px-3 py-2">分数</th>
-                  <th className="px-3 py-2">上下文</th>
-                  <th className="px-3 py-2">原文</th>
+                  <th className="px-3 py-2">{t('search_col_document')}</th>
+                  <th className="px-3 py-2">{t('search_col_page')}</th>
+                  <th className="px-3 py-2">{t('search_col_match')}</th>
+                  <th className="px-3 py-2">{t('search_col_type')}</th>
+                  <th className="px-3 py-2">{t('search_col_score')}</th>
+                  <th className="px-3 py-2">{t('search_col_context')}</th>
+                  <th className="px-3 py-2">{t('search_col_view')}</th>
                 </tr>
               </thead>
               <tbody>
                 {resp.results.length === 0 && (
                   <tr>
                     <td colSpan={7} className="px-3 py-6 text-center text-stone-500">
-                      没有命中结果
+                      {t('search_no_results')}
                     </td>
                   </tr>
                 )}
@@ -152,7 +153,7 @@ export default function Search() {
                         to={r.viewer_url}
                         className="text-forest-700 hover:underline whitespace-nowrap"
                       >
-                        查看原文 →
+                        {t('search_view_original')}
                       </Link>
                     </td>
                   </tr>
@@ -167,11 +168,9 @@ export default function Search() {
 }
 
 function Snippet({ text, term }: { text: string; term: string }) {
+  if (!text) return null;
   if (!term) return <span>{text}</span>;
-  // Highlight all (case-insensitive) occurrences of term, plus <<...>> coming
-  // from FTS5 snippet().
-  const ftsHl = text
-    .replace(/<<([\s\S]+?)>>/g, '\u0001$1\u0002');
+  const ftsHl = text.replace(/<<([\s\S]+?)>>/g, '\u0001$1\u0002');
   const regex = new RegExp(
     term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'),
     'gi',

@@ -16,6 +16,7 @@ class DocumentOut(BaseModel):
     author: Optional[str] = None
     year: Optional[str] = None
     page_count: int = 0
+    processed_pages: int = 0
     status: str = "pending"
     error: Optional[str] = None
     created_at: datetime

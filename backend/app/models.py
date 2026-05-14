@@ -29,6 +29,7 @@ class Document(Base):
     author = Column(String(512), nullable=True)
     year = Column(String(32), nullable=True)
     page_count = Column(Integer, default=0)
+    processed_pages = Column(Integer, default=0)
     status = Column(String(32), default="pending")  # pending|processing|completed|failed
     error = Column(Text, nullable=True)
     created_at = Column(DateTime, default=datetime.utcnow)

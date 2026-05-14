@@ -1,8 +1,10 @@
 import { useEffect, useState } from 'react';
 import { api } from '../api/client';
+import { useI18n } from '../i18n';
 import type { SettingsStatus } from '../types';
 
 export default function Settings() {
+  const { t } = useI18n();
   const [status, setStatus] = useState<SettingsStatus | null>(null);
   const [llmBase, setLlmBase] = useState('');
   const [llmKey, setLlmKey] = useState('');
@@ -37,70 +39,70 @@ export default function Settings() {
         embedding_model: embModel || undefined,
       });
       setStatus(r);
-      setMsg('已更新（仅本进程生效，重启后回退到 .env）');
+      setMsg('Settings updated (in-memory only, restart to revert to .env)');
     } catch (e) {
       setMsg((e as Error).message);
     }
   }
 
   async function test() {
-    setTestResult('测试中...');
+    setTestResult('Testing...');
     const r = await api.testLlm();
     setTestResult(JSON.stringify(r));
   }
 
   return (
     <div className="space-y-5">
-      <h1 className="text-xl font-semibold text-forest-800">系统设置</h1>
+      <h1 className="text-xl font-semibold text-forest-800">{t('settings_title')}</h1>
 
       <section className="bg-white border border-stone-200 rounded-lg p-5 shadow-sm">
-        <h2 className="font-semibold text-forest-700 mb-3">当前状态</h2>
+        <h2 className="font-semibold text-forest-700 mb-3">{t('settings_current_status')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 text-sm">
-          <Item label="LLM API" value={status?.llm_enabled ? '已启用' : '未配置'} />
-          <Item label="Embedding API" value={status?.embedding_enabled ? '已启用' : '未配置'} />
-          <Item label="本地 sentence-transformers" value={status?.embedding_local_available ? '可用' : '不可用'} />
-          <Item label="本地 OCR (tesseract)" value={status?.ocr_local_available ? '可用' : '不可用'} />
-          <Item label="DeepSeek-OCR" value={status?.deepseek_ocr_enabled ? '已配置' : '未配置'} />
+          <Item label="LLM API" value={status?.llm_enabled ? t('dashboard_llm_enabled') : t('dashboard_not_configured')} />
+          <Item label="Embedding API" value={status?.embedding_enabled ? t('dashboard_llm_enabled') : t('dashboard_not_configured')} />
+          <Item label="Local sentence-transformers" value={status?.embedding_local_available ? t('dashboard_ocr_available') : t('dashboard_not_configured')} />
+          <Item label="Local OCR (tesseract)" value={status?.ocr_local_available ? t('dashboard_ocr_available') : t('dashboard_ocr_unavailable')} />
+          <Item label="DeepSeek-OCR" value={status?.deepseek_ocr_enabled ? t('dashboard_configured') : t('dashboard_not_configured')} />
         </div>
       </section>
 
       <section className="bg-white border border-stone-200 rounded-lg p-5 shadow-sm">
-        <h2 className="font-semibold text-forest-700 mb-3">LLM API（OpenAI 兼容）</h2>
+        <h2 className="font-semibold text-forest-700 mb-3">{t('settings_llm_api')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
-          <Field label="LLM_API_BASE_URL" value={llmBase} onChange={setLlmBase}
-            placeholder="https://uni-api.cstcloud.cn/v1" />
-          <Field label="LLM_API_KEY" value={llmKey} onChange={setLlmKey}
+          <Field label={t('settings_base_url')} value={llmBase} onChange={setLlmBase}
+            placeholder="https://api.deepseek.com" />
+          <Field label={t('settings_api_key')} value={llmKey} onChange={setLlmKey}
             placeholder="sk-..." type="password" />
-          <Field label="LLM_MODEL" value={llmModel} onChange={setLlmModel}
+          <Field label={t('settings_model')} value={llmModel} onChange={setLlmModel}
             placeholder="deepseek-v4-flash" />
         </div>
         <div className="mt-3 flex gap-2 items-center">
-          <button onClick={save} className="px-3 py-1.5 rounded bg-forest-600 text-white hover:bg-forest-700">保存</button>
-          <button onClick={test} className="px-3 py-1.5 rounded border border-forest-600 text-forest-700 hover:bg-forest-50">测试连接</button>
+          <button onClick={save} className="px-3 py-1.5 rounded bg-forest-600 text-white hover:bg-forest-700">{t('settings_save')}</button>
+          <button onClick={test} className="px-3 py-1.5 rounded border border-forest-600 text-forest-700 hover:bg-forest-50">{t('settings_test')}</button>
           {testResult && <span className="text-xs text-stone-600 break-all">{testResult}</span>}
         </div>
       </section>
 
       <section className="bg-white border border-stone-200 rounded-lg p-5 shadow-sm">
-        <h2 className="font-semibold text-forest-700 mb-3">Embedding API（OpenAI 兼容）</h2>
+        <h2 className="font-semibold text-forest-700 mb-3">{t('settings_embedding_api')}</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-3 text-sm">
-          <Field label="EMBEDDING_API_BASE_URL" value={embBase} onChange={setEmbBase}
+          <Field label={t('settings_base_url')} value={embBase} onChange={setEmbBase}
             placeholder="https://uni-api.cstcloud.cn/v1" />
-          <Field label="EMBEDDING_API_KEY" value={embKey} onChange={setEmbKey}
+          <Field label={t('settings_api_key')} value={embKey} onChange={setEmbKey}
             placeholder="sk-..." type="password" />
-          <Field label="EMBEDDING_MODEL" value={embModel} onChange={setEmbModel}
+          <Field label={t('settings_model')} value={embModel} onChange={setEmbModel}
             placeholder="qwen3-embedding:8b" />
         </div>
         <div className="mt-3">
-          <button onClick={save} className="px-3 py-1.5 rounded bg-forest-600 text-white hover:bg-forest-700">保存</button>
+          <button onClick={save} className="px-3 py-1.5 rounded bg-forest-600 text-white hover:bg-forest-700">{t('settings_save')}</button>
         </div>
       </section>
 
       {msg && <div className="text-sm text-stone-600">{msg}</div>}
 
       <p className="text-xs text-stone-500">
-        永久生效请编辑 <code>backend/.env</code> 文件后重启服务。
-        系统在 LLM/Embedding 不可用时仍保证 PDF 解析、规则抽取、关键词检索和 FTS 全文检索可用。
+        {t('settings_permanent')}<br/>
+        {t('settings_offline')}
       </p>
     </div>
   );

@@ -13,7 +13,7 @@ import numpy as np
 from sqlalchemy.orm import Session
 
 from ..config import settings
-from ..database import raw_sqlite, session_scope
+from ..database import IS_SQLITE, raw_sqlite, session_scope
 from ..models import Chunk, Document, Occurrence, Page
 from . import embedding_service, extraction_service, llm_service, ocr_service
 
@@ -136,12 +136,16 @@ def _split_into_chunks(text: str, target_chars: int = 800, overlap: int = 100) -
 # FTS5
 # ---------------------------------------------------------------------------
 def _fts_delete_document(document_id: int) -> None:
+    if not IS_SQLITE:
+        return
     with raw_sqlite() as conn:
         conn.execute("DELETE FROM pages_fts WHERE document_id = ?", (document_id,))
         conn.commit()
 
 
 def _fts_insert_pages(rows: Iterable[tuple[int, int, int, str]]) -> None:
+    if not IS_SQLITE:
+        return
     with raw_sqlite() as conn:
         conn.executemany(
             "INSERT INTO pages_fts(page_id, document_id, page_number, text) "
@@ -155,30 +159,39 @@ def _fts_insert_pages(rows: Iterable[tuple[int, int, int, str]]) -> None:
 # Main processing pipeline
 # ---------------------------------------------------------------------------
 def process_document(document_id: int, use_llm: bool = True) -> None:
-    """Process a single document. Designed to be called from a thread."""
-    with session_scope() as db:
-        doc = db.get(Document, document_id)
-        if not doc:
-            logger.warning("Document %s vanished before processing", document_id)
-            return
-        doc.status = "processing"
-        doc.error = None
-        db.commit()
-
+    """Process a single document. Designed to be called from a thread.
+    Catches all exceptions internally so a single failing PDF cannot crash
+    the worker."""
     try:
-        _process_document_inner(document_id, use_llm=use_llm)
         with session_scope() as db:
             doc = db.get(Document, document_id)
-            if doc:
-                doc.status = "completed"
-                doc.processed_at = datetime.utcnow()
-    except Exception as e:
-        logger.exception("Processing failed for document %s", document_id)
-        with session_scope() as db:
-            doc = db.get(Document, document_id)
-            if doc:
-                doc.status = "failed"
-                doc.error = str(e)[:1000]
+            if not doc:
+                logger.warning("Document %s vanished before processing", document_id)
+                return
+            doc.status = "processing"
+            doc.error = None
+            doc.processed_pages = 0
+            db.commit()
+
+        try:
+            _process_document_inner(document_id, use_llm=use_llm)
+            with session_scope() as db:
+                doc = db.get(Document, document_id)
+                if doc:
+                    doc.status = "completed"
+                    doc.processed_pages = doc.page_count
+                    doc.processed_at = datetime.utcnow()
+        except Exception as e:
+            logger.exception("Processing failed for document %s", document_id)
+            with session_scope() as db:
+                doc = db.get(Document, document_id)
+                if doc:
+                    doc.status = "failed"
+                    doc.error = str(e)[:1000]
+    except Exception:  # last-resort guard so the worker thread never dies
+        logger.exception(
+            "Unrecoverable error while processing document %s", document_id
+        )
 
 
 def _process_document_inner(document_id: int, use_llm: bool) -> None:
@@ -209,6 +222,7 @@ def _process_document_inner(document_id: int, use_llm: bool) -> None:
                 doc = db.get(Document, document_id)
                 if doc:
                     doc.page_count = page_count
+                    doc.processed_pages = 0
                     db.commit()
 
             for idx in range(page_count):
@@ -227,6 +241,18 @@ def _process_document_inner(document_id: int, use_llm: bool) -> None:
                         "image_path": str(img_path),
                     }
                 )
+                # Periodically flush the page-extraction progress so the UI
+                # can show a real progress bar even before downstream
+                # extraction / embedding steps finish.
+                if page_no == page_count or page_no % 2 == 0:
+                    with session_scope() as db:
+                        doc = db.get(Document, document_id)
+                        if doc:
+                            # Phase 1 = text extraction; we count it as half
+                            # of the overall progress so users know there is
+                            # still extraction + embedding to come.
+                            doc.processed_pages = page_no
+                            db.commit()
     except Exception as e:
         raise RuntimeError(f"Failed to read PDF: {e}") from e
 
@@ -369,7 +395,7 @@ def _embed_chunks_for_document(document_id: int) -> None:
             logger.info("No embedding provider available; skipping embeddings.")
             return
 
-        batch_size = 16
+        batch_size = 8
         for i in range(0, len(rows), batch_size):
             batch = rows[i : i + batch_size]
             texts = [r.text for r in batch]

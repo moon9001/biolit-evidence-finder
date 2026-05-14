@@ -2,8 +2,8 @@
 from __future__ import annotations
 
 import logging
-import threading
 import unicodedata
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
 from typing import List
@@ -20,6 +20,15 @@ from ..services import pdf_service
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/documents", tags=["documents"])
+
+# Single-worker executor: PDF processing is heavy (PyMuPDF + LLM extraction +
+# embedding API) and concurrent processing both starves SQLite (write locks)
+# and trips per-tenant rate limits on LLM/embedding endpoints. Serialising
+# the workload through one worker is far more reliable; the queue itself is
+# unbounded so users can still upload as many PDFs as they want at once.
+_processing_executor = ThreadPoolExecutor(
+    max_workers=1, thread_name_prefix="biolit-pdf"
+)
 
 
 def _safe_filename(name: str) -> str:
@@ -79,11 +88,9 @@ async def upload_documents(
 
 
 def _run_processing(doc_id: int) -> None:
-    """Run processing in a background thread to avoid blocking event loop."""
-    t = threading.Thread(
-        target=pdf_service.process_document, args=(doc_id,), daemon=True
-    )
-    t.start()
+    """Submit processing work to the single-worker executor so PDFs are
+    handled one at a time. Returns immediately."""
+    _processing_executor.submit(pdf_service.process_document, doc_id)
 
 
 @router.get("", response_model=List[DocumentOut])

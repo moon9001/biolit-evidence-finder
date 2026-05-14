@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../api/client';
+import { useI18n } from '../i18n';
 import { StatusBadge } from '../components/StatusBadge';
 import type { DocumentItem } from '../types';
 
 export default function Documents() {
+  const { t } = useI18n();
   const [docs, setDocs] = useState<DocumentItem[]>([]);
   const [error, setError] = useState<string | null>(null);
 
@@ -18,8 +20,8 @@ export default function Documents() {
 
   useEffect(() => {
     load();
-    const t = window.setInterval(load, 4000);
-    return () => clearInterval(t);
+    const interval = window.setInterval(load, 2000);
+    return () => clearInterval(interval);
   }, []);
 
   async function onReprocess(id: number) {
@@ -28,7 +30,7 @@ export default function Documents() {
   }
 
   async function onDelete(id: number) {
-    if (!confirm('确认删除该 PDF 及其索引？')) return;
+    if (!confirm(t('documents_confirm_delete'))) return;
     await api.deleteDocument(id);
     load();
   }
@@ -36,12 +38,12 @@ export default function Documents() {
   return (
     <div className="space-y-4">
       <div className="flex items-center justify-between">
-        <h1 className="text-xl font-semibold text-forest-800">文献列表</h1>
+        <h1 className="text-xl font-semibold text-forest-800">{t('documents_title')}</h1>
         <Link
           to="/upload"
           className="text-sm px-3 py-1.5 rounded bg-forest-600 text-white hover:bg-forest-700"
         >
-          + 新增上传
+          {t('documents_new')}
         </Link>
       </div>
 
@@ -56,21 +58,18 @@ export default function Documents() {
           <thead className="bg-stone-50 text-stone-600 text-left">
             <tr>
               <th className="px-3 py-2">#</th>
-              <th className="px-3 py-2">文件名 / 标题</th>
-              <th className="px-3 py-2">页数</th>
-              <th className="px-3 py-2">状态</th>
-              <th className="px-3 py-2">上传时间</th>
-              <th className="px-3 py-2">操作</th>
+              <th className="px-3 py-2">{t('search_col_document')}</th>
+              <th className="px-3 py-2">{t('documents_pages')}</th>
+              <th className="px-3 py-2">{t('dashboard_status')}</th>
+              <th className="px-3 py-2">{t('documents_uploaded')}</th>
+              <th className="px-3 py-2">{t('search_col_view')}</th>
             </tr>
           </thead>
           <tbody>
             {docs.length === 0 && (
               <tr>
-                <td
-                  colSpan={6}
-                  className="px-3 py-8 text-center text-stone-500"
-                >
-                  暂无文献，请先上传 PDF。
+                <td colSpan={6} className="px-3 py-8 text-center text-stone-500">
+                  {t('documents_no_docs')}
                 </td>
               </tr>
             )}
@@ -87,7 +86,29 @@ export default function Documents() {
                   )}
                 </td>
                 <td className="px-3 py-2">{d.page_count}</td>
-                <td className="px-3 py-2"><StatusBadge status={d.status} /></td>
+                <td className="px-3 py-2 min-w-[180px]">
+                  <StatusBadge status={d.status} />
+                  {d.status === 'processing' && d.page_count > 0 && (
+                    <div className="mt-1">
+                      <div className="h-1.5 bg-stone-200 rounded overflow-hidden">
+                        <div
+                          className="h-full bg-forest-500 transition-all"
+                          style={{
+                            width: `${Math.min(
+                              100,
+                              Math.round(
+                                ((d.processed_pages || 0) / d.page_count) * 100,
+                              ),
+                            )}%`,
+                          }}
+                        />
+                      </div>
+                      <div className="text-xs text-stone-500 mt-0.5">
+                        {t('documents_parsing')} {d.processed_pages || 0} / {d.page_count}
+                      </div>
+                    </div>
+                  )}
+                </td>
                 <td className="px-3 py-2 text-stone-600">
                   {new Date(d.created_at).toLocaleString()}
                 </td>
@@ -97,19 +118,19 @@ export default function Documents() {
                       to={`/viewer/${d.id}?page=1`}
                       className="text-forest-700 hover:underline"
                     >
-                      查看页面
+                      {t('documents_view')}
                     </Link>
                     <button
                       onClick={() => onReprocess(d.id)}
                       className="text-forest-700 hover:underline"
                     >
-                      重新处理
+                      {t('documents_reprocess')}
                     </button>
                     <button
                       onClick={() => onDelete(d.id)}
                       className="text-red-600 hover:underline"
                     >
-                      删除
+                      {t('documents_delete')}
                     </button>
                   </div>
                 </td>

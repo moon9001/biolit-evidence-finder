@@ -10,7 +10,7 @@ import numpy as np
 from sqlalchemy import or_
 from sqlalchemy.orm import Session
 
-from ..database import raw_sqlite
+from ..database import IS_SQLITE, raw_sqlite
 from ..models import Chunk, Document, Occurrence, Page, SearchLog
 from ..schemas import SearchResultItem
 from . import embedding_service
@@ -159,6 +159,11 @@ def search_fulltext(
     q = query.strip()
     if not q:
         return []
+
+    # Non-SQLite backends (e.g. SQL Server in production) don't have FTS5;
+    # fall back to substring scan, which still gives sensible results.
+    if not IS_SQLITE:
+        return _fulltext_like_fallback(db, q, limit=limit)
 
     # Trigram tokenizer can't index queries shorter than 3 characters; fall
     # back to a substring scan so short CJK queries (e.g. "茶树") still work.

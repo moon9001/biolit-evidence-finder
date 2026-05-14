@@ -37,12 +37,41 @@ export const api = {
   deleteDocument: (id: number) =>
     request<{ deleted: number }>(`/documents/${id}`, { method: 'DELETE' }),
 
-  uploadDocuments: async (files: File[]): Promise<DocumentItem[]> => {
+  uploadDocuments: async (
+    files: File[],
+    onProgress?: (sent: number, total: number) => void,
+  ): Promise<DocumentItem[]> => {
     const fd = new FormData();
     for (const f of files) fd.append('files', f);
-    return request<DocumentItem[]>('/documents/upload?auto_process=true', {
-      method: 'POST',
-      body: fd,
+
+    return await new Promise<DocumentItem[]>((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', `${API_BASE}/documents/upload?auto_process=true`);
+      xhr.upload.onprogress = (e) => {
+        if (e.lengthComputable && onProgress) onProgress(e.loaded, e.total);
+      };
+      xhr.onload = () => {
+        if (xhr.status >= 200 && xhr.status < 300) {
+          try {
+            resolve(JSON.parse(xhr.responseText));
+          } catch (e) {
+            reject(e);
+          }
+        } else {
+          let detail = `${xhr.status} ${xhr.statusText}`;
+          try {
+            const body = JSON.parse(xhr.responseText);
+            detail = body?.detail ?? detail;
+          } catch {
+            /* ignore */
+          }
+          reject(new Error(detail));
+        }
+      };
+      xhr.onerror = () => reject(new Error('Network error during upload'));
+      xhr.ontimeout = () => reject(new Error('Upload timed out'));
+      xhr.timeout = 0;
+      xhr.send(fd);
     });
   },
 

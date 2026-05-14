@@ -1,15 +1,20 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
-// Frontend dev server runs on 5173 and proxies /api and /viewer-pdf to backend.
+// Frontend dev server proxies /api to the backend. The timeout/proxyTimeout
+// values disable the default idle cap so large PDF uploads aren't killed.
 export default defineConfig({
   plugins: [react()],
   server: {
+    host: '0.0.0.0',
     port: 5173,
     proxy: {
       '/api': {
         target: 'http://127.0.0.1:8000',
         changeOrigin: true,
+        timeout: 0,
+        proxyTimeout: 0,
+        ws: false,
       },
     },
   },

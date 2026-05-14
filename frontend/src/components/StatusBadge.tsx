@@ -1,20 +1,25 @@
+import { useI18n } from '../i18n';
+
 interface Props {
   status: string;
 }
 
-const STATUS_LABEL: Record<string, { label: string; cls: string }> = {
-  pending: { label: '待处理', cls: 'bg-stone-200 text-stone-700' },
-  queued: { label: '排队中', cls: 'bg-amber-100 text-amber-800' },
-  processing: { label: '处理中', cls: 'bg-amber-100 text-amber-800 animate-pulse' },
-  completed: { label: '已完成', cls: 'bg-forest-100 text-forest-700' },
-  failed: { label: '失败', cls: 'bg-red-100 text-red-700' },
-};
-
 export function StatusBadge({ status }: Props) {
-  const m = STATUS_LABEL[status] ?? { label: status, cls: 'bg-stone-200' };
+  const { t } = useI18n();
+  
+  const statusConfig: Record<string, { labelKey: string; cls: string }> = {
+    pending: { labelKey: 'status_pending', cls: 'bg-stone-200 text-stone-700' },
+    queued: { labelKey: 'status_queued', cls: 'bg-amber-100 text-amber-800' },
+    processing: { labelKey: 'status_processing', cls: 'bg-amber-100 text-amber-800 animate-pulse' },
+    completed: { labelKey: 'status_completed', cls: 'bg-forest-100 text-forest-700' },
+    failed: { labelKey: 'status_failed', cls: 'bg-red-100 text-red-700' },
+  };
+
+  const config = statusConfig[status] ?? { labelKey: status as any, cls: 'bg-stone-200' };
+  
   return (
-    <span className={`px-2 py-0.5 rounded text-xs font-medium ${m.cls}`}>
-      {m.label}
+    <span className={`px-2 py-0.5 rounded text-xs font-medium ${config.cls}`}>
+      {t(config.labelKey as any)}
     </span>
   );
 }

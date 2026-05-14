@@ -1,9 +1,11 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { api } from '../api/client';
+import { useI18n } from '../i18n';
 import type { DocumentItem, PageItem } from '../types';
 
 export default function Viewer() {
+  const { t } = useI18n();
   const { docId } = useParams();
   const [searchParams, setSearchParams] = useSearchParams();
   const id = Number(docId);
@@ -52,10 +54,10 @@ export default function Viewer() {
             {doc?.title || doc?.file_name || `Document #${id}`}
           </h1>
           <div className="text-xs text-stone-500">
-            {doc?.file_name} · 共 {pageCount} 页 · 当前 {page} 页
+            {doc?.file_name} · {pageCount} pages · page {page}
             {q && (
               <span className="ml-2">
-                · 关键词 <code className="text-forest-700">{q}</code>
+                · {t('viewer_keyword')}: <code className="text-forest-700">{q}</code>
               </span>
             )}
           </div>
@@ -66,7 +68,7 @@ export default function Viewer() {
             disabled={page <= 1}
             className="px-2 py-1 rounded border border-stone-300 disabled:opacity-50"
           >
-            ← 上一页
+            {t('viewer_prev')}
           </button>
           <input
             type="number"
@@ -82,7 +84,7 @@ export default function Viewer() {
             disabled={!!pageCount && page >= pageCount}
             className="px-2 py-1 rounded border border-stone-300 disabled:opacity-50"
           >
-            下一页 →
+            {t('viewer_next')}
           </button>
           <a
             href={api.pdfFileUrl(id, page)}
@@ -90,13 +92,13 @@ export default function Viewer() {
             rel="noreferrer"
             className="px-3 py-1.5 rounded bg-forest-600 text-white hover:bg-forest-700"
           >
-            打开原始 PDF
+            {t('viewer_open_pdf')}
           </a>
           <Link
             to="/search"
             className="px-3 py-1.5 rounded border border-stone-300 hover:bg-stone-50"
           >
-            返回检索
+            {t('viewer_back_search')}
           </Link>
         </div>
       </div>
@@ -109,7 +111,7 @@ export default function Viewer() {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
         <div className="bg-white border border-stone-200 rounded-lg p-3 shadow-sm">
-          <div className="text-xs text-stone-500 mb-2">页面截图</div>
+          <div className="text-xs text-stone-500 mb-2">{t('viewer_page_screenshot')}</div>
           <div className="bg-stone-100 rounded overflow-hidden flex items-center justify-center min-h-[400px]">
             <img
               src={api.pageImageUrl(id, page)}
@@ -125,10 +127,10 @@ export default function Viewer() {
         <div className="bg-white border border-stone-200 rounded-lg p-4 shadow-sm">
           <div className="flex items-center justify-between mb-2">
             <div className="text-xs text-stone-500">
-              页面文本 {pageData?.ocr_used ? '(来自 OCR)' : ''}
+              {t('viewer_page_text')} {pageData?.ocr_used ? t('viewer_from_ocr') : ''}
             </div>
             <div className="text-xs text-stone-400">
-              {pageData?.text_length ?? 0} 字符
+              {pageData?.text_length ?? 0} {t('viewer_chars')}
             </div>
           </div>
           <PageText text={pageData?.text || ''} term={q} />
@@ -139,6 +141,8 @@ export default function Viewer() {
 }
 
 function PageText({ text, term }: { text: string; term: string }) {
+  const { t } = useI18n();
+  
   const html = useMemo(() => {
     if (!text) return null;
     if (!term) {
@@ -177,6 +181,7 @@ function PageText({ text, term }: { text: string; term: string }) {
       );
     });
   }, [text, term]);
-  if (!text) return <div className="text-stone-400 text-sm">本页无文本</div>;
+  
+  if (!text) return <div className="text-stone-400 text-sm">{t('viewer_no_text')}</div>;
   return <div className="max-h-[78vh] overflow-y-auto pr-2">{html}</div>;
 }
