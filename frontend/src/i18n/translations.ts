@@ -61,6 +61,18 @@ export const translations = {
     documents_delete: 'Delete',
     documents_confirm_delete: 'Delete this PDF and its index?',
     documents_parsing: 'Parsed',
+    documents_filter_all: 'All',
+    documents_filter_pending: 'Pending',
+    documents_filter_queued: 'Queued',
+    documents_filter_processing: 'Processing',
+    documents_filter_completed: 'Completed',
+    documents_filter_failed: 'Failed',
+    documents_search_placeholder: 'Filter by file name or title',
+    documents_total: 'Total {count}',
+    documents_page_size: 'per page',
+    documents_prev: 'Prev',
+    documents_next: 'Next',
+    documents_page_of: 'Page {page} of {pages}',
     
     // Search
     search_title: 'Page-Level Evidence Search',
@@ -84,6 +96,9 @@ export const translations = {
     search_col_context: 'Context',
     search_col_view: 'View Original',
     search_view_original: 'View Source →',
+    search_total: 'Showing {start}-{end} of {total}',
+    search_prev: 'Prev',
+    search_next: 'Next',
     
     // Viewer
     viewer_page_screenshot: 'Page Screenshot',
@@ -182,6 +197,18 @@ export const translations = {
     documents_delete: '删除',
     documents_confirm_delete: '确认删除该 PDF 及其索引？',
     documents_parsing: '已解析',
+    documents_filter_all: '全部',
+    documents_filter_pending: '待处理',
+    documents_filter_queued: '排队中',
+    documents_filter_processing: '处理中',
+    documents_filter_completed: '已完成',
+    documents_filter_failed: '失败',
+    documents_search_placeholder: '按文件名或标题筛选',
+    documents_total: '共 {count} 条',
+    documents_page_size: '条/页',
+    documents_prev: '上一页',
+    documents_next: '下一页',
+    documents_page_of: '第 {page} / {pages} 页',
     
     // Search
     search_title: '页级证据检索',
@@ -205,6 +232,9 @@ export const translations = {
     search_col_context: '上下文',
     search_col_view: '原文',
     search_view_original: '查看原文 →',
+    search_total: '显示 {start}-{end}，共 {total} 条',
+    search_prev: '上一页',
+    search_next: '下一页',
     
     // Viewer
     viewer_page_screenshot: '页面截图',

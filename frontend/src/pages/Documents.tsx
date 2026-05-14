@@ -1,20 +1,61 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { api } from '../api/client';
 import { useI18n } from '../i18n';
 import { StatusBadge } from '../components/StatusBadge';
-import type { DocumentItem } from '../types';
+import type { DocumentListResponse } from '../types';
+
+const STATUS_TABS = [
+  { key: '', labelKey: 'documents_filter_all' },
+  { key: 'pending', labelKey: 'documents_filter_pending' },
+  { key: 'queued', labelKey: 'documents_filter_queued' },
+  { key: 'processing', labelKey: 'documents_filter_processing' },
+  { key: 'completed', labelKey: 'documents_filter_completed' },
+  { key: 'failed', labelKey: 'documents_filter_failed' },
+];
+
+const PAGE_SIZE_OPTIONS = [10, 20, 50, 100];
 
 export default function Documents() {
   const { t } = useI18n();
-  const [docs, setDocs] = useState<DocumentItem[]>([]);
+  const [resp, setResp] = useState<DocumentListResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
 
+  const [statusFilter, setStatusFilter] = useState<string>('');
+  const [search, setSearch] = useState('');
+  const [debouncedSearch, setDebouncedSearch] = useState('');
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(20);
+
+  // Debounce search input so we don't hammer the API while typing
+  useEffect(() => {
+    const id = window.setTimeout(() => setDebouncedSearch(search), 300);
+    return () => clearTimeout(id);
+  }, [search]);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setPage(1);
+  }, [statusFilter, debouncedSearch, pageSize]);
+
+  const loadingRef = useRef(false);
+
   async function load() {
+    if (loadingRef.current) return;
+    loadingRef.current = true;
     try {
-      setDocs(await api.listDocuments());
+      const r = await api.listDocuments({
+        page,
+        page_size: pageSize,
+        status: statusFilter || undefined,
+        q: debouncedSearch || undefined,
+      });
+      setResp(r);
+      setError(null);
     } catch (e) {
       setError((e as Error).message);
+    } finally {
+      loadingRef.current = false;
     }
   }
 
@@ -22,7 +63,8 @@ export default function Documents() {
     load();
     const interval = window.setInterval(load, 2000);
     return () => clearInterval(interval);
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [page, pageSize, statusFilter, debouncedSearch]);
 
   async function onReprocess(id: number) {
     await api.reprocessDocument(id);
@@ -34,6 +76,14 @@ export default function Documents() {
     await api.deleteDocument(id);
     load();
   }
+
+  const totalPages = useMemo(() => {
+    if (!resp) return 1;
+    return Math.max(1, Math.ceil(resp.total / resp.page_size));
+  }, [resp]);
+
+  const counts = resp?.status_counts ?? {};
+  const docs = resp?.items ?? [];
 
   return (
     <div className="space-y-4">
@@ -52,6 +102,58 @@ export default function Documents() {
           {error}
         </div>
       )}
+
+      {/* Filter bar */}
+      <div className="bg-white border border-stone-200 rounded-lg shadow-sm p-3 space-y-3">
+        <div className="flex flex-wrap items-center gap-1">
+          {STATUS_TABS.map((tab) => {
+            const c = tab.key ? counts[tab.key] ?? 0 : counts.all ?? 0;
+            const active = statusFilter === tab.key;
+            return (
+              <button
+                key={tab.key || 'all'}
+                onClick={() => setStatusFilter(tab.key)}
+                className={`px-3 py-1.5 rounded text-sm transition ${
+                  active
+                    ? 'bg-forest-600 text-white'
+                    : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                }`}
+              >
+                {t(tab.labelKey as any)}
+                <span
+                  className={`ml-1.5 text-xs ${
+                    active ? 'text-forest-100' : 'text-stone-500'
+                  }`}
+                >
+                  {c}
+                </span>
+              </button>
+            );
+          })}
+        </div>
+        <div className="flex flex-wrap items-center gap-3">
+          <input
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder={t('documents_search_placeholder')}
+            className="flex-1 min-w-[200px] px-3 py-1.5 border border-stone-300 rounded text-sm focus:outline-none focus:ring-2 focus:ring-forest-400"
+          />
+          <div className="flex items-center gap-1 text-sm text-stone-600">
+            <select
+              value={pageSize}
+              onChange={(e) => setPageSize(Number(e.target.value))}
+              className="px-2 py-1 border border-stone-300 rounded bg-white"
+            >
+              {PAGE_SIZE_OPTIONS.map((n) => (
+                <option key={n} value={n}>
+                  {n}
+                </option>
+              ))}
+            </select>
+            <span>{t('documents_page_size')}</span>
+          </div>
+        </div>
+      </div>
 
       <div className="bg-white border border-stone-200 rounded-lg shadow-sm overflow-hidden">
         <table className="w-full text-sm">
@@ -139,6 +241,32 @@ export default function Documents() {
           </tbody>
         </table>
       </div>
+
+      {/* Pagination */}
+      {resp && resp.total > 0 && (
+        <div className="flex items-center justify-between text-sm text-stone-600">
+          <div>{t('documents_total', { count: resp.total })}</div>
+          <div className="flex items-center gap-2">
+            <button
+              disabled={page <= 1}
+              onClick={() => setPage((p) => Math.max(1, p - 1))}
+              className="px-3 py-1 rounded border border-stone-300 disabled:opacity-50 hover:bg-stone-50"
+            >
+              {t('documents_prev')}
+            </button>
+            <span>
+              {t('documents_page_of', { page: resp.page, pages: totalPages })}
+            </span>
+            <button
+              disabled={page >= totalPages}
+              onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+              className="px-3 py-1 rounded border border-stone-300 disabled:opacity-50 hover:bg-stone-50"
+            >
+              {t('documents_next')}
+            </button>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

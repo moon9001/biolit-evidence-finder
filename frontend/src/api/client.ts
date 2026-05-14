@@ -1,5 +1,6 @@
 import type {
   DocumentItem,
+  DocumentListResponse,
   PageItem,
   SearchResponse,
   SettingsStatus,
@@ -30,7 +31,22 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 export const api = {
   stats: () => request<Stats>('/stats'),
 
-  listDocuments: () => request<DocumentItem[]>('/documents'),
+  listDocuments: (params?: {
+    page?: number;
+    page_size?: number;
+    status?: string;
+    q?: string;
+  }) => {
+    const sp = new URLSearchParams();
+    if (params?.page) sp.set('page', String(params.page));
+    if (params?.page_size) sp.set('page_size', String(params.page_size));
+    if (params?.status) sp.set('status', params.status);
+    if (params?.q) sp.set('q', params.q);
+    const qs = sp.toString();
+    return request<DocumentListResponse>(
+      `/documents${qs ? `?${qs}` : ''}`,
+    );
+  },
 
   getDocument: (id: number) => request<DocumentItem>(`/documents/${id}`),
 

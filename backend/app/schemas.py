@@ -23,6 +23,14 @@ class DocumentOut(BaseModel):
     processed_at: Optional[datetime] = None
 
 
+class DocumentListResponse(BaseModel):
+    items: List[DocumentOut]
+    total: int
+    page: int
+    page_size: int
+    status_counts: dict
+
+
 class PageOut(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 

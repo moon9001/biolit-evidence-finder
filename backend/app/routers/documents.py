@@ -6,16 +6,17 @@ import unicodedata
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime
 from pathlib import Path
-from typing import List
+from typing import List, Optional
 
-from fastapi import APIRouter, BackgroundTasks, Depends, File, HTTPException, UploadFile
+from fastapi import APIRouter, BackgroundTasks, Depends, File, HTTPException, Query, UploadFile
 from fastapi.responses import FileResponse, JSONResponse
+from sqlalchemy import func, or_
 from sqlalchemy.orm import Session
 
 from ..config import settings
 from ..database import get_db
 from ..models import Document, Page
-from ..schemas import DocumentOut, PageOut
+from ..schemas import DocumentListResponse, DocumentOut, PageOut
 from ..services import pdf_service
 
 logger = logging.getLogger(__name__)
@@ -93,10 +94,57 @@ def _run_processing(doc_id: int) -> None:
     _processing_executor.submit(pdf_service.process_document, doc_id)
 
 
-@router.get("", response_model=List[DocumentOut])
-def list_documents(db: Session = Depends(get_db)):
-    docs = db.query(Document).order_by(Document.created_at.desc()).all()
-    return [DocumentOut.model_validate(d) for d in docs]
+@router.get("", response_model=DocumentListResponse)
+def list_documents(
+    page: int = Query(1, ge=1),
+    page_size: int = Query(20, ge=1, le=200),
+    status: Optional[str] = Query(
+        None, description="Filter by status: pending|queued|processing|completed|failed"
+    ),
+    q: Optional[str] = Query(
+        None, description="Filter by file name or title (case-insensitive substring)"
+    ),
+    db: Session = Depends(get_db),
+):
+    base = db.query(Document)
+    if status:
+        # Allow comma-separated multi-status filter, e.g. status=processing,queued
+        statuses = [s.strip() for s in status.split(",") if s.strip()]
+        if len(statuses) == 1:
+            base = base.filter(Document.status == statuses[0])
+        elif len(statuses) > 1:
+            base = base.filter(Document.status.in_(statuses))
+    if q:
+        like = f"%{q.strip()}%"
+        base = base.filter(or_(Document.file_name.ilike(like),
+                               Document.title.ilike(like)))
+
+    total = base.with_entities(func.count(Document.id)).scalar() or 0
+
+    items = (
+        base.order_by(Document.created_at.desc())
+        .offset((page - 1) * page_size)
+        .limit(page_size)
+        .all()
+    )
+
+    # Status histogram is always computed against the unfiltered table so the
+    # tab counts in the UI stay stable regardless of which filter is active.
+    raw_counts = (
+        db.query(Document.status, func.count(Document.id))
+        .group_by(Document.status)
+        .all()
+    )
+    status_counts = {s: c for s, c in raw_counts}
+    status_counts["all"] = sum(status_counts.values())
+
+    return DocumentListResponse(
+        items=[DocumentOut.model_validate(d) for d in items],
+        total=total,
+        page=page,
+        page_size=page_size,
+        status_counts=status_counts,
+    )
 
 
 @router.get("/{doc_id}", response_model=DocumentOut)

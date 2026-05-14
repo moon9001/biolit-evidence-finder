@@ -19,6 +19,8 @@ export default function Search() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [resp, setResp] = useState<SearchResponse | null>(null);
+  const [page, setPage] = useState(1);
+  const [pageSize, setPageSize] = useState(20);
 
   async function run(e?: React.FormEvent) {
     e?.preventDefault();
@@ -26,8 +28,9 @@ export default function Search() {
     setBusy(true);
     setError(null);
     try {
-      const r = await api.search(q.trim(), mode, 100);
+      const r = await api.search(q.trim(), mode, 200);
       setResp(r);
+      setPage(1);
     } catch (e) {
       setError((e as Error).message);
     } finally {
@@ -84,7 +87,16 @@ export default function Search() {
                 <span className="ml-2 text-amber-700">[{resp.notes}]</span>
               )}
             </div>
-            <div className="flex gap-3">
+            <div className="flex items-center gap-3">
+              <select
+                value={pageSize}
+                onChange={(e) => { setPageSize(Number(e.target.value)); setPage(1); }}
+                className="px-2 py-1 border border-stone-300 rounded bg-white text-xs"
+              >
+                {[10, 20, 50, 100].map((n) => (
+                  <option key={n} value={n}>{n}/page</option>
+                ))}
+              </select>
               <a
                 href={api.exportSearchUrl(resp.query, resp.mode, 'csv')}
                 className="text-forest-700 hover:underline"
@@ -121,7 +133,9 @@ export default function Search() {
                     </td>
                   </tr>
                 )}
-                {resp.results.map((r, i) => (
+                {resp.results
+                  .slice((page - 1) * pageSize, page * pageSize)
+                  .map((r, i) => (
                   <tr key={i} className="border-t border-stone-100 align-top">
                     <td className="px-3 py-2">
                       <div className="font-medium text-stone-800">
@@ -161,6 +175,38 @@ export default function Search() {
               </tbody>
             </table>
           </div>
+
+          {resp.results.length > pageSize && (() => {
+            const totalPages = Math.max(1, Math.ceil(resp.results.length / pageSize));
+            const start = (page - 1) * pageSize + 1;
+            const end = Math.min(resp.results.length, page * pageSize);
+            return (
+              <div className="flex items-center justify-between text-sm text-stone-600">
+                <div>
+                  {t('search_total', { start, end, total: resp.results.length })}
+                </div>
+                <div className="flex items-center gap-2">
+                  <button
+                    disabled={page <= 1}
+                    onClick={() => setPage((p) => Math.max(1, p - 1))}
+                    className="px-3 py-1 rounded border border-stone-300 disabled:opacity-50 hover:bg-stone-50"
+                  >
+                    {t('search_prev')}
+                  </button>
+                  <span>
+                    {t('documents_page_of', { page, pages: totalPages })}
+                  </span>
+                  <button
+                    disabled={page >= totalPages}
+                    onClick={() => setPage((p) => Math.min(totalPages, p + 1))}
+                    className="px-3 py-1 rounded border border-stone-300 disabled:opacity-50 hover:bg-stone-50"
+                  >
+                    {t('search_next')}
+                  </button>
+                </div>
+              </div>
+            );
+          })()}
         </div>
       )}
     </div>

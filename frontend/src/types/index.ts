@@ -12,6 +12,14 @@ export interface DocumentItem {
   processed_at?: string | null;
 }
 
+export interface DocumentListResponse {
+  items: DocumentItem[];
+  total: number;
+  page: number;
+  page_size: number;
+  status_counts: Record<string, number>;
+}
+
 export interface PageItem {
   id: number;
   document_id: number;
