@@ -8,6 +8,10 @@ export default defineConfig({
   server: {
     host: '0.0.0.0',
     port: 5173,
+    // Accept any Host header. Vite 5+ blocks unknown hosts by default; for
+    // a research prototype intended to run on LAN / behind a reverse proxy
+    // we allow all so users can put it behind any custom domain or tunnel.
+    allowedHosts: true,
     proxy: {
       '/api': {
         target: 'http://127.0.0.1:8000',
