@@ -1,0 +1,25 @@
+[
+  {
+    "identifier": "mobot31753002692298",
+    "sha256": "0afe29dbb8535fbb495b413ab4f761af5262caa46366a34b4520d8aa793d07eb",
+    "format_sequence_counts_agree": true,
+    "pdf_page_labels_present": true,
+    "source_public_url": "https://archive.org/details/mobot31753002692298",
+    "download_url": "https://archive.org/download/mobot31753002692298/mobot31753002692298.pdf"
+  },
+  {
+    "identifier": "mobot31753000294055",
+    "sha256": "22e35892ed0928e069eb74011dac3683efc4fe04261522fcbfbba8a6634333d9",
+    "format_sequence_counts_agree": true,
+    "pdf_page_labels_present": true,
+    "source_public_url": "https://archive.org/details/mobot31753000294055",
+    "download_url": "https://archive.org/download/mobot31753000294055/mobot31753000294055.pdf"
+  },
+  {
+    "identifier": "mobot31753002073309",
+    "download_url": "https://archive.org/download/mobot31753002073309/mobot31753002073309.pdf",
+    "retrieved_at_utc": "2026-10-04T04:24:16.418394+00:00",
+    "bytes": 37016186,
+    "sha256": "a76efdcc5cef1366fd2617a83cbbb0501625eb3041eb07cfe0557c7152af4680"
+  }
+]

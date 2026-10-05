@@ -1,0 +1,394 @@
+{
+  "source_files": [
+    {
+      "identifier": "mobot31753002692298",
+      "sha256": "0afe29dbb8535fbb495b413ab4f761af5262caa46366a34b4520d8aa793d07eb",
+      "format_sequence_counts_agree": true,
+      "pdf_page_labels_present": true,
+      "source_public_url": "https://archive.org/details/mobot31753002692298",
+      "download_url": "https://archive.org/download/mobot31753002692298/mobot31753002692298.pdf"
+    },
+    {
+      "identifier": "mobot31753000294055",
+      "sha256": "22e35892ed0928e069eb74011dac3683efc4fe04261522fcbfbba8a6634333d9",
+      "format_sequence_counts_agree": true,
+      "pdf_page_labels_present": true,
+      "source_public_url": "https://archive.org/details/mobot31753000294055",
+      "download_url": "https://archive.org/download/mobot31753000294055/mobot31753000294055.pdf"
+    }
+  ],
+  "selected_pages": [
+    {
+      "candidate_id": "E01",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n105",
+      "source_zero_based_sequence": 105,
+      "source_one_based_sequence": 106,
+      "external_metadata_label": "103",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "103",
+      "pdf_text_sha256": "454f2d2c006682f2bb31eb0d2da8782b318554dec5154e1bc0059949727ecb73",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Psilopeganum sinense": 1,
+        "Psilopeganum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E02",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n493",
+      "source_zero_based_sequence": 493,
+      "source_one_based_sequence": 494,
+      "external_metadata_label": "491",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "491",
+      "pdf_text_sha256": "a3a1dcf995307e46763e044a8f921c7664d3850bdeadab82b4c55cd17ba9ba25",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Psilopeganum sinense": 1,
+        "Psilopeganum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E03",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n515",
+      "source_zero_based_sequence": 515,
+      "source_one_based_sequence": 516,
+      "external_metadata_label": "513",
+      "external_metadata_page_type": "Index",
+      "original_pdf_label_metadata": "513",
+      "pdf_text_sha256": "323479bba4e90bc8d6c6231c4634298e7618030990ca02de236143c64e98ad37",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Pelopeganum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E04",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n5",
+      "source_zero_based_sequence": 5,
+      "source_one_based_sequence": 6,
+      "external_metadata_label": "3",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "3",
+      "pdf_text_sha256": "417202d58949a8acf9013afb71ce5c0f88314f0aa77531d37fca7c8c1c0d1a51",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Clematis chinensis": 1,
+        "Clematis sinensis": 1,
+        "Clematis minor": 1,
+        "Clematis terniflora": 1,
+        "C. terniflora": 1,
+        "C. ternifolia": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E05",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n491",
+      "source_zero_based_sequence": 491,
+      "source_one_based_sequence": 492,
+      "external_metadata_label": "489",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "489",
+      "pdf_text_sha256": "2dbea84ded5b3c0a730aaefacf63abdea242e1b0121aa5b1143c17f91389ebba",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Psilopeganum sinense": 1,
+        "Psilopeganum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E06",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n526",
+      "source_zero_based_sequence": 526,
+      "source_one_based_sequence": 527,
+      "external_metadata_label": "3",
+      "external_metadata_page_type": "Illustration",
+      "original_pdf_label_metadata": "3",
+      "pdf_text_sha256": "0deea879491d0b1ddc70f7b3748cfc544b79dfd7c4f69017a6131c64d236113e",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Psilopeganum sinense": 1,
+        "Psilopeganum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E07",
+      "identifier": "mobot31753002692298",
+      "source_public_page_url": "https://archive.org/details/mobot31753002692298/page/n357",
+      "source_zero_based_sequence": 357,
+      "source_one_based_sequence": 358,
+      "external_metadata_label": "355",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "355",
+      "pdf_text_sha256": "3be5cfbac3b182cfc017c12c6de6d797f36a72492a7c97084f05ac004dbafbca",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Viburnum rhytidophyllum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E08",
+      "identifier": "mobot31753000294055",
+      "source_public_page_url": "https://archive.org/details/mobot31753000294055/page/n119",
+      "source_zero_based_sequence": 119,
+      "source_one_based_sequence": 120,
+      "external_metadata_label": "110",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "110",
+      "pdf_text_sha256": "9ccb9c6c583a2730011efaadf1c9407d40e7f4877fdafb426cfad2d57eba51a8",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Viburnum rhytidophyllum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E09",
+      "identifier": "mobot31753000294055",
+      "source_public_page_url": "https://archive.org/details/mobot31753000294055/page/n321",
+      "source_zero_based_sequence": 321,
+      "source_one_based_sequence": 322,
+      "external_metadata_label": "310",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "310",
+      "pdf_text_sha256": "95abef79e32b1d22774432327d9c30a4c61371802b35c2172fda008034e0d587",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Viburnum rhytidophyllum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    },
+    {
+      "candidate_id": "E10",
+      "identifier": "mobot31753000294055",
+      "source_public_page_url": "https://archive.org/details/mobot31753000294055/page/n622",
+      "source_zero_based_sequence": 622,
+      "source_one_based_sequence": 623,
+      "external_metadata_label": "610",
+      "external_metadata_page_type": "Normal",
+      "original_pdf_label_metadata": "610",
+      "pdf_text_sha256": "5ae87e2628c1a68bdb1cda4f9a403aa4a601d952db661fe29bad2dd9e3865565",
+      "pdf_text_nonempty": true,
+      "target_literal_detections": {
+        "Viburnum rhytidophyllum": 1
+      },
+      "visual_inspection_completed": false,
+      "human_or_expert_inspection_completed": false,
+      "source_copy_equivalence_to_platform_confirmed": false
+    }
+  ],
+  "query_strings": [
+    "Psilopeganum sinense",
+    "Clematis chinensis",
+    "Clematis sinensis",
+    "Clematis minor",
+    "Clematis terniflora",
+    "C. terniflora",
+    "C. ternifolia",
+    "Viburnum rhytidophyllum",
+    "Psilopeganum",
+    "Pelopeganum"
+  ],
+  "target_anchors": [
+    {
+      "candidate_id": "E01",
+      "target_query": "Psilopeganum sinense"
+    },
+    {
+      "candidate_id": "E02",
+      "target_query": "Psilopeganum sinense"
+    },
+    {
+      "candidate_id": "E03",
+      "target_query": "Psilopeganum"
+    },
+    {
+      "candidate_id": "E05",
+      "target_query": "Psilopeganum sinense"
+    },
+    {
+      "candidate_id": "E06",
+      "target_query": "Psilopeganum sinense"
+    },
+    {
+      "candidate_id": "E07",
+      "target_query": "Viburnum rhytidophyllum"
+    },
+    {
+      "candidate_id": "E08",
+      "target_query": "Viburnum rhytidophyllum"
+    },
+    {
+      "candidate_id": "E09",
+      "target_query": "Viburnum rhytidophyllum"
+    },
+    {
+      "candidate_id": "E10",
+      "target_query": "Viburnum rhytidophyllum"
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis chinensis"
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis sinensis"
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis minor"
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis terniflora"
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "C. terniflora"
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "C. ternifolia"
+    }
+  ],
+  "expected_target_results": [
+    {
+      "candidate_id": "E01",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E02",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E03",
+      "target_query": "Psilopeganum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": false,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "E05",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E06",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "E07",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E08",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E09",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E10",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis chinensis",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis sinensis",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis minor",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis terniflora",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "C. terniflora",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "C. ternifolia",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    }
+  ],
+  "no_human_or_expert_ground_truth": true,
+  "source_pdf_text_extractor_version": "1.28.2"
+}

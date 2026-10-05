@@ -1,0 +1,5 @@
+sample,round,pages,targets,literal_target_pages_returned,scientific_target_pages_returned,label_preserved,detail_labels,offset_span_matches,offset_count,search_result_count,search_results_with_labels,query_mode_pairs,actual_ocr_pages,actual_llm_occurrences,stored_embeddings,blocked_network_attempts,run_at_utc,exit_code
+baseline,a,10,15,14,13,10,10,153,153,35,0,20,0,0,0,0,2026-10-04T15:46:04.917415+00:00,0
+baseline,b,10,15,14,13,10,10,153,153,35,0,20,0,0,0,0,2026-10-04T15:46:28.738007+00:00,0
+extension,a,18,35,32,22,18,18,254,254,54,0,70,0,0,0,0,2026-10-04T15:46:18.334676+00:00,0
+extension,b,18,35,32,22,18,18,254,254,54,0,70,0,0,0,0,2026-10-04T15:46:43.113484+00:00,0

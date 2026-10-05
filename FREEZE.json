@@ -1,0 +1,11 @@
+{
+  "submission_tag": "ajim-submission-20261006",
+  "prototype_version": "0.1.0",
+  "source_files": 57,
+  "machine_records": 56,
+  "frozen_payload_manifest": "SHA256SUMS.csv",
+  "manifest_sha256": "468cace5ae96b23509ae636e19f0ea1ca6703360a90a4732f1399592aed75084",
+  "historical_results_regenerated": false,
+  "original_execution_date_utc": "2026-10-04",
+  "packaging_date_asia_taipei": "2026-10-06"
+}

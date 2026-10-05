@@ -28,7 +28,7 @@ PAGE_TEXTS = [
         "Camellia sinensis (L.) Kuntze 是世界上最重要的经济作物之一，"
         "中文常称茶树。本种在中国云南、四川、贵州、广东等地广泛栽培。"
         "茶树的花期一般为 10 月至次年 2 月，果期 9 至 10 月。\n\n"
-        "Voucher specimen: KIB 0123456 (Yunnan, Lincang)."
+        "Voucher specimen: DEMO 0123456 (Yunnan, Lincang)."
     ),
     (
         "2. Camellia reticulata\n"

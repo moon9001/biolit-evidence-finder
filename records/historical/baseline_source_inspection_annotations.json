@@ -1,0 +1,98 @@
+{
+  "inspection_method": "Assistant visual reading of the public PDF pages rendered locally at 150 dpi, compared with PDF label metadata and the text layer",
+  "inspector_type": "automated source inspection",
+  "human_or_external_expert_participation": false,
+  "accepted_name_or_taxonomic_identity_validated": false,
+  "records": [
+    {
+      "candidate_id": "E01",
+      "printed_locator": "103",
+      "observed_string": "Psilopeganum sinense",
+      "token_scope": "full binomial",
+      "documentary_role": "description with distribution and specimen context",
+      "location_note": "species heading in the middle of the page",
+      "inspection_note": "The description includes albi with a qualification. The colour statement needs the volume's correction to be considered."
+    },
+    {
+      "candidate_id": "E02",
+      "printed_locator": "491",
+      "observed_string": "Psilopeganum sinense",
+      "token_scope": "full binomial",
+      "documentary_role": "explanation of Plate III",
+      "location_note": "beneath the Plate III heading",
+      "inspection_note": "A plate explanation, not an independent species description."
+    },
+    {
+      "candidate_id": "E03",
+      "printed_locator": "513",
+      "observed_string": "Psilopeganum",
+      "token_scope": "genus only",
+      "documentary_role": "index entry",
+      "location_note": "left column with a wrapped continuation",
+      "inspection_note": "The printed genus points to 103 and 491, with a colour note pointing to 489. The text layer reads Pelopeganum and loses the continuation's 489; this is not a full-binomial occurrence."
+    },
+    {
+      "candidate_id": "E04",
+      "printed_locator": "3",
+      "observed_string": "Clematis chinensis",
+      "token_scope": "full binomials and abbreviated clues",
+      "documentary_role": "taxonomic entry with cited and qualified name strings",
+      "location_note": "entry 10 and its following explanatory passage",
+      "inspection_note": "Clematis sinensis, Clematis minor, Clematis terniflora, C. ternifolia and C. terniflora are visible. Their co-occurrence does not establish that they all refer to the same accepted taxon."
+    },
+    {
+      "candidate_id": "E05",
+      "printed_locator": "489",
+      "observed_string": "Psilopeganum sinense",
+      "token_scope": "full binomial",
+      "documentary_role": "correction to page 103",
+      "location_note": "CORRECTIONS section and its page-103 line",
+      "inspection_note": "The printed line explicitly replaces albi with flavi for the entry on page 103; the judgment concerns a documentary correction, not verification of flower colour in nature."
+    },
+    {
+      "candidate_id": "E06",
+      "printed_locator": "Pl. 3",
+      "observed_string": "PSILOPEGANUM SINENSE",
+      "token_scope": "uppercase full binomial",
+      "documentary_role": "plate caption",
+      "location_note": "plate designation at the top and name caption at the bottom",
+      "inspection_note": "PDF metadata labels the plate 3, the same as the text page's label. The page is distinguished by its sequence and plate designation."
+    },
+    {
+      "candidate_id": "E07",
+      "printed_locator": "355",
+      "observed_string": "Viburnum rhytidophyllum",
+      "token_scope": "full binomial",
+      "documentary_role": "description with distribution and specimen context",
+      "location_note": "entry 21",
+      "inspection_note": "The original heading bears n. sp.; no present-day accepted-name status is inferred."
+    },
+    {
+      "candidate_id": "E08",
+      "printed_locator": "110",
+      "observed_string": "Viburnum rhytidophyllum",
+      "token_scope": "full binomial",
+      "documentary_role": "literature citation with distribution and specimen context",
+      "location_note": "lower half of the page",
+      "inspection_note": "The entry cites Journal of the Linnean Society volume XXIII page 355, providing a documentary link to E07."
+    },
+    {
+      "candidate_id": "E09",
+      "printed_locator": "310",
+      "observed_string": "Viburnum rhytidophyllum",
+      "token_scope": "full binomial",
+      "documentary_role": "supplementary discussion with an internal page reference",
+      "location_note": "first entry at the top",
+      "inspection_note": "The entry explicitly refers back to page 110; its taxonomic interpretation has not been independently evaluated."
+    },
+    {
+      "candidate_id": "E10",
+      "printed_locator": "610",
+      "observed_string": "Viburnum rhytidophyllum",
+      "token_scope": "full binomial",
+      "documentary_role": "index entry",
+      "location_note": "right column",
+      "inspection_note": "The index entry points to pages 110 and 310. An index entry provides navigation rather than an independent description."
+    }
+  ]
+}

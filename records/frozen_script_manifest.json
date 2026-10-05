@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "path": "check_controls.py",
+      "bytes": 5035,
+      "sha256": "693f2540934b6821b53ffe70525745ba762498f65b61bed5d656c4493331e02f"
+    },
+    {
+      "path": "extension_input_spec.json",
+      "bytes": 22976,
+      "sha256": "a5d3f432a6cc3a1eb097d1a75c235d6b71566f6646021cea1bf3e5991926e3de"
+    },
+    {
+      "path": "replay_input_spec.json",
+      "bytes": 14764,
+      "sha256": "b7ca0fb080a1ecce3714023c883a4c62ddb76f70ec93419a6b559322c3739004"
+    },
+    {
+      "path": "reproduce_baseline.py",
+      "bytes": 8845,
+      "sha256": "3ce2a8cd40e20b51c5dc199afec57e721dd82f7d17465b749276f9b34c5ad90e"
+    },
+    {
+      "path": "requirements-replay.txt",
+      "bytes": 181,
+      "sha256": "8896f4419b93385791069fb1638c916caa5d72f042186fe2eb647517ac6f0709"
+    },
+    {
+      "path": "requirements-resolved.lock",
+      "bytes": 394,
+      "sha256": "bbac41a652df65a4580b617f39d4a316f9f2a9abc0cf0e7d80323ed6cdd1d331"
+    },
+    {
+      "path": "run_extension_replay.py",
+      "bytes": 10247,
+      "sha256": "07260ff493c01691da45b615ddcaf161f744a5ccd2967c8b27a7f32e5f495fd7"
+    },
+    {
+      "path": "run_trace_adapter.py",
+      "bytes": 4019,
+      "sha256": "753618ad6dc1c87e88550952aed11930baa4ba60cff3f0631c08fb5548467b26"
+    },
+    {
+      "path": "SOURCE_MANIFEST.json",
+      "bytes": 16418,
+      "sha256": "57b30cc25cc7f34fd698c4d2d490128facbf30a3632d9d0de1bc9eeb144203b5"
+    }
+  ]
+}

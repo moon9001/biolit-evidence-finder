@@ -1,0 +1,569 @@
+{
+  "source_files": [
+    {
+      "identifier": "mobot31753002692298",
+      "sha256": "0afe29dbb8535fbb495b413ab4f761af5262caa46366a34b4520d8aa793d07eb",
+      "format_sequence_counts_agree": true,
+      "pdf_page_labels_present": true,
+      "source_public_url": "https://archive.org/details/mobot31753002692298",
+      "download_url": "https://archive.org/download/mobot31753002692298/mobot31753002692298.pdf"
+    },
+    {
+      "identifier": "mobot31753000294055",
+      "sha256": "22e35892ed0928e069eb74011dac3683efc4fe04261522fcbfbba8a6634333d9",
+      "format_sequence_counts_agree": true,
+      "pdf_page_labels_present": true,
+      "source_public_url": "https://archive.org/details/mobot31753000294055",
+      "download_url": "https://archive.org/download/mobot31753000294055/mobot31753000294055.pdf"
+    },
+    {
+      "identifier": "mobot31753002073309",
+      "download_url": "https://archive.org/download/mobot31753002073309/mobot31753002073309.pdf",
+      "retrieved_at_utc": "2026-10-04T04:24:16.418394+00:00",
+      "bytes": 37016186,
+      "sha256": "a76efdcc5cef1366fd2617a83cbbb0501625eb3041eb07cfe0557c7152af4680"
+    }
+  ],
+  "selected_pages": [
+    {
+      "candidate_id": "N01",
+      "identifier": "mobot31753002692298",
+      "source_zero_based_sequence": 27,
+      "source_one_based_sequence": 28,
+      "original_pdf_label_metadata": "25",
+      "pdf_text_sha256": "3bcc8e70ae782dcb38506f51bffd11233ac5fbfa513cf493ca3251b72ab7df62",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N02",
+      "identifier": "mobot31753002692298",
+      "source_zero_based_sequence": 77,
+      "source_one_based_sequence": 78,
+      "original_pdf_label_metadata": "75",
+      "pdf_text_sha256": "7e9d427aca430adb8cb28967394bd5926633156173a48164a6bd0c53147ae208",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N03",
+      "identifier": "mobot31753002692298",
+      "source_zero_based_sequence": 152,
+      "source_one_based_sequence": 153,
+      "original_pdf_label_metadata": "150",
+      "pdf_text_sha256": "90b6eee7f9ee9aeac86f5dc7c1f9bc195e12c3c9006c34ae5264c2d13c3c2cd4",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N04",
+      "identifier": "mobot31753002692298",
+      "source_zero_based_sequence": 227,
+      "source_one_based_sequence": 228,
+      "original_pdf_label_metadata": "225",
+      "pdf_text_sha256": "399fd90a430b28964db9d2f71df46fd320fadc4add2feda335059aac27b07f1f",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N05",
+      "identifier": "mobot31753002692298",
+      "source_zero_based_sequence": 302,
+      "source_one_based_sequence": 303,
+      "original_pdf_label_metadata": "300",
+      "pdf_text_sha256": "c338c8ade962374e9e3d93e787371b03e6070178a588d7099175fccf44af2241",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N06",
+      "identifier": "mobot31753002692298",
+      "source_zero_based_sequence": 402,
+      "source_one_based_sequence": 403,
+      "original_pdf_label_metadata": "400",
+      "pdf_text_sha256": "c94179947e36384890d1eae4e6f26863c56c176d819379a233c1b587f776f763",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N07",
+      "identifier": "mobot31753000294055",
+      "source_zero_based_sequence": 34,
+      "source_one_based_sequence": 35,
+      "original_pdf_label_metadata": "25",
+      "pdf_text_sha256": "dc84d96689ab5531554b1f3e031a37ae0c16273b370f3c43d8fb218681d8567d",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N08",
+      "identifier": "mobot31753000294055",
+      "source_zero_based_sequence": 84,
+      "source_one_based_sequence": 85,
+      "original_pdf_label_metadata": "75",
+      "pdf_text_sha256": "61ce847bb3d876a575bc90ec181be9d7d91c9ddb3854d7dd42f36c82b8d58017",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N09",
+      "identifier": "mobot31753000294055",
+      "source_zero_based_sequence": 161,
+      "source_one_based_sequence": 162,
+      "original_pdf_label_metadata": "150",
+      "pdf_text_sha256": "ec8a3c2e3b455989ac73a2e35f66fa2949f9513c990c9c88ec92168bc49015d3",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N10",
+      "identifier": "mobot31753000294055",
+      "source_zero_based_sequence": 236,
+      "source_one_based_sequence": 237,
+      "original_pdf_label_metadata": "225",
+      "pdf_text_sha256": "57a03a262f5534d1d0f5dff118487e0679bc893c3eb4901bbd999bc19b5e4592",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N11",
+      "identifier": "mobot31753000294055",
+      "source_zero_based_sequence": 311,
+      "source_one_based_sequence": 312,
+      "original_pdf_label_metadata": "300",
+      "pdf_text_sha256": "7bf99654fb46472d3f2d89b370d3bb23d1be8fc55a823c84f3de9f0e7fbf879e",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N12",
+      "identifier": "mobot31753000294055",
+      "source_zero_based_sequence": 413,
+      "source_one_based_sequence": 414,
+      "original_pdf_label_metadata": "400",
+      "pdf_text_sha256": "a6243eb53ebb0da3e3dba092e9a5c2d6aa9e96708658dc853a206d2222611e92",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N13",
+      "identifier": "mobot31753002073309",
+      "source_zero_based_sequence": 29,
+      "source_one_based_sequence": 30,
+      "original_pdf_label_metadata": "25",
+      "pdf_text_sha256": "8c412b97de4f966f2dd56b3ec44781a35898547fda72f1e0d117495cd9700c0e",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N14",
+      "identifier": "mobot31753002073309",
+      "source_zero_based_sequence": 79,
+      "source_one_based_sequence": 80,
+      "original_pdf_label_metadata": "75",
+      "pdf_text_sha256": "ace2ae001b6da41aa53e1020745a05b328f34ed586ef01350ebd59428d339c08",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N15",
+      "identifier": "mobot31753002073309",
+      "source_zero_based_sequence": 154,
+      "source_one_based_sequence": 155,
+      "original_pdf_label_metadata": "150",
+      "pdf_text_sha256": "c1334513eb6780bebb46b3d07ee9a602c723a98d46e27689d45901cde404ba80",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N16",
+      "identifier": "mobot31753002073309",
+      "source_zero_based_sequence": 229,
+      "source_one_based_sequence": 230,
+      "original_pdf_label_metadata": "225",
+      "pdf_text_sha256": "e9f86ebbaad868637973e92297f30f51c4312ce338c2434e6a26edd185508fee",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N17",
+      "identifier": "mobot31753002073309",
+      "source_zero_based_sequence": 304,
+      "source_one_based_sequence": 305,
+      "original_pdf_label_metadata": "300",
+      "pdf_text_sha256": "d87c174f37cf4d3211de94cf5ac0c69f35696c03797a953a73b9980f7239aa99",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    },
+    {
+      "candidate_id": "N18",
+      "identifier": "mobot31753002073309",
+      "source_zero_based_sequence": 404,
+      "source_one_based_sequence": 405,
+      "original_pdf_label_metadata": "400",
+      "pdf_text_sha256": "7fc50f47108034b9f56300e704164f3a2314636254c0a25680a2a9e7db34dcbc",
+      "inspection": "Assistant/tool assisted visual inspection of the original public page, no human ground truth",
+      "page_image_visually_reviewed": true
+    }
+  ],
+  "query_strings": [
+    "Liriodendron Tulipifera",
+    "Schizandra chinensis",
+    "Garcinia multiflora",
+    "Garcinia oblongifolia",
+    "Rourea Millettii",
+    "Rourea santaloides",
+    "Spiraea pubescens",
+    "Spiraea chinensis",
+    "Melastoma repens",
+    "Osbeckia repens",
+    "Dipsacus japonicus",
+    "Dipsacus Gmelini",
+    "Hydrangea umbellata",
+    "Hydrangea Davidi",
+    "Padus acrophylla",
+    "P. virginiana",
+    "Deutzia sessilifolia",
+    "Hydrangea xanthoneura",
+    "Prunus tomentosa",
+    "Syringa tomentella",
+    "Syringa velutina",
+    "Magnolia conspicua",
+    "Magnolia Yulan",
+    "Picea retroflexa",
+    "P. asperata",
+    "Actinodaphne cupularis",
+    "Litsea cupularis",
+    "Poncirus trifoliata",
+    "Citrus trifoliata",
+    "Rhamnella Wilsonii",
+    "Rhamnella Martinii",
+    "Pyrus Aria",
+    "Pyrus Bodinieri",
+    "Cleyera ochnacea",
+    "Ternstroemia Lushia"
+  ],
+  "target_anchors": [
+    {
+      "candidate_id": "N01",
+      "target_query": "Liriodendron Tulipifera",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N01",
+      "target_query": "Schizandra chinensis",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N02",
+      "target_query": "Garcinia multiflora",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N02",
+      "target_query": "Garcinia oblongifolia",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N03",
+      "target_query": "Rourea Millettii",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N03",
+      "target_query": "Rourea santaloides",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N04",
+      "target_query": "Spiraea pubescens",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": false,
+      "note": ""
+    },
+    {
+      "candidate_id": "N04",
+      "target_query": "Spiraea chinensis",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": false,
+      "note": ""
+    },
+    {
+      "candidate_id": "N05",
+      "target_query": "Melastoma repens",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N05",
+      "target_query": "Osbeckia repens",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N06",
+      "target_query": "Dipsacus japonicus",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N06",
+      "target_query": "Dipsacus Gmelini",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N07",
+      "target_query": "Hydrangea umbellata",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N07",
+      "target_query": "Hydrangea Davidi",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N08",
+      "target_query": "Padus acrophylla",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": false,
+      "note": "The visible line break Padus acro- / phylla is joined for the query; the source text and prototype are not corrected."
+    },
+    {
+      "candidate_id": "N08",
+      "target_query": "P. virginiana",
+      "string_type": "abbreviated binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N09",
+      "target_query": "Deutzia sessilifolia",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N09",
+      "target_query": "Hydrangea xanthoneura",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N10",
+      "target_query": "Prunus tomentosa",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N11",
+      "target_query": "Syringa tomentella",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N11",
+      "target_query": "Syringa velutina",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N12",
+      "target_query": "Magnolia conspicua",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N12",
+      "target_query": "Magnolia Yulan",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N13",
+      "target_query": "Picea retroflexa",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N13",
+      "target_query": "P. asperata",
+      "string_type": "abbreviated binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N14",
+      "target_query": "Actinodaphne cupularis",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N14",
+      "target_query": "Litsea cupularis",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N15",
+      "target_query": "Poncirus trifoliata",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N15",
+      "target_query": "Citrus trifoliata",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N16",
+      "target_query": "Rhamnella Wilsonii",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N16",
+      "target_query": "Rhamnella Martinii",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N17",
+      "target_query": "Pyrus Aria",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N17",
+      "target_query": "Pyrus Bodinieri",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N18",
+      "target_query": "Cleyera ochnacea",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    },
+    {
+      "candidate_id": "N18",
+      "target_query": "Ternstroemia Lushia",
+      "string_type": "full binomial",
+      "printed_case_preserved_in_query": true,
+      "source_inspection": "Assistant/tool assisted; author confirmation pending",
+      "case_insensitive_literal_in_source_text": true,
+      "note": ""
+    }
+  ],
+  "expected_target_results": null,
+  "source_pdf_text_extractor_version": "1.28.2",
+  "sample_description": "three public historical volumes, eighteen additional disjoint pages, thirty-five selected string anchors",
+  "selection": "Fixed page labels selected before querying; manual string selection before prototype outputs; no independent human annotator or random sampling.",
+  "frozen_before_replay_at_utc": "2026-10-04T04:28:55.911872+00:00",
+  "no_human_or_expert_ground_truth": true
+}

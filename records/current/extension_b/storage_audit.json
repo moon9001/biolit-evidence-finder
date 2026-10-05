@@ -1,0 +1,3746 @@
+{
+  "documents": [
+    {
+      "id": 1,
+      "file_name": "mobot31753002692298_selected_pages.pdf",
+      "title": "mobot31753002692298 selected source pages",
+      "author": null,
+      "year": null,
+      "page_count": 6,
+      "processed_pages": 6,
+      "status": "completed",
+      "error": null
+    },
+    {
+      "id": 2,
+      "file_name": "mobot31753000294055_selected_pages.pdf",
+      "title": "mobot31753000294055 selected source pages",
+      "author": null,
+      "year": null,
+      "page_count": 6,
+      "processed_pages": 6,
+      "status": "completed",
+      "error": null
+    },
+    {
+      "id": 3,
+      "file_name": "mobot31753002073309_selected_pages.pdf",
+      "title": "mobot31753002073309 selected source pages",
+      "author": null,
+      "year": null,
+      "page_count": 6,
+      "processed_pages": 6,
+      "status": "completed",
+      "error": null
+    }
+  ],
+  "pages": [
+    {
+      "id": 1,
+      "document_id": 1,
+      "page_number": 1,
+      "page_label": "25",
+      "ocr_used": 0,
+      "text_length": 1934
+    },
+    {
+      "id": 2,
+      "document_id": 1,
+      "page_number": 2,
+      "page_label": "75",
+      "ocr_used": 0,
+      "text_length": 1966
+    },
+    {
+      "id": 3,
+      "document_id": 1,
+      "page_number": 3,
+      "page_label": "150",
+      "ocr_used": 0,
+      "text_length": 2091
+    },
+    {
+      "id": 4,
+      "document_id": 1,
+      "page_number": 4,
+      "page_label": "225",
+      "ocr_used": 0,
+      "text_length": 2309
+    },
+    {
+      "id": 5,
+      "document_id": 1,
+      "page_number": 5,
+      "page_label": "300",
+      "ocr_used": 0,
+      "text_length": 1980
+    },
+    {
+      "id": 6,
+      "document_id": 1,
+      "page_number": 6,
+      "page_label": "400",
+      "ocr_used": 0,
+      "text_length": 1795
+    },
+    {
+      "id": 7,
+      "document_id": 2,
+      "page_number": 1,
+      "page_label": "25",
+      "ocr_used": 0,
+      "text_length": 2539
+    },
+    {
+      "id": 8,
+      "document_id": 2,
+      "page_number": 2,
+      "page_label": "75",
+      "ocr_used": 0,
+      "text_length": 1827
+    },
+    {
+      "id": 9,
+      "document_id": 2,
+      "page_number": 3,
+      "page_label": "150",
+      "ocr_used": 0,
+      "text_length": 3319
+    },
+    {
+      "id": 10,
+      "document_id": 2,
+      "page_number": 4,
+      "page_label": "225",
+      "ocr_used": 0,
+      "text_length": 2460
+    },
+    {
+      "id": 11,
+      "document_id": 2,
+      "page_number": 5,
+      "page_label": "300",
+      "ocr_used": 0,
+      "text_length": 2560
+    },
+    {
+      "id": 12,
+      "document_id": 2,
+      "page_number": 6,
+      "page_label": "400",
+      "ocr_used": 0,
+      "text_length": 3270
+    },
+    {
+      "id": 13,
+      "document_id": 3,
+      "page_number": 1,
+      "page_label": "25",
+      "ocr_used": 0,
+      "text_length": 2805
+    },
+    {
+      "id": 14,
+      "document_id": 3,
+      "page_number": 2,
+      "page_label": "75",
+      "ocr_used": 0,
+      "text_length": 2462
+    },
+    {
+      "id": 15,
+      "document_id": 3,
+      "page_number": 3,
+      "page_label": "150",
+      "ocr_used": 0,
+      "text_length": 3838
+    },
+    {
+      "id": 16,
+      "document_id": 3,
+      "page_number": 4,
+      "page_label": "225",
+      "ocr_used": 0,
+      "text_length": 3328
+    },
+    {
+      "id": 17,
+      "document_id": 3,
+      "page_number": 5,
+      "page_label": "300",
+      "ocr_used": 0,
+      "text_length": 2496
+    },
+    {
+      "id": 18,
+      "document_id": 3,
+      "page_number": 6,
+      "page_label": "400",
+      "ocr_used": 0,
+      "text_length": 3435
+    }
+  ],
+  "occurrences": [
+    {
+      "id": 1,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Arbor pulchra",
+      "term_type": "scientific_name",
+      "start_char": 82,
+      "end_char": 95,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 2,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Shearer lectis",
+      "term_type": "scientific_name",
+      "start_char": 145,
+      "end_char": 159,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 3,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Maries lectis",
+      "term_type": "scientific_name",
+      "start_char": 201,
+      "end_char": 215,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 4,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Lushan mountains",
+      "term_type": "scientific_name",
+      "start_char": 403,
+      "end_char": 419,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 5,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Possibly this",
+      "term_type": "scientific_name",
+      "start_char": 463,
+      "end_char": 476,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 6,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Schizandra chinensis",
+      "term_type": "scientific_name",
+      "start_char": 703,
+      "end_char": 723,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 7,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Maximowiczia chinensis",
+      "term_type": "scientific_name",
+      "start_char": 824,
+      "end_char": 846,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 8,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Kadsura chinensis",
+      "term_type": "scientific_name",
+      "start_char": 894,
+      "end_char": 911,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 9,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Tsunglin range",
+      "term_type": "scientific_name",
+      "start_char": 1302,
+      "end_char": 1316,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 10,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Kadsura chinensis",
+      "term_type": "scientific_name",
+      "start_char": 1368,
+      "end_char": 1385,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 11,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Kadsura japonica",
+      "term_type": "scientific_name",
+      "start_char": 1421,
+      "end_char": 1437,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 12,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Uvaria calamistrata",
+      "term_type": "scientific_name",
+      "start_char": 1630,
+      "end_char": 1649,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 13,
+      "document_id": 1,
+      "page_id": 1,
+      "term": "Uvaria microcarpa",
+      "term_type": "scientific_name",
+      "start_char": 1840,
+      "end_char": 1857,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 14,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Malay peninsula",
+      "term_type": "scientific_name",
+      "start_char": 146,
+      "end_char": 161,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 15,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Garcinia multiflora",
+      "term_type": "scientific_name",
+      "start_char": 216,
+      "end_char": 235,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 16,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Garcinia oblongifolia",
+      "term_type": "scientific_name",
+      "start_char": 419,
+      "end_char": 440,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 17,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Very widely",
+      "term_type": "scientific_name",
+      "start_char": 830,
+      "end_char": 841,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 18,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Calophyllum membranaceum",
+      "term_type": "scientific_name",
+      "start_char": 889,
+      "end_char": 913,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 19,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Calophyllum spectabile",
+      "term_type": "scientific_name",
+      "start_char": 1074,
+      "end_char": 1096,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 20,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Stalagmites erosipetala",
+      "term_type": "scientific_name",
+      "start_char": 1230,
+      "end_char": 1253,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 21,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Calysaccion chinense",
+      "term_type": "scientific_name",
+      "start_char": 1312,
+      "end_char": 1332,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 22,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Ternstremia japonica",
+      "term_type": "scientific_name",
+      "start_char": 1465,
+      "end_char": 1485,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 23,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Cleyera japonica",
+      "term_type": "scientific_name",
+      "start_char": 1669,
+      "end_char": 1685,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 24,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Cleyera fragrans",
+      "term_type": "scientific_name",
+      "start_char": 1734,
+      "end_char": 1750,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 25,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "Ternstroemia fragrans",
+      "term_type": "scientific_name",
+      "start_char": 1806,
+      "end_char": 1827,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 26,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "C. dubia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1754,
+      "end_char": 1762,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 27,
+      "document_id": 1,
+      "page_id": 2,
+      "term": "T. dubia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1831,
+      "end_char": 1839,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 28,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Rourea santaloides",
+      "term_type": "scientific_name",
+      "start_char": 77,
+      "end_char": 95,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 29,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Bentham goes",
+      "term_type": "scientific_name",
+      "start_char": 440,
+      "end_char": 452,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 30,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Thermopsis fabacea",
+      "term_type": "scientific_name",
+      "start_char": 805,
+      "end_char": 823,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 31,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Thermopsis chinensis",
+      "term_type": "scientific_name",
+      "start_char": 893,
+      "end_char": 913,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 32,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Sophora fabacea",
+      "term_type": "scientific_name",
+      "start_char": 998,
+      "end_char": 1013,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 33,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Thermopsis lanceolata",
+      "term_type": "scientific_name",
+      "start_char": 1317,
+      "end_char": 1338,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 34,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Taining aud",
+      "term_type": "scientific_name",
+      "start_char": 1549,
+      "end_char": 1560,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 35,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Widely spread",
+      "term_type": "scientific_name",
+      "start_char": 1661,
+      "end_char": 1674,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 36,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Crotalaria albida",
+      "term_type": "scientific_name",
+      "start_char": 1704,
+      "end_char": 1721,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 37,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Throughout tropical",
+      "term_type": "scientific_name",
+      "start_char": 2038,
+      "end_char": 2057,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 38,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "Asia eastward",
+      "term_type": "scientific_name",
+      "start_char": 2058,
+      "end_char": 2071,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 39,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. commutata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 366,
+      "end_char": 378,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 40,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. santaloides",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 416,
+      "end_char": 430,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 41,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. caudata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 473,
+      "end_char": 483,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 42,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. javanica",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 494,
+      "end_char": 505,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 43,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. humilis",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 518,
+      "end_char": 528,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 44,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. santaloides",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 543,
+      "end_char": 557,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 45,
+      "document_id": 1,
+      "page_id": 3,
+      "term": "R. commutata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 702,
+      "end_char": 714,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 46,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "Bunge under",
+      "term_type": "scientific_name",
+      "start_char": 555,
+      "end_char": 566,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 47,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "Folia breviter",
+      "term_type": "scientific_name",
+      "start_char": 1160,
+      "end_char": 1174,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 48,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "Flores mediocres",
+      "term_type": "scientific_name",
+      "start_char": 1470,
+      "end_char": 1486,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 49,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "Carpella matura",
+      "term_type": "scientific_name",
+      "start_char": 1773,
+      "end_char": 1788,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 50,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "S. dasyantha",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 634,
+      "end_char": 646,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 51,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "S. pubescens",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 649,
+      "end_char": 661,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 52,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "S. dasyantha",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 862,
+      "end_char": 874,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 53,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "S. pubescens",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1878,
+      "end_char": 1890,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 54,
+      "document_id": 1,
+      "page_id": 4,
+      "term": "S. dasyantha",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1892,
+      "end_char": 1904,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 55,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Triana doubtingly",
+      "term_type": "scientific_name",
+      "start_char": 35,
+      "end_char": 52,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 56,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Melastoma repens",
+      "term_type": "scientific_name",
+      "start_char": 297,
+      "end_char": 313,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 57,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Osbeckia repens",
+      "term_type": "scientific_name",
+      "start_char": 513,
+      "end_char": 528,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 58,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Asterostoma repens",
+      "term_type": "scientific_name",
+      "start_char": 555,
+      "end_char": 573,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 59,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Rhexia heteranthera",
+      "term_type": "scientific_name",
+      "start_char": 617,
+      "end_char": 636,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 60,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Osbeckia heteranthera",
+      "term_type": "scientific_name",
+      "start_char": 698,
+      "end_char": 719,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 61,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Melastoma dodecandra",
+      "term_type": "scientific_name",
+      "start_char": 753,
+      "end_char": 773,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 62,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Melastoma sanguineum",
+      "term_type": "scientific_name",
+      "start_char": 1022,
+      "end_char": 1042,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 63,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Melastoma decemfidum",
+      "term_type": "scientific_name",
+      "start_char": 1222,
+      "end_char": 1242,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 64,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "Barthea chinensis",
+      "term_type": "scientific_name",
+      "start_char": 1694,
+      "end_char": 1711,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 65,
+      "document_id": 1,
+      "page_id": 5,
+      "term": "M. malabath",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 207,
+      "end_char": 218,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 66,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Khasia hills",
+      "term_type": "scientific_name",
+      "start_char": 61,
+      "end_char": 73,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 67,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Dipsacus japonicus",
+      "term_type": "scientific_name",
+      "start_char": 94,
+      "end_char": 112,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 68,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Yaloo river",
+      "term_type": "scientific_name",
+      "start_char": 684,
+      "end_char": 695,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 69,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Dahuria eastward",
+      "term_type": "scientific_name",
+      "start_char": 744,
+      "end_char": 760,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 70,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Scabiosa cochinchinensis",
+      "term_type": "scientific_name",
+      "start_char": 778,
+      "end_char": 802,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 71,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Chinese name",
+      "term_type": "scientific_name",
+      "start_char": 859,
+      "end_char": 871,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 72,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Philippine plant",
+      "term_type": "scientific_name",
+      "start_char": 1362,
+      "end_char": 1378,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 73,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Vernonia bracteata",
+      "term_type": "scientific_name",
+      "start_char": 1520,
+      "end_char": 1538,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 74,
+      "document_id": 1,
+      "page_id": 6,
+      "term": "Wuchu gorge",
+      "term_type": "scientific_name",
+      "start_char": 1736,
+      "end_char": 1747,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 75,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "Hydrangea umbellata",
+      "term_type": "scientific_name",
+      "start_char": 76,
+      "end_char": 95,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 76,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "Frutex metralis",
+      "term_type": "scientific_name",
+      "start_char": 112,
+      "end_char": 127,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 77,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "Folia membranacea",
+      "term_type": "scientific_name",
+      "start_char": 283,
+      "end_char": 300,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 78,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "Inflorescentia umbelliformis",
+      "term_type": "scientific_name",
+      "start_char": 624,
+      "end_char": 652,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 79,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "Closely related",
+      "term_type": "scientific_name",
+      "start_char": 1319,
+      "end_char": 1334,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 80,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "Hydrangea paniculata",
+      "term_type": "scientific_name",
+      "start_char": 2437,
+      "end_char": 2457,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 81,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "H. scandens",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1338,
+      "end_char": 1349,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 82,
+      "document_id": 2,
+      "page_id": 7,
+      "term": "H. virens",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1363,
+      "end_char": 1372,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 83,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Racemorum fructiferorum",
+      "term_type": "scientific_name",
+      "start_char": 24,
+      "end_char": 47,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 84,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Folia subtus",
+      "term_type": "scientific_name",
+      "start_char": 131,
+      "end_char": 143,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 85,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Cupula intus",
+      "term_type": "scientific_name",
+      "start_char": 176,
+      "end_char": 188,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 86,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Stylus brevis",
+      "term_type": "scientific_name",
+      "start_char": 256,
+      "end_char": 269,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 87,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Nuttall apud",
+      "term_type": "scientific_name",
+      "start_char": 338,
+      "end_char": 350,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 88,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Europa usque",
+      "term_type": "scientific_name",
+      "start_char": 430,
+      "end_char": 442,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 89,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Afghanistan usque",
+      "term_type": "scientific_name",
+      "start_char": 498,
+      "end_char": 516,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 90,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Axes racemorum",
+      "term_type": "scientific_name",
+      "start_char": 1039,
+      "end_char": 1053,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 91,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Folia subtus",
+      "term_type": "scientific_name",
+      "start_char": 1112,
+      "end_char": 1125,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 92,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Cupula intus",
+      "term_type": "scientific_name",
+      "start_char": 1203,
+      "end_char": 1215,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 93,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Padus acro",
+      "term_type": "scientific_name",
+      "start_char": 1326,
+      "end_char": 1336,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 94,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Schneider chinensi",
+      "term_type": "scientific_name",
+      "start_char": 1352,
+      "end_char": 1370,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 95,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Folia decidua",
+      "term_type": "scientific_name",
+      "start_char": 1491,
+      "end_char": 1504,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 96,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Pedunculi nudi",
+      "term_type": "scientific_name",
+      "start_char": 1538,
+      "end_char": 1552,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 97,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "Calyx magis",
+      "term_type": "scientific_name",
+      "start_char": 1581,
+      "end_char": 1592,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 98,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. virginiana",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 292,
+      "end_char": 305,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 99,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. demissa",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 327,
+      "end_char": 337,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 100,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. cornuta",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 470,
+      "end_char": 480,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 101,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. anadenia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 529,
+      "end_char": 540,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 102,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. glaucifolia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 563,
+      "end_char": 577,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 103,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. diversifolia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 600,
+      "end_char": 615,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 104,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. brachypoda",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 632,
+      "end_char": 645,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 105,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. velutina",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 670,
+      "end_char": 682,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 106,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. bicolor",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 700,
+      "end_char": 710,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 107,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. ssiori",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 727,
+      "end_char": 736,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 108,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. seoulensis",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 820,
+      "end_char": 833,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 109,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. diamantinus",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 844,
+      "end_char": 858,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 110,
+      "document_id": 2,
+      "page_id": 8,
+      "term": "P. laziflora",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1799,
+      "end_char": 1811,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 111,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Capsula matura",
+      "term_type": "scientific_name",
+      "start_char": 585,
+      "end_char": 599,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 112,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Most nearly",
+      "term_type": "scientific_name",
+      "start_char": 869,
+      "end_char": 880,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 113,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Deutzia sessilifolia",
+      "term_type": "scientific_name",
+      "start_char": 1594,
+      "end_char": 1614,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 114,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Deutzia occurring",
+      "term_type": "scientific_name",
+      "start_char": 2010,
+      "end_char": 2027,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 115,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Besides these",
+      "term_type": "scientific_name",
+      "start_char": 2049,
+      "end_char": 2062,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 116,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Synopsis except",
+      "term_type": "scientific_name",
+      "start_char": 2147,
+      "end_char": 2163,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 117,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "One more",
+      "term_type": "scientific_name",
+      "start_char": 2677,
+      "end_char": 2685,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 118,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Neodeutzia occurs",
+      "term_type": "scientific_name",
+      "start_char": 2714,
+      "end_char": 2731,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 119,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Hemsley including",
+      "term_type": "scientific_name",
+      "start_char": 2764,
+      "end_char": 2781,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 120,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Schneider originally",
+      "term_type": "scientific_name",
+      "start_char": 2809,
+      "end_char": 2829,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 121,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Hydrangea xanthoneura",
+      "term_type": "scientific_name",
+      "start_char": 2993,
+      "end_char": 3014,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 122,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "Rehder containing",
+      "term_type": "scientific_name",
+      "start_char": 3104,
+      "end_char": 3121,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 123,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "See also",
+      "term_type": "scientific_name",
+      "start_char": 3301,
+      "end_char": 3309,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 124,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. longifolia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 892,
+      "end_char": 905,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 125,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. glomeruliflora",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1165,
+      "end_char": 1182,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 126,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. longifolia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1419,
+      "end_char": 1432,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 127,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. longifolia",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1550,
+      "end_char": 1563,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 128,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. glomeruliflora",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1569,
+      "end_char": 1586,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 129,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. glabrata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1833,
+      "end_char": 1844,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 130,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. uniflora",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2164,
+      "end_char": 2175,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 131,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. grandiflora",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2262,
+      "end_char": 2276,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 132,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. coreana",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2431,
+      "end_char": 2441,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 133,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. mexicana",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2752,
+      "end_char": 2763,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 134,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "D. mexicana",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2782,
+      "end_char": 2793,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 135,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "H. xanthoneura",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 3071,
+      "end_char": 3085,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 136,
+      "document_id": 2,
+      "page_id": 9,
+      "term": "H. zanthoneura",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 3203,
+      "end_char": 3217,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 137,
+      "document_id": 2,
+      "page_id": 10,
+      "term": "Prunus tomentosa",
+      "term_type": "scientific_name",
+      "start_char": 170,
+      "end_char": 186,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 138,
+      "document_id": 2,
+      "page_id": 10,
+      "term": "Stipulae lineari-subulatae",
+      "term_type": "scientific_name",
+      "start_char": 475,
+      "end_char": 501,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 139,
+      "document_id": 2,
+      "page_id": 10,
+      "term": "Drupa circiter",
+      "term_type": "scientific_name",
+      "start_char": 1549,
+      "end_char": 1564,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 140,
+      "document_id": 2,
+      "page_id": 10,
+      "term": "Inkiapo above",
+      "term_type": "scientific_name",
+      "start_char": 2162,
+      "end_char": 2176,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 141,
+      "document_id": 2,
+      "page_id": 10,
+      "term": "A. von",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2054,
+      "end_char": 2060,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 142,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Syringa tomentella",
+      "term_type": "scientific_name",
+      "start_char": 282,
+      "end_char": 300,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 143,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Syringa velutina",
+      "term_type": "scientific_name",
+      "start_char": 470,
+      "end_char": 486,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 144,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Emodi var",
+      "term_type": "scientific_name",
+      "start_char": 573,
+      "end_char": 582,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 145,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Folia membranacea",
+      "term_type": "scientific_name",
+      "start_char": 1415,
+      "end_char": 1432,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 146,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Inflorescentia terminalis",
+      "term_type": "scientific_name",
+      "start_char": 1733,
+      "end_char": 1758,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 147,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Closely allied",
+      "term_type": "scientific_name",
+      "start_char": 2375,
+      "end_char": 2389,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 148,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "Franchet which",
+      "term_type": "scientific_name",
+      "start_char": 2407,
+      "end_char": 2421,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 149,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "S. tomen",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 103,
+      "end_char": 111,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 150,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "S. tomentella",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 998,
+      "end_char": 1011,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 151,
+      "document_id": 2,
+      "page_id": 11,
+      "term": "S. tomentella",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2393,
+      "end_char": 2406,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 152,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Magnolia conspicua",
+      "term_type": "scientific_name",
+      "start_char": 33,
+      "end_char": 51,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 153,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Magnolia obovata",
+      "term_type": "scientific_name",
+      "start_char": 895,
+      "end_char": 912,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 154,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Magnolia hirsuta",
+      "term_type": "scientific_name",
+      "start_char": 1031,
+      "end_char": 1047,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 155,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Yulania conspicua",
+      "term_type": "scientific_name",
+      "start_char": 1131,
+      "end_char": 1148,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 156,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Kuling but",
+      "term_type": "scientific_name",
+      "start_char": 1564,
+      "end_char": 1574,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 157,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Our material",
+      "term_type": "scientific_name",
+      "start_char": 1641,
+      "end_char": 1653,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 158,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Tang dynasty",
+      "term_type": "scientific_name",
+      "start_char": 1930,
+      "end_char": 1942,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 159,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Magnolia obovata",
+      "term_type": "scientific_name",
+      "start_char": 2505,
+      "end_char": 2521,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 160,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Magnolia hirsuta",
+      "term_type": "scientific_name",
+      "start_char": 2699,
+      "end_char": 2715,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 161,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Magnolia sericea",
+      "term_type": "scientific_name",
+      "start_char": 2785,
+      "end_char": 2801,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 162,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Edgeworthia papyrifera",
+      "term_type": "scientific_name",
+      "start_char": 2878,
+      "end_char": 2900,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 163,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Thunberg had",
+      "term_type": "scientific_name",
+      "start_char": 2964,
+      "end_char": 2976,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 164,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Japanese name",
+      "term_type": "scientific_name",
+      "start_char": 3141,
+      "end_char": 3154,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 165,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "Edgeworthia papyrifera",
+      "term_type": "scientific_name",
+      "start_char": 3186,
+      "end_char": 3208,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 166,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. obovata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2065,
+      "end_char": 2076,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 167,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. purpurea",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2095,
+      "end_char": 2106,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 168,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. obovata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2561,
+      "end_char": 2571,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 169,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. hypoleuca",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2583,
+      "end_char": 2595,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 170,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. kobus",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2674,
+      "end_char": 2682,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 171,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. denudata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2755,
+      "end_char": 2766,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 172,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. sericea",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2950,
+      "end_char": 2960,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 173,
+      "document_id": 2,
+      "page_id": 12,
+      "term": "M. tomentosa",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 3024,
+      "end_char": 3036,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 174,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "Folia linearia",
+      "term_type": "scientific_name",
+      "start_char": 311,
+      "end_char": 326,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 175,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "Strobili oblongo",
+      "term_type": "scientific_name",
+      "start_char": 638,
+      "end_char": 654,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 176,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "Picea retroflexa",
+      "term_type": "scientific_name",
+      "start_char": 1990,
+      "end_char": 2006,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 177,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "Descriptioni originali",
+      "term_type": "scientific_name",
+      "start_char": 2104,
+      "end_char": 2126,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 178,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "Folia spiraliter",
+      "term_type": "scientific_name",
+      "start_char": 2369,
+      "end_char": 2386,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 179,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "Strobili bracteae",
+      "term_type": "scientific_name",
+      "start_char": 2568,
+      "end_char": 2585,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 180,
+      "document_id": 3,
+      "page_id": 13,
+      "term": "P. asperata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1567,
+      "end_char": 1578,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 181,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Nanmu shu",
+      "term_type": "scientific_name",
+      "start_char": 365,
+      "end_char": 374,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 182,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Here may",
+      "term_type": "scientific_name",
+      "start_char": 388,
+      "end_char": 396,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 183,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Actinodaphne cupularis",
+      "term_type": "scientific_name",
+      "start_char": 498,
+      "end_char": 520,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 184,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Litsea cupularis",
+      "term_type": "scientific_name",
+      "start_char": 539,
+      "end_char": 555,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 185,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Actinodaphne reticulata",
+      "term_type": "scientific_name",
+      "start_char": 812,
+      "end_char": 835,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 186,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Litsea citrata",
+      "term_type": "scientific_name",
+      "start_char": 988,
+      "end_char": 1002,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 187,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Tetranthera citrata",
+      "term_type": "scientific_name",
+      "start_char": 1030,
+      "end_char": 1049,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 188,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start_char": 1056,
+      "end_char": 1064,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 189,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Tetranthera polyantha",
+      "term_type": "scientific_name",
+      "start_char": 1100,
+      "end_char": 1121,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 190,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start_char": 1174,
+      "end_char": 1182,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 191,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Litsea sericea",
+      "term_type": "scientific_name",
+      "start_char": 1666,
+      "end_char": 1680,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 192,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Tetranthera sericea",
+      "term_type": "scientific_name",
+      "start_char": 1723,
+      "end_char": 1742,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 193,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Wallich apud",
+      "term_type": "scientific_name",
+      "start_char": 1743,
+      "end_char": 1755,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 194,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start_char": 1762,
+      "end_char": 1770,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 195,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start_char": 1830,
+      "end_char": 1838,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 196,
+      "document_id": 3,
+      "page_id": 14,
+      "term": "River valley",
+      "term_type": "scientific_name",
+      "start_char": 2307,
+      "end_char": 2319,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 197,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chinese character",
+      "term_type": "scientific_name",
+      "start_char": 543,
+      "end_char": 560,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 198,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chih shih",
+      "term_type": "scientific_name",
+      "start_char": 759,
+      "end_char": 768,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 199,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chih fruit",
+      "term_type": "scientific_name",
+      "start_char": 771,
+      "end_char": 781,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 200,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chih peel",
+      "term_type": "scientific_name",
+      "start_char": 797,
+      "end_char": 806,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 201,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Poncirus trifoliata",
+      "term_type": "scientific_name",
+      "start_char": 897,
+      "end_char": 916,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 202,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Further study",
+      "term_type": "scientific_name",
+      "start_char": 919,
+      "end_char": 933,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 203,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chih fruit",
+      "term_type": "scientific_name",
+      "start_char": 1029,
+      "end_char": 1039,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 204,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chih peel",
+      "term_type": "scientific_name",
+      "start_char": 1044,
+      "end_char": 1053,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 205,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Poncirus trifoliata",
+      "term_type": "scientific_name",
+      "start_char": 1141,
+      "end_char": 1160,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 206,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Japan many",
+      "term_type": "scientific_name",
+      "start_char": 1198,
+      "end_char": 1208,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 207,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Citrus trifoliata",
+      "term_type": "scientific_name",
+      "start_char": 1284,
+      "end_char": 1301,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 208,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Aegle sepiaria",
+      "term_type": "scientific_name",
+      "start_char": 1314,
+      "end_char": 1328,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 209,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Fruit used",
+      "term_type": "scientific_name",
+      "start_char": 2879,
+      "end_char": 2889,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 210,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Chinese medicinally",
+      "term_type": "scientific_name",
+      "start_char": 2893,
+      "end_char": 2912,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 211,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Poncirus tri",
+      "term_type": "scientific_name",
+      "start_char": 2988,
+      "end_char": 3000,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 212,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Studii botanici",
+      "term_type": "scientific_name",
+      "start_char": 3355,
+      "end_char": 3370,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 213,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "See also",
+      "term_type": "scientific_name",
+      "start_char": 3517,
+      "end_char": 3525,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 214,
+      "document_id": 3,
+      "page_id": 15,
+      "term": "Comptes rendus",
+      "term_type": "scientific_name",
+      "start_char": 3739,
+      "end_char": 3753,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 215,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Folia alterna",
+      "term_type": "scientific_name",
+      "start_char": 485,
+      "end_char": 498,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 216,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Inflorescentia axillaris",
+      "term_type": "scientific_name",
+      "start_char": 988,
+      "end_char": 1012,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 217,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Fructus oblongus",
+      "term_type": "scientific_name",
+      "start_char": 1251,
+      "end_char": 1267,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 218,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Frutex omnino",
+      "term_type": "scientific_name",
+      "start_char": 2036,
+      "end_char": 2049,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 219,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Folia papyracea",
+      "term_type": "scientific_name",
+      "start_char": 2195,
+      "end_char": 2210,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 220,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Fructus nondum",
+      "term_type": "scientific_name",
+      "start_char": 2641,
+      "end_char": 2655,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 221,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Rhamnella franguloides",
+      "term_type": "scientific_name",
+      "start_char": 2926,
+      "end_char": 2948,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 222,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Microrhamnus franguloides",
+      "term_type": "scientific_name",
+      "start_char": 3098,
+      "end_char": 3123,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 223,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "Rhamnella japonica",
+      "term_type": "scientific_name",
+      "start_char": 3235,
+      "end_char": 3253,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 224,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "R. franguloidis",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1146,
+      "end_char": 1161,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 225,
+      "document_id": 3,
+      "page_id": 16,
+      "term": "R. franguloides",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1641,
+      "end_char": 1656,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 226,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus brunnea",
+      "term_type": "scientific_name",
+      "start_char": 487,
+      "end_char": 500,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 227,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus ferruginea",
+      "term_type": "scientific_name",
+      "start_char": 699,
+      "end_char": 715,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 228,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Rehder escaped",
+      "term_type": "scientific_name",
+      "start_char": 855,
+      "end_char": 869,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 229,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Koidzumi compares",
+      "term_type": "scientific_name",
+      "start_char": 894,
+      "end_char": 911,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 230,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus hupehensis",
+      "term_type": "scientific_name",
+      "start_char": 1010,
+      "end_char": 1026,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 231,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pampanini describes",
+      "term_type": "scientific_name",
+      "start_char": 1196,
+      "end_char": 1215,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 232,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus altogether",
+      "term_type": "scientific_name",
+      "start_char": 1316,
+      "end_char": 1332,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 233,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus mokpoensis",
+      "term_type": "scientific_name",
+      "start_char": 1462,
+      "end_char": 1478,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 234,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus sinensis",
+      "term_type": "scientific_name",
+      "start_char": 1513,
+      "end_char": 1527,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 235,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Pyrus spectabilis",
+      "term_type": "scientific_name",
+      "start_char": 1581,
+      "end_char": 1598,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 236,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Rhodotypus kerrioides",
+      "term_type": "scientific_name",
+      "start_char": 1894,
+      "end_char": 1915,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 237,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Keria tetrapetala",
+      "term_type": "scientific_name",
+      "start_char": 2264,
+      "end_char": 2281,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 238,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "Rhodotypus tetrapetala",
+      "term_type": "scientific_name",
+      "start_char": 2369,
+      "end_char": 2391,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 239,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "P. serotina",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 842,
+      "end_char": 853,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 240,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "P. ovoidea",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 920,
+      "end_char": 930,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 241,
+      "document_id": 3,
+      "page_id": 17,
+      "term": "P. serrulata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 1171,
+      "end_char": 1183,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 242,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Cleyera ochnacea",
+      "term_type": "scientific_name",
+      "start_char": 33,
+      "end_char": 49,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 243,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Hamilton apud",
+      "term_type": "scientific_name",
+      "start_char": 273,
+      "end_char": 286,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 244,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Cleyera ochnoides",
+      "term_type": "scientific_name",
+      "start_char": 326,
+      "end_char": 343,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 245,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Wallich apud",
+      "term_type": "scientific_name",
+      "start_char": 344,
+      "end_char": 356,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 246,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Kuling but",
+      "term_type": "scientific_name",
+      "start_char": 882,
+      "end_char": 892,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 247,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Here may",
+      "term_type": "scientific_name",
+      "start_char": 987,
+      "end_char": 995,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 248,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Eurya chinensis",
+      "term_type": "scientific_name",
+      "start_char": 1083,
+      "end_char": 1098,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 249,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "But whatever",
+      "term_type": "scientific_name",
+      "start_char": 2321,
+      "end_char": 2333,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 250,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Ilex emarginata",
+      "term_type": "scientific_name",
+      "start_char": 2703,
+      "end_char": 2718,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 251,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "Eurya acuminata",
+      "term_type": "scientific_name",
+      "start_char": 3237,
+      "end_char": 3252,
+      "confidence": 0.85,
+      "extractor": "rule"
+    },
+    {
+      "id": 252,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "E. japonica",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2094,
+      "end_char": 2105,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 253,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "E. japonica",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2354,
+      "end_char": 2365,
+      "confidence": 0.55,
+      "extractor": "rule"
+    },
+    {
+      "id": 254,
+      "document_id": 3,
+      "page_id": 18,
+      "term": "E. emarginata",
+      "term_type": "scientific_name_abbrev",
+      "start_char": 2626,
+      "end_char": 2639,
+      "confidence": 0.55,
+      "extractor": "rule"
+    }
+  ],
+  "chunks": [
+    {
+      "id": 1,
+      "document_id": 1,
+      "page_id": 1,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 2,
+      "document_id": 1,
+      "page_id": 1,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 3,
+      "document_id": 1,
+      "page_id": 1,
+      "chunk_index": 2,
+      "token_count": 178
+    },
+    {
+      "id": 4,
+      "document_id": 1,
+      "page_id": 1,
+      "chunk_index": 3,
+      "token_count": 33
+    },
+    {
+      "id": 5,
+      "document_id": 1,
+      "page_id": 2,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 6,
+      "document_id": 1,
+      "page_id": 2,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 7,
+      "document_id": 1,
+      "page_id": 2,
+      "chunk_index": 2,
+      "token_count": 188
+    },
+    {
+      "id": 8,
+      "document_id": 1,
+      "page_id": 2,
+      "chunk_index": 3,
+      "token_count": 33
+    },
+    {
+      "id": 9,
+      "document_id": 1,
+      "page_id": 3,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 10,
+      "document_id": 1,
+      "page_id": 3,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 11,
+      "document_id": 1,
+      "page_id": 3,
+      "chunk_index": 2,
+      "token_count": 230
+    },
+    {
+      "id": 12,
+      "document_id": 1,
+      "page_id": 3,
+      "chunk_index": 3,
+      "token_count": 33
+    },
+    {
+      "id": 13,
+      "document_id": 1,
+      "page_id": 4,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 14,
+      "document_id": 1,
+      "page_id": 4,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 15,
+      "document_id": 1,
+      "page_id": 4,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 16,
+      "document_id": 1,
+      "page_id": 4,
+      "chunk_index": 3,
+      "token_count": 69
+    },
+    {
+      "id": 17,
+      "document_id": 1,
+      "page_id": 4,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 18,
+      "document_id": 1,
+      "page_id": 5,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 19,
+      "document_id": 1,
+      "page_id": 5,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 20,
+      "document_id": 1,
+      "page_id": 5,
+      "chunk_index": 2,
+      "token_count": 193
+    },
+    {
+      "id": 21,
+      "document_id": 1,
+      "page_id": 5,
+      "chunk_index": 3,
+      "token_count": 33
+    },
+    {
+      "id": 22,
+      "document_id": 1,
+      "page_id": 6,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 23,
+      "document_id": 1,
+      "page_id": 6,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 24,
+      "document_id": 1,
+      "page_id": 6,
+      "chunk_index": 2,
+      "token_count": 131
+    },
+    {
+      "id": 25,
+      "document_id": 1,
+      "page_id": 6,
+      "chunk_index": 3,
+      "token_count": 33
+    },
+    {
+      "id": 26,
+      "document_id": 2,
+      "page_id": 7,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 27,
+      "document_id": 2,
+      "page_id": 7,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 28,
+      "document_id": 2,
+      "page_id": 7,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 29,
+      "document_id": 2,
+      "page_id": 7,
+      "chunk_index": 3,
+      "token_count": 146
+    },
+    {
+      "id": 30,
+      "document_id": 2,
+      "page_id": 7,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 31,
+      "document_id": 2,
+      "page_id": 8,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 32,
+      "document_id": 2,
+      "page_id": 8,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 33,
+      "document_id": 2,
+      "page_id": 8,
+      "chunk_index": 2,
+      "token_count": 142
+    },
+    {
+      "id": 34,
+      "document_id": 2,
+      "page_id": 8,
+      "chunk_index": 3,
+      "token_count": 33
+    },
+    {
+      "id": 35,
+      "document_id": 2,
+      "page_id": 9,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 36,
+      "document_id": 2,
+      "page_id": 9,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 37,
+      "document_id": 2,
+      "page_id": 9,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 38,
+      "document_id": 2,
+      "page_id": 9,
+      "chunk_index": 3,
+      "token_count": 266
+    },
+    {
+      "id": 39,
+      "document_id": 2,
+      "page_id": 9,
+      "chunk_index": 4,
+      "token_count": 173
+    },
+    {
+      "id": 40,
+      "document_id": 2,
+      "page_id": 9,
+      "chunk_index": 5,
+      "token_count": 33
+    },
+    {
+      "id": 41,
+      "document_id": 2,
+      "page_id": 10,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 42,
+      "document_id": 2,
+      "page_id": 10,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 43,
+      "document_id": 2,
+      "page_id": 10,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 44,
+      "document_id": 2,
+      "page_id": 10,
+      "chunk_index": 3,
+      "token_count": 120
+    },
+    {
+      "id": 45,
+      "document_id": 2,
+      "page_id": 10,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 46,
+      "document_id": 2,
+      "page_id": 11,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 47,
+      "document_id": 2,
+      "page_id": 11,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 48,
+      "document_id": 2,
+      "page_id": 11,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 49,
+      "document_id": 2,
+      "page_id": 11,
+      "chunk_index": 3,
+      "token_count": 153
+    },
+    {
+      "id": 50,
+      "document_id": 2,
+      "page_id": 11,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 51,
+      "document_id": 2,
+      "page_id": 12,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 52,
+      "document_id": 2,
+      "page_id": 12,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 53,
+      "document_id": 2,
+      "page_id": 12,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 54,
+      "document_id": 2,
+      "page_id": 12,
+      "chunk_index": 3,
+      "token_count": 266
+    },
+    {
+      "id": 55,
+      "document_id": 2,
+      "page_id": 12,
+      "chunk_index": 4,
+      "token_count": 156
+    },
+    {
+      "id": 56,
+      "document_id": 2,
+      "page_id": 12,
+      "chunk_index": 5,
+      "token_count": 33
+    },
+    {
+      "id": 57,
+      "document_id": 3,
+      "page_id": 13,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 58,
+      "document_id": 3,
+      "page_id": 13,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 59,
+      "document_id": 3,
+      "page_id": 13,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 60,
+      "document_id": 3,
+      "page_id": 13,
+      "chunk_index": 3,
+      "token_count": 235
+    },
+    {
+      "id": 61,
+      "document_id": 3,
+      "page_id": 13,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 62,
+      "document_id": 3,
+      "page_id": 14,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 63,
+      "document_id": 3,
+      "page_id": 14,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 64,
+      "document_id": 3,
+      "page_id": 14,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 65,
+      "document_id": 3,
+      "page_id": 14,
+      "chunk_index": 3,
+      "token_count": 120
+    },
+    {
+      "id": 66,
+      "document_id": 3,
+      "page_id": 14,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 67,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 68,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 69,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 70,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 3,
+      "token_count": 266
+    },
+    {
+      "id": 71,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 4,
+      "token_count": 266
+    },
+    {
+      "id": 72,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 5,
+      "token_count": 112
+    },
+    {
+      "id": 73,
+      "document_id": 3,
+      "page_id": 15,
+      "chunk_index": 6,
+      "token_count": 33
+    },
+    {
+      "id": 74,
+      "document_id": 3,
+      "page_id": 16,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 75,
+      "document_id": 3,
+      "page_id": 16,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 76,
+      "document_id": 3,
+      "page_id": 16,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 77,
+      "document_id": 3,
+      "page_id": 16,
+      "chunk_index": 3,
+      "token_count": 266
+    },
+    {
+      "id": 78,
+      "document_id": 3,
+      "page_id": 16,
+      "chunk_index": 4,
+      "token_count": 176
+    },
+    {
+      "id": 79,
+      "document_id": 3,
+      "page_id": 16,
+      "chunk_index": 5,
+      "token_count": 33
+    },
+    {
+      "id": 80,
+      "document_id": 3,
+      "page_id": 17,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 81,
+      "document_id": 3,
+      "page_id": 17,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 82,
+      "document_id": 3,
+      "page_id": 17,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 83,
+      "document_id": 3,
+      "page_id": 17,
+      "chunk_index": 3,
+      "token_count": 132
+    },
+    {
+      "id": 84,
+      "document_id": 3,
+      "page_id": 17,
+      "chunk_index": 4,
+      "token_count": 33
+    },
+    {
+      "id": 85,
+      "document_id": 3,
+      "page_id": 18,
+      "chunk_index": 0,
+      "token_count": 266
+    },
+    {
+      "id": 86,
+      "document_id": 3,
+      "page_id": 18,
+      "chunk_index": 1,
+      "token_count": 266
+    },
+    {
+      "id": 87,
+      "document_id": 3,
+      "page_id": 18,
+      "chunk_index": 2,
+      "token_count": 266
+    },
+    {
+      "id": 88,
+      "document_id": 3,
+      "page_id": 18,
+      "chunk_index": 3,
+      "token_count": 266
+    },
+    {
+      "id": 89,
+      "document_id": 3,
+      "page_id": 18,
+      "chunk_index": 4,
+      "token_count": 211
+    },
+    {
+      "id": 90,
+      "document_id": 3,
+      "page_id": 18,
+      "chunk_index": 5,
+      "token_count": 33
+    }
+  ],
+  "page_text_digests": [
+    {
+      "document_id": 1,
+      "page_number": 1,
+      "sha256": "ac7fe3a2902a08ba591df8ac95e459c19ae40a98ea8fc6da933344ab86e78529",
+      "text_length": 1934,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 1,
+      "page_number": 2,
+      "sha256": "1e2342749d8f6c83e070b15aa70b0a700ed091a15db753eeff3d345498e4b389",
+      "text_length": 1966,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 1,
+      "page_number": 3,
+      "sha256": "1bfbbd4865d175be7bbc2c5b07c21c1e10e0295951d2ce18cb45056152683d47",
+      "text_length": 2091,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 1,
+      "page_number": 4,
+      "sha256": "0246ed7a8c3c47e5651ebf587f4031299ba2c40a91fd32e7bc443ee3ce559370",
+      "text_length": 2309,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 1,
+      "page_number": 5,
+      "sha256": "7c929dad3c2c35ff732eb25d21b0bb8290216c2f32e78617c0c0d81f8081bc28",
+      "text_length": 1980,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 1,
+      "page_number": 6,
+      "sha256": "6249e1578e32131aad5c3ee1b1afacf3e85d3f0d6db7b1b64d9ce0db6929852a",
+      "text_length": 1795,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 2,
+      "page_number": 1,
+      "sha256": "b668c164c263fc173379f89caa436cf93755f4397cb546a7c973eae05db30ed3",
+      "text_length": 2539,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 2,
+      "page_number": 2,
+      "sha256": "ac2f02b46f5ac36061c1d5be787934464470e5dc53cb6a48e7e89080d0e1ce5d",
+      "text_length": 1827,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 2,
+      "page_number": 3,
+      "sha256": "5f75479dce75cbfabb4d5289b49dee5f7880e1fdaf29ef048dda128ea8ee4ccf",
+      "text_length": 3319,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 2,
+      "page_number": 4,
+      "sha256": "4abbb227421213cb8cac77c04b0450adda68ebf80a17ee92cf9951aa3ecbf3ac",
+      "text_length": 2460,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 2,
+      "page_number": 5,
+      "sha256": "1c248ffbf80543e4af56420e18fb23c6b04c4194094c4517c23d0d9398947caf",
+      "text_length": 2560,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 2,
+      "page_number": 6,
+      "sha256": "b17c5a7880c9b68cd7cef55b131eb5dafa262fa863f0845b39c2fc3a2009c681",
+      "text_length": 3270,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 3,
+      "page_number": 1,
+      "sha256": "cc0ea1c785fc6efeb533bcb459bfa2c23c420fa24785c2d5d7c5f94e190f1802",
+      "text_length": 2805,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 3,
+      "page_number": 2,
+      "sha256": "ac5c7d3a97dbed706d459f8e7906463cb91f2575512de1db6deac0addf70f52f",
+      "text_length": 2462,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 3,
+      "page_number": 3,
+      "sha256": "e5339905d105644e3a3f89c84f1991a8969002e83dd57f83f0e3351587c72cf1",
+      "text_length": 3838,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 3,
+      "page_number": 4,
+      "sha256": "deb8a7a44838e4afb44fb3be658a9f81b3c87397dc5eb3b96e238cc652307c5d",
+      "text_length": 3328,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 3,
+      "page_number": 5,
+      "sha256": "aea8f467d66cd640ac70815c8de9fa0adffe8ced4b2e418b122edf0eccb40f71",
+      "text_length": 2496,
+      "ocr_used": 0
+    },
+    {
+      "document_id": 3,
+      "page_number": 6,
+      "sha256": "d20405260b1970ab496e4ba2acc29a4dce660638edc73049ba927d2b61fe487b",
+      "text_length": 3435,
+      "ocr_used": 0
+    }
+  ],
+  "occurrence_extractors": [
+    {
+      "extractor": "rule",
+      "count": 254
+    }
+  ],
+  "embedding_vectors_present": 0
+}

@@ -1,0 +1,3360 @@
+{
+  "run_at_utc": "2026-10-04T15:46:18.334676+00:00",
+  "sample": "three public historical volumes, eighteen additional disjoint pages, thirty-five selected string anchors",
+  "selection": "Fixed page labels selected before querying; documentary string selection before prototype outputs; no independent human annotator or random sampling.",
+  "prototype_logic_modified": false,
+  "human_or_expert_participation": false,
+  "external_provider_calls": false,
+  "queries": [
+    {
+      "query": "Liriodendron Tulipifera",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N01"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N01",
+          "matched_term": "Liriodendron Tulipifera",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Liriodendron Tulipifera",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Schizandra chinensis",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N01"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N01",
+          "matched_term": "Schizandra chinensis",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Schizandra chinensis",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N01"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N01",
+          "matched_term": "Schizandra chinensis",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Garcinia multiflora",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N02"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N02",
+          "matched_term": "Garcinia multiflora",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Garcinia multiflora",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N02"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N02",
+          "matched_term": "Garcinia multiflora",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Garcinia oblongifolia",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N02"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N02",
+          "matched_term": "Garcinia oblongifolia",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Garcinia oblongifolia",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N02"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N02",
+          "matched_term": "Garcinia oblongifolia",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Rourea Millettii",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N03"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N03",
+          "matched_term": "Rourea Millettii",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Rourea Millettii",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Rourea santaloides",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N03"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N03",
+          "matched_term": "Rourea santaloides",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Rourea santaloides",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N03"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N03",
+          "matched_term": "Rourea santaloides",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Spiraea pubescens",
+      "mode": "exact",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Spiraea pubescens",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Spiraea chinensis",
+      "mode": "exact",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Spiraea chinensis",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Melastoma repens",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N05"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N05",
+          "matched_term": "Melastoma repens",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Melastoma repens",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N05"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N05",
+          "matched_term": "Melastoma repens",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Osbeckia repens",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N05"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N05",
+          "matched_term": "Osbeckia repens",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Osbeckia repens",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N05"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N05",
+          "matched_term": "Osbeckia repens",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Dipsacus japonicus",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N06"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N06",
+          "matched_term": "Dipsacus japonicus",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Dipsacus japonicus",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N06"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N06",
+          "matched_term": "Dipsacus japonicus",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Dipsacus Gmelini",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N06"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N06",
+          "matched_term": "Dipsacus Gmelini",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Dipsacus Gmelini",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Hydrangea umbellata",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N07"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N07",
+          "matched_term": "Hydrangea umbellata",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Hydrangea umbellata",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N07"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N07",
+          "matched_term": "Hydrangea umbellata",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Hydrangea Davidi",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N07"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N07",
+          "matched_term": "Hydrangea Davidi",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Hydrangea Davidi",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Padus acrophylla",
+      "mode": "exact",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Padus acrophylla",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "P. virginiana",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N08"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N08",
+          "matched_term": "P. virginiana",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "P. virginiana",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N08"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N08",
+          "matched_term": "P. virginiana",
+          "score": 0.55
+        }
+      ]
+    },
+    {
+      "query": "Deutzia sessilifolia",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N09"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N09",
+          "matched_term": "Deutzia sessilifolia",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Deutzia sessilifolia",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N09"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N09",
+          "matched_term": "Deutzia sessilifolia",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Hydrangea xanthoneura",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N09"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N09",
+          "matched_term": "Hydrangea xanthoneura",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Hydrangea xanthoneura",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N09"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N09",
+          "matched_term": "Hydrangea xanthoneura",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Prunus tomentosa",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N10"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N10",
+          "matched_term": "Prunus tomentosa",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Prunus tomentosa",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N10"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N10",
+          "matched_term": "Prunus tomentosa",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Syringa tomentella",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N11"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N11",
+          "matched_term": "Syringa tomentella",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Syringa tomentella",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N11"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N11",
+          "matched_term": "Syringa tomentella",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Syringa velutina",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N11"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N11",
+          "matched_term": "Syringa velutina",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Syringa velutina",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N11"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N11",
+          "matched_term": "Syringa velutina",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Magnolia conspicua",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N12"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N12",
+          "matched_term": "Magnolia conspicua",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Magnolia conspicua",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N12"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N12",
+          "matched_term": "Magnolia conspicua",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Magnolia Yulan",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N12"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N12",
+          "matched_term": "Magnolia Yulan",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Magnolia Yulan",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Picea retroflexa",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N13"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N13",
+          "matched_term": "Picea retroflexa",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Picea retroflexa",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N13"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N13",
+          "matched_term": "Picea retroflexa",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "P. asperata",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N13"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N13",
+          "matched_term": "P. asperata",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "P. asperata",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N13"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N13",
+          "matched_term": "P. asperata",
+          "score": 0.55
+        }
+      ]
+    },
+    {
+      "query": "Actinodaphne cupularis",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N14"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N14",
+          "matched_term": "Actinodaphne cupularis",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Actinodaphne cupularis",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N14"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N14",
+          "matched_term": "Actinodaphne cupularis",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Litsea cupularis",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N14"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N14",
+          "matched_term": "Litsea cupularis",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Litsea cupularis",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N14"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N14",
+          "matched_term": "Litsea cupularis",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Poncirus trifoliata",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N15"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N15",
+          "matched_term": "Poncirus trifoliata",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Poncirus trifoliata",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N15"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N15",
+          "matched_term": "Poncirus trifoliata",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Citrus trifoliata",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N15"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N15",
+          "matched_term": "Citrus trifoliata",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Citrus trifoliata",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N15"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N15",
+          "matched_term": "Citrus trifoliata",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Rhamnella Wilsonii",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N16"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N16",
+          "matched_term": "Rhamnella Wilsonii",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Rhamnella Wilsonii",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Rhamnella Martinii",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N16"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N16",
+          "matched_term": "Rhamnella Martinii",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Rhamnella Martinii",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Pyrus Aria",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N17"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N17",
+          "matched_term": "Pyrus Aria",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Pyrus Aria",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Pyrus Bodinieri",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N17"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N17",
+          "matched_term": "Pyrus Bodinieri",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Pyrus Bodinieri",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    },
+    {
+      "query": "Cleyera ochnacea",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N18"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N18",
+          "matched_term": "Cleyera ochnacea",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Cleyera ochnacea",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N18"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N18",
+          "matched_term": "Cleyera ochnacea",
+          "score": 0.85
+        }
+      ]
+    },
+    {
+      "query": "Ternstroemia Lushia",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "N18"
+      ],
+      "result_label_fields_present": 0,
+      "selected_hits": [
+        {
+          "candidate_id": "N18",
+          "matched_term": "Ternstroemia Lushia",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "query": "Ternstroemia Lushia",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "result_label_fields_present": 0,
+      "selected_hits": []
+    }
+  ],
+  "targets": [
+    {
+      "candidate_id": "N01",
+      "target_query": "Liriodendron Tulipifera",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N01",
+      "target_query": "Schizandra chinensis",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N02",
+      "target_query": "Garcinia multiflora",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N02",
+      "target_query": "Garcinia oblongifolia",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N03",
+      "target_query": "Rourea Millettii",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N03",
+      "target_query": "Rourea santaloides",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N04",
+      "target_query": "Spiraea pubescens",
+      "exact_selected_page_returned": false,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N04",
+      "target_query": "Spiraea chinensis",
+      "exact_selected_page_returned": false,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N05",
+      "target_query": "Melastoma repens",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N05",
+      "target_query": "Osbeckia repens",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N06",
+      "target_query": "Dipsacus japonicus",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N06",
+      "target_query": "Dipsacus Gmelini",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N07",
+      "target_query": "Hydrangea umbellata",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N07",
+      "target_query": "Hydrangea Davidi",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N08",
+      "target_query": "Padus acrophylla",
+      "exact_selected_page_returned": false,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N08",
+      "target_query": "P. virginiana",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N09",
+      "target_query": "Deutzia sessilifolia",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N09",
+      "target_query": "Hydrangea xanthoneura",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N10",
+      "target_query": "Prunus tomentosa",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N11",
+      "target_query": "Syringa tomentella",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N11",
+      "target_query": "Syringa velutina",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N12",
+      "target_query": "Magnolia conspicua",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N12",
+      "target_query": "Magnolia Yulan",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N13",
+      "target_query": "Picea retroflexa",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N13",
+      "target_query": "P. asperata",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N14",
+      "target_query": "Actinodaphne cupularis",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N14",
+      "target_query": "Litsea cupularis",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N15",
+      "target_query": "Poncirus trifoliata",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N15",
+      "target_query": "Citrus trifoliata",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N16",
+      "target_query": "Rhamnella Wilsonii",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N16",
+      "target_query": "Rhamnella Martinii",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N17",
+      "target_query": "Pyrus Aria",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N17",
+      "target_query": "Pyrus Bodinieri",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "N18",
+      "target_query": "Cleyera ochnacea",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "N18",
+      "target_query": "Ternstroemia Lushia",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    }
+  ],
+  "pages": [
+    {
+      "candidate_id": "N01",
+      "label": "25",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N02",
+      "label": "75",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N03",
+      "label": "150",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N04",
+      "label": "225",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N05",
+      "label": "300",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N06",
+      "label": "400",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N07",
+      "label": "25",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N08",
+      "label": "75",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N09",
+      "label": "150",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N10",
+      "label": "225",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N11",
+      "label": "300",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N12",
+      "label": "400",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N13",
+      "label": "25",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N14",
+      "label": "75",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N15",
+      "label": "150",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N16",
+      "label": "225",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N17",
+      "label": "300",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    },
+    {
+      "candidate_id": "N18",
+      "label": "400",
+      "label_preserved": true,
+      "page_detail_label_present": true
+    }
+  ],
+  "occurrence_offsets": [
+    {
+      "candidate_id": "N01",
+      "term": "Arbor pulchra",
+      "term_type": "scientific_name",
+      "start": 82,
+      "end": 95,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Shearer lectis",
+      "term_type": "scientific_name",
+      "start": 145,
+      "end": 159,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Maries lectis",
+      "term_type": "scientific_name",
+      "start": 201,
+      "end": 215,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Lushan mountains",
+      "term_type": "scientific_name",
+      "start": 403,
+      "end": 419,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Possibly this",
+      "term_type": "scientific_name",
+      "start": 463,
+      "end": 476,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Schizandra chinensis",
+      "term_type": "scientific_name",
+      "start": 703,
+      "end": 723,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Maximowiczia chinensis",
+      "term_type": "scientific_name",
+      "start": 824,
+      "end": 846,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Kadsura chinensis",
+      "term_type": "scientific_name",
+      "start": 894,
+      "end": 911,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Tsunglin range",
+      "term_type": "scientific_name",
+      "start": 1302,
+      "end": 1316,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Kadsura chinensis",
+      "term_type": "scientific_name",
+      "start": 1368,
+      "end": 1385,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Kadsura japonica",
+      "term_type": "scientific_name",
+      "start": 1421,
+      "end": 1437,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Uvaria calamistrata",
+      "term_type": "scientific_name",
+      "start": 1630,
+      "end": 1649,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N01",
+      "term": "Uvaria microcarpa",
+      "term_type": "scientific_name",
+      "start": 1840,
+      "end": 1857,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Malay peninsula",
+      "term_type": "scientific_name",
+      "start": 146,
+      "end": 161,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Garcinia multiflora",
+      "term_type": "scientific_name",
+      "start": 216,
+      "end": 235,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Garcinia oblongifolia",
+      "term_type": "scientific_name",
+      "start": 419,
+      "end": 440,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Very widely",
+      "term_type": "scientific_name",
+      "start": 830,
+      "end": 841,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Calophyllum membranaceum",
+      "term_type": "scientific_name",
+      "start": 889,
+      "end": 913,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Calophyllum spectabile",
+      "term_type": "scientific_name",
+      "start": 1074,
+      "end": 1096,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Stalagmites erosipetala",
+      "term_type": "scientific_name",
+      "start": 1230,
+      "end": 1253,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Calysaccion chinense",
+      "term_type": "scientific_name",
+      "start": 1312,
+      "end": 1332,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Ternstremia japonica",
+      "term_type": "scientific_name",
+      "start": 1465,
+      "end": 1485,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Cleyera japonica",
+      "term_type": "scientific_name",
+      "start": 1669,
+      "end": 1685,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Cleyera fragrans",
+      "term_type": "scientific_name",
+      "start": 1734,
+      "end": 1750,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "Ternstroemia fragrans",
+      "term_type": "scientific_name",
+      "start": 1806,
+      "end": 1827,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Rourea santaloides",
+      "term_type": "scientific_name",
+      "start": 77,
+      "end": 95,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Bentham goes",
+      "term_type": "scientific_name",
+      "start": 440,
+      "end": 452,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Thermopsis fabacea",
+      "term_type": "scientific_name",
+      "start": 805,
+      "end": 823,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Thermopsis chinensis",
+      "term_type": "scientific_name",
+      "start": 893,
+      "end": 913,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Sophora fabacea",
+      "term_type": "scientific_name",
+      "start": 998,
+      "end": 1013,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Thermopsis lanceolata",
+      "term_type": "scientific_name",
+      "start": 1317,
+      "end": 1338,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Taining aud",
+      "term_type": "scientific_name",
+      "start": 1549,
+      "end": 1560,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Widely spread",
+      "term_type": "scientific_name",
+      "start": 1661,
+      "end": 1674,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Crotalaria albida",
+      "term_type": "scientific_name",
+      "start": 1704,
+      "end": 1721,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Throughout tropical",
+      "term_type": "scientific_name",
+      "start": 2038,
+      "end": 2057,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "Asia eastward",
+      "term_type": "scientific_name",
+      "start": 2058,
+      "end": 2071,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "Bunge under",
+      "term_type": "scientific_name",
+      "start": 555,
+      "end": 566,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "Folia breviter",
+      "term_type": "scientific_name",
+      "start": 1160,
+      "end": 1174,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "Flores mediocres",
+      "term_type": "scientific_name",
+      "start": 1470,
+      "end": 1486,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "Carpella matura",
+      "term_type": "scientific_name",
+      "start": 1773,
+      "end": 1788,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Triana doubtingly",
+      "term_type": "scientific_name",
+      "start": 35,
+      "end": 52,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Melastoma repens",
+      "term_type": "scientific_name",
+      "start": 297,
+      "end": 313,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Osbeckia repens",
+      "term_type": "scientific_name",
+      "start": 513,
+      "end": 528,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Asterostoma repens",
+      "term_type": "scientific_name",
+      "start": 555,
+      "end": 573,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Rhexia heteranthera",
+      "term_type": "scientific_name",
+      "start": 617,
+      "end": 636,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Osbeckia heteranthera",
+      "term_type": "scientific_name",
+      "start": 698,
+      "end": 719,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Melastoma dodecandra",
+      "term_type": "scientific_name",
+      "start": 753,
+      "end": 773,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Melastoma sanguineum",
+      "term_type": "scientific_name",
+      "start": 1022,
+      "end": 1042,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Melastoma decemfidum",
+      "term_type": "scientific_name",
+      "start": 1222,
+      "end": 1242,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "Barthea chinensis",
+      "term_type": "scientific_name",
+      "start": 1694,
+      "end": 1711,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Khasia hills",
+      "term_type": "scientific_name",
+      "start": 61,
+      "end": 73,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Dipsacus japonicus",
+      "term_type": "scientific_name",
+      "start": 94,
+      "end": 112,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Yaloo river",
+      "term_type": "scientific_name",
+      "start": 684,
+      "end": 695,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Dahuria eastward",
+      "term_type": "scientific_name",
+      "start": 744,
+      "end": 760,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Scabiosa cochinchinensis",
+      "term_type": "scientific_name",
+      "start": 778,
+      "end": 802,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Chinese name",
+      "term_type": "scientific_name",
+      "start": 859,
+      "end": 871,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Philippine plant",
+      "term_type": "scientific_name",
+      "start": 1362,
+      "end": 1378,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Vernonia bracteata",
+      "term_type": "scientific_name",
+      "start": 1520,
+      "end": 1538,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N06",
+      "term": "Wuchu gorge",
+      "term_type": "scientific_name",
+      "start": 1736,
+      "end": 1747,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "Hydrangea umbellata",
+      "term_type": "scientific_name",
+      "start": 76,
+      "end": 95,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "Frutex metralis",
+      "term_type": "scientific_name",
+      "start": 112,
+      "end": 127,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "Folia membranacea",
+      "term_type": "scientific_name",
+      "start": 283,
+      "end": 300,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "Inflorescentia umbelliformis",
+      "term_type": "scientific_name",
+      "start": 624,
+      "end": 652,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "Closely related",
+      "term_type": "scientific_name",
+      "start": 1319,
+      "end": 1334,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "Hydrangea paniculata",
+      "term_type": "scientific_name",
+      "start": 2437,
+      "end": 2457,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Racemorum fructiferorum",
+      "term_type": "scientific_name",
+      "start": 24,
+      "end": 47,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Folia subtus",
+      "term_type": "scientific_name",
+      "start": 131,
+      "end": 143,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Cupula intus",
+      "term_type": "scientific_name",
+      "start": 176,
+      "end": 188,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Stylus brevis",
+      "term_type": "scientific_name",
+      "start": 256,
+      "end": 269,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Nuttall apud",
+      "term_type": "scientific_name",
+      "start": 338,
+      "end": 350,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Europa usque",
+      "term_type": "scientific_name",
+      "start": 430,
+      "end": 442,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Afghanistan usque",
+      "term_type": "scientific_name",
+      "start": 498,
+      "end": 516,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Axes racemorum",
+      "term_type": "scientific_name",
+      "start": 1039,
+      "end": 1053,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Folia subtus",
+      "term_type": "scientific_name",
+      "start": 1112,
+      "end": 1125,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Cupula intus",
+      "term_type": "scientific_name",
+      "start": 1203,
+      "end": 1215,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Padus acro",
+      "term_type": "scientific_name",
+      "start": 1326,
+      "end": 1336,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Schneider chinensi",
+      "term_type": "scientific_name",
+      "start": 1352,
+      "end": 1370,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Folia decidua",
+      "term_type": "scientific_name",
+      "start": 1491,
+      "end": 1504,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Pedunculi nudi",
+      "term_type": "scientific_name",
+      "start": 1538,
+      "end": 1552,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Calyx magis",
+      "term_type": "scientific_name",
+      "start": 1581,
+      "end": 1592,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Capsula matura",
+      "term_type": "scientific_name",
+      "start": 585,
+      "end": 599,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Most nearly",
+      "term_type": "scientific_name",
+      "start": 869,
+      "end": 880,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Deutzia sessilifolia",
+      "term_type": "scientific_name",
+      "start": 1594,
+      "end": 1614,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Deutzia occurring",
+      "term_type": "scientific_name",
+      "start": 2010,
+      "end": 2027,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Besides these",
+      "term_type": "scientific_name",
+      "start": 2049,
+      "end": 2062,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Synopsis except",
+      "term_type": "scientific_name",
+      "start": 2147,
+      "end": 2163,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "One more",
+      "term_type": "scientific_name",
+      "start": 2677,
+      "end": 2685,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Neodeutzia occurs",
+      "term_type": "scientific_name",
+      "start": 2714,
+      "end": 2731,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Hemsley including",
+      "term_type": "scientific_name",
+      "start": 2764,
+      "end": 2781,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Schneider originally",
+      "term_type": "scientific_name",
+      "start": 2809,
+      "end": 2829,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Hydrangea xanthoneura",
+      "term_type": "scientific_name",
+      "start": 2993,
+      "end": 3014,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "Rehder containing",
+      "term_type": "scientific_name",
+      "start": 3104,
+      "end": 3121,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "See also",
+      "term_type": "scientific_name",
+      "start": 3301,
+      "end": 3309,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N10",
+      "term": "Prunus tomentosa",
+      "term_type": "scientific_name",
+      "start": 170,
+      "end": 186,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N10",
+      "term": "Stipulae lineari-subulatae",
+      "term_type": "scientific_name",
+      "start": 475,
+      "end": 501,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N10",
+      "term": "Drupa circiter",
+      "term_type": "scientific_name",
+      "start": 1549,
+      "end": 1564,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N10",
+      "term": "Inkiapo above",
+      "term_type": "scientific_name",
+      "start": 2162,
+      "end": 2176,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Syringa tomentella",
+      "term_type": "scientific_name",
+      "start": 282,
+      "end": 300,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Syringa velutina",
+      "term_type": "scientific_name",
+      "start": 470,
+      "end": 486,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Emodi var",
+      "term_type": "scientific_name",
+      "start": 573,
+      "end": 582,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Folia membranacea",
+      "term_type": "scientific_name",
+      "start": 1415,
+      "end": 1432,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Inflorescentia terminalis",
+      "term_type": "scientific_name",
+      "start": 1733,
+      "end": 1758,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Closely allied",
+      "term_type": "scientific_name",
+      "start": 2375,
+      "end": 2389,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "Franchet which",
+      "term_type": "scientific_name",
+      "start": 2407,
+      "end": 2421,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia conspicua",
+      "term_type": "scientific_name",
+      "start": 33,
+      "end": 51,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia obovata",
+      "term_type": "scientific_name",
+      "start": 895,
+      "end": 912,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia hirsuta",
+      "term_type": "scientific_name",
+      "start": 1031,
+      "end": 1047,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Yulania conspicua",
+      "term_type": "scientific_name",
+      "start": 1131,
+      "end": 1148,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Kuling but",
+      "term_type": "scientific_name",
+      "start": 1564,
+      "end": 1574,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Our material",
+      "term_type": "scientific_name",
+      "start": 1641,
+      "end": 1653,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Tang dynasty",
+      "term_type": "scientific_name",
+      "start": 1930,
+      "end": 1942,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia obovata",
+      "term_type": "scientific_name",
+      "start": 2505,
+      "end": 2521,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia hirsuta",
+      "term_type": "scientific_name",
+      "start": 2699,
+      "end": 2715,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia sericea",
+      "term_type": "scientific_name",
+      "start": 2785,
+      "end": 2801,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Edgeworthia papyrifera",
+      "term_type": "scientific_name",
+      "start": 2878,
+      "end": 2900,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Thunberg had",
+      "term_type": "scientific_name",
+      "start": 2964,
+      "end": 2976,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Japanese name",
+      "term_type": "scientific_name",
+      "start": 3141,
+      "end": 3154,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Edgeworthia papyrifera",
+      "term_type": "scientific_name",
+      "start": 3186,
+      "end": 3208,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "Folia linearia",
+      "term_type": "scientific_name",
+      "start": 311,
+      "end": 326,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "Strobili oblongo",
+      "term_type": "scientific_name",
+      "start": 638,
+      "end": 654,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "Picea retroflexa",
+      "term_type": "scientific_name",
+      "start": 1990,
+      "end": 2006,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "Descriptioni originali",
+      "term_type": "scientific_name",
+      "start": 2104,
+      "end": 2126,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "Folia spiraliter",
+      "term_type": "scientific_name",
+      "start": 2369,
+      "end": 2386,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "Strobili bracteae",
+      "term_type": "scientific_name",
+      "start": 2568,
+      "end": 2585,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Nanmu shu",
+      "term_type": "scientific_name",
+      "start": 365,
+      "end": 374,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Here may",
+      "term_type": "scientific_name",
+      "start": 388,
+      "end": 396,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Actinodaphne cupularis",
+      "term_type": "scientific_name",
+      "start": 498,
+      "end": 520,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Litsea cupularis",
+      "term_type": "scientific_name",
+      "start": 539,
+      "end": 555,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Actinodaphne reticulata",
+      "term_type": "scientific_name",
+      "start": 812,
+      "end": 835,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Litsea citrata",
+      "term_type": "scientific_name",
+      "start": 988,
+      "end": 1002,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Tetranthera citrata",
+      "term_type": "scientific_name",
+      "start": 1030,
+      "end": 1049,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start": 1056,
+      "end": 1064,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Tetranthera polyantha",
+      "term_type": "scientific_name",
+      "start": 1100,
+      "end": 1121,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start": 1174,
+      "end": 1182,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Litsea sericea",
+      "term_type": "scientific_name",
+      "start": 1666,
+      "end": 1680,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Tetranthera sericea",
+      "term_type": "scientific_name",
+      "start": 1723,
+      "end": 1742,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Wallich apud",
+      "term_type": "scientific_name",
+      "start": 1743,
+      "end": 1755,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start": 1762,
+      "end": 1770,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Nees von",
+      "term_type": "scientific_name",
+      "start": 1830,
+      "end": 1838,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "River valley",
+      "term_type": "scientific_name",
+      "start": 2307,
+      "end": 2319,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chinese character",
+      "term_type": "scientific_name",
+      "start": 543,
+      "end": 560,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih shih",
+      "term_type": "scientific_name",
+      "start": 759,
+      "end": 768,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih fruit",
+      "term_type": "scientific_name",
+      "start": 771,
+      "end": 781,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih peel",
+      "term_type": "scientific_name",
+      "start": 797,
+      "end": 806,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Poncirus trifoliata",
+      "term_type": "scientific_name",
+      "start": 897,
+      "end": 916,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Further study",
+      "term_type": "scientific_name",
+      "start": 919,
+      "end": 933,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih fruit",
+      "term_type": "scientific_name",
+      "start": 1029,
+      "end": 1039,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih peel",
+      "term_type": "scientific_name",
+      "start": 1044,
+      "end": 1053,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Poncirus trifoliata",
+      "term_type": "scientific_name",
+      "start": 1141,
+      "end": 1160,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Japan many",
+      "term_type": "scientific_name",
+      "start": 1198,
+      "end": 1208,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Citrus trifoliata",
+      "term_type": "scientific_name",
+      "start": 1284,
+      "end": 1301,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Aegle sepiaria",
+      "term_type": "scientific_name",
+      "start": 1314,
+      "end": 1328,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Fruit used",
+      "term_type": "scientific_name",
+      "start": 2879,
+      "end": 2889,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chinese medicinally",
+      "term_type": "scientific_name",
+      "start": 2893,
+      "end": 2912,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Poncirus tri",
+      "term_type": "scientific_name",
+      "start": 2988,
+      "end": 3000,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Studii botanici",
+      "term_type": "scientific_name",
+      "start": 3355,
+      "end": 3370,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "See also",
+      "term_type": "scientific_name",
+      "start": 3517,
+      "end": 3525,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Comptes rendus",
+      "term_type": "scientific_name",
+      "start": 3739,
+      "end": 3753,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Folia alterna",
+      "term_type": "scientific_name",
+      "start": 485,
+      "end": 498,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Inflorescentia axillaris",
+      "term_type": "scientific_name",
+      "start": 988,
+      "end": 1012,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Fructus oblongus",
+      "term_type": "scientific_name",
+      "start": 1251,
+      "end": 1267,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Frutex omnino",
+      "term_type": "scientific_name",
+      "start": 2036,
+      "end": 2049,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Folia papyracea",
+      "term_type": "scientific_name",
+      "start": 2195,
+      "end": 2210,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Fructus nondum",
+      "term_type": "scientific_name",
+      "start": 2641,
+      "end": 2655,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Rhamnella franguloides",
+      "term_type": "scientific_name",
+      "start": 2926,
+      "end": 2948,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Microrhamnus franguloides",
+      "term_type": "scientific_name",
+      "start": 3098,
+      "end": 3123,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "Rhamnella japonica",
+      "term_type": "scientific_name",
+      "start": 3235,
+      "end": 3253,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus brunnea",
+      "term_type": "scientific_name",
+      "start": 487,
+      "end": 500,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus ferruginea",
+      "term_type": "scientific_name",
+      "start": 699,
+      "end": 715,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Rehder escaped",
+      "term_type": "scientific_name",
+      "start": 855,
+      "end": 869,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Koidzumi compares",
+      "term_type": "scientific_name",
+      "start": 894,
+      "end": 911,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus hupehensis",
+      "term_type": "scientific_name",
+      "start": 1010,
+      "end": 1026,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pampanini describes",
+      "term_type": "scientific_name",
+      "start": 1196,
+      "end": 1215,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus altogether",
+      "term_type": "scientific_name",
+      "start": 1316,
+      "end": 1332,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus mokpoensis",
+      "term_type": "scientific_name",
+      "start": 1462,
+      "end": 1478,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus sinensis",
+      "term_type": "scientific_name",
+      "start": 1513,
+      "end": 1527,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Pyrus spectabilis",
+      "term_type": "scientific_name",
+      "start": 1581,
+      "end": 1598,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Rhodotypus kerrioides",
+      "term_type": "scientific_name",
+      "start": 1894,
+      "end": 1915,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Keria tetrapetala",
+      "term_type": "scientific_name",
+      "start": 2264,
+      "end": 2281,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "Rhodotypus tetrapetala",
+      "term_type": "scientific_name",
+      "start": 2369,
+      "end": 2391,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Cleyera ochnacea",
+      "term_type": "scientific_name",
+      "start": 33,
+      "end": 49,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Hamilton apud",
+      "term_type": "scientific_name",
+      "start": 273,
+      "end": 286,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Cleyera ochnoides",
+      "term_type": "scientific_name",
+      "start": 326,
+      "end": 343,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Wallich apud",
+      "term_type": "scientific_name",
+      "start": 344,
+      "end": 356,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Kuling but",
+      "term_type": "scientific_name",
+      "start": 882,
+      "end": 892,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Here may",
+      "term_type": "scientific_name",
+      "start": 987,
+      "end": 995,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Eurya chinensis",
+      "term_type": "scientific_name",
+      "start": 1083,
+      "end": 1098,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "But whatever",
+      "term_type": "scientific_name",
+      "start": 2321,
+      "end": 2333,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Ilex emarginata",
+      "term_type": "scientific_name",
+      "start": 2703,
+      "end": 2718,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "Eurya acuminata",
+      "term_type": "scientific_name",
+      "start": 3237,
+      "end": 3252,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "C. dubia",
+      "term_type": "scientific_name_abbrev",
+      "start": 1754,
+      "end": 1762,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N02",
+      "term": "T. dubia",
+      "term_type": "scientific_name_abbrev",
+      "start": 1831,
+      "end": 1839,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. commutata",
+      "term_type": "scientific_name_abbrev",
+      "start": 366,
+      "end": 378,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. santaloides",
+      "term_type": "scientific_name_abbrev",
+      "start": 416,
+      "end": 430,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. caudata",
+      "term_type": "scientific_name_abbrev",
+      "start": 473,
+      "end": 483,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. javanica",
+      "term_type": "scientific_name_abbrev",
+      "start": 494,
+      "end": 505,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. humilis",
+      "term_type": "scientific_name_abbrev",
+      "start": 518,
+      "end": 528,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. santaloides",
+      "term_type": "scientific_name_abbrev",
+      "start": 543,
+      "end": 557,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. commutata",
+      "term_type": "scientific_name_abbrev",
+      "start": 702,
+      "end": 714,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. dasyantha",
+      "term_type": "scientific_name_abbrev",
+      "start": 634,
+      "end": 646,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. pubescens",
+      "term_type": "scientific_name_abbrev",
+      "start": 649,
+      "end": 661,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. dasyantha",
+      "term_type": "scientific_name_abbrev",
+      "start": 862,
+      "end": 874,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. pubescens",
+      "term_type": "scientific_name_abbrev",
+      "start": 1878,
+      "end": 1890,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. dasyantha",
+      "term_type": "scientific_name_abbrev",
+      "start": 1892,
+      "end": 1904,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N05",
+      "term": "M. malabath",
+      "term_type": "scientific_name_abbrev",
+      "start": 207,
+      "end": 218,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "H. scandens",
+      "term_type": "scientific_name_abbrev",
+      "start": 1338,
+      "end": 1349,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N07",
+      "term": "H. virens",
+      "term_type": "scientific_name_abbrev",
+      "start": 1363,
+      "end": 1372,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. virginiana",
+      "term_type": "scientific_name_abbrev",
+      "start": 292,
+      "end": 305,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. demissa",
+      "term_type": "scientific_name_abbrev",
+      "start": 327,
+      "end": 337,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. cornuta",
+      "term_type": "scientific_name_abbrev",
+      "start": 470,
+      "end": 480,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. anadenia",
+      "term_type": "scientific_name_abbrev",
+      "start": 529,
+      "end": 540,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. glaucifolia",
+      "term_type": "scientific_name_abbrev",
+      "start": 563,
+      "end": 577,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. diversifolia",
+      "term_type": "scientific_name_abbrev",
+      "start": 600,
+      "end": 615,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. brachypoda",
+      "term_type": "scientific_name_abbrev",
+      "start": 632,
+      "end": 645,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. velutina",
+      "term_type": "scientific_name_abbrev",
+      "start": 670,
+      "end": 682,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. bicolor",
+      "term_type": "scientific_name_abbrev",
+      "start": 700,
+      "end": 710,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. ssiori",
+      "term_type": "scientific_name_abbrev",
+      "start": 727,
+      "end": 736,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. seoulensis",
+      "term_type": "scientific_name_abbrev",
+      "start": 820,
+      "end": 833,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. diamantinus",
+      "term_type": "scientific_name_abbrev",
+      "start": 844,
+      "end": 858,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "P. laziflora",
+      "term_type": "scientific_name_abbrev",
+      "start": 1799,
+      "end": 1811,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. longifolia",
+      "term_type": "scientific_name_abbrev",
+      "start": 892,
+      "end": 905,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. glomeruliflora",
+      "term_type": "scientific_name_abbrev",
+      "start": 1165,
+      "end": 1182,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. longifolia",
+      "term_type": "scientific_name_abbrev",
+      "start": 1419,
+      "end": 1432,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. longifolia",
+      "term_type": "scientific_name_abbrev",
+      "start": 1550,
+      "end": 1563,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. glomeruliflora",
+      "term_type": "scientific_name_abbrev",
+      "start": 1569,
+      "end": 1586,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. glabrata",
+      "term_type": "scientific_name_abbrev",
+      "start": 1833,
+      "end": 1844,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. uniflora",
+      "term_type": "scientific_name_abbrev",
+      "start": 2164,
+      "end": 2175,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. grandiflora",
+      "term_type": "scientific_name_abbrev",
+      "start": 2262,
+      "end": 2276,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. coreana",
+      "term_type": "scientific_name_abbrev",
+      "start": 2431,
+      "end": 2441,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. mexicana",
+      "term_type": "scientific_name_abbrev",
+      "start": 2752,
+      "end": 2763,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. mexicana",
+      "term_type": "scientific_name_abbrev",
+      "start": 2782,
+      "end": 2793,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "H. xanthoneura",
+      "term_type": "scientific_name_abbrev",
+      "start": 3071,
+      "end": 3085,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "H. zanthoneura",
+      "term_type": "scientific_name_abbrev",
+      "start": 3203,
+      "end": 3217,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N10",
+      "term": "A. von",
+      "term_type": "scientific_name_abbrev",
+      "start": 2054,
+      "end": 2060,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "S. tomen",
+      "term_type": "scientific_name_abbrev",
+      "start": 103,
+      "end": 111,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "S. tomentella",
+      "term_type": "scientific_name_abbrev",
+      "start": 998,
+      "end": 1011,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "S. tomentella",
+      "term_type": "scientific_name_abbrev",
+      "start": 2393,
+      "end": 2406,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. obovata",
+      "term_type": "scientific_name_abbrev",
+      "start": 2065,
+      "end": 2076,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. purpurea",
+      "term_type": "scientific_name_abbrev",
+      "start": 2095,
+      "end": 2106,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. obovata",
+      "term_type": "scientific_name_abbrev",
+      "start": 2561,
+      "end": 2571,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. hypoleuca",
+      "term_type": "scientific_name_abbrev",
+      "start": 2583,
+      "end": 2595,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. kobus",
+      "term_type": "scientific_name_abbrev",
+      "start": 2674,
+      "end": 2682,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. denudata",
+      "term_type": "scientific_name_abbrev",
+      "start": 2755,
+      "end": 2766,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. sericea",
+      "term_type": "scientific_name_abbrev",
+      "start": 2950,
+      "end": 2960,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. tomentosa",
+      "term_type": "scientific_name_abbrev",
+      "start": 3024,
+      "end": 3036,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N13",
+      "term": "P. asperata",
+      "term_type": "scientific_name_abbrev",
+      "start": 1567,
+      "end": 1578,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "R. franguloidis",
+      "term_type": "scientific_name_abbrev",
+      "start": 1146,
+      "end": 1161,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N16",
+      "term": "R. franguloides",
+      "term_type": "scientific_name_abbrev",
+      "start": 1641,
+      "end": 1656,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "P. serotina",
+      "term_type": "scientific_name_abbrev",
+      "start": 842,
+      "end": 853,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "P. ovoidea",
+      "term_type": "scientific_name_abbrev",
+      "start": 920,
+      "end": 930,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N17",
+      "term": "P. serrulata",
+      "term_type": "scientific_name_abbrev",
+      "start": 1171,
+      "end": 1183,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "E. japonica",
+      "term_type": "scientific_name_abbrev",
+      "start": 2094,
+      "end": 2105,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "E. japonica",
+      "term_type": "scientific_name_abbrev",
+      "start": 2354,
+      "end": 2365,
+      "span_matches_normalized_term": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "E. emarginata",
+      "term_type": "scientific_name_abbrev",
+      "start": 2626,
+      "end": 2639,
+      "span_matches_normalized_term": true
+    }
+  ],
+  "agrees_with_reported_selected_targets": null,
+  "interpretation": "locator and string-handling conformance only; not precision, recall, taxonomic validation or user benefit"
+}

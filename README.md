@@ -1,326 +1,128 @@
-# BioLitEvidence Finder
+# BioLitEvidence Finder supplementary research prototype
 
-Page-level evidence discovery for biodiversity literature.
+This repository publishes the BioLitEvidence Finder 0.1.0 supplementary prototype,
+frozen target specifications, retained machine records, run instructions, and
+read-only integrity checks. It is not the complete source code of the iFlora.Book
+production system. No production service, internal collection, credentials,
+manuscript, title page, signed form, or internal review report is included.
 
-BioLitEvidence Finder ingests PDF documents — taxonomic monographs, regional
-floras, plant atlases, and journal articles — and builds a searchable index
-of every page. It identifies Latin binomials, Chinese plant names,
-locality terms and topical keywords, then lets researchers search by
-keyword, scientific name, or natural-language question. **Every result
-links back to the exact page** so claims can be verified against the
-original source.
+The submission snapshot is identified by tag `ajim-submission-20261006`.
+The original source and all retained records are preserved byte for byte.
+`FREEZE.json` identifies the payload manifest; `SHA256SUMS.csv` lists the lengths
+and SHA-256 digests of exactly 57 source files and 56 machine-record files.
+The tag's full commit can be obtained with `git rev-parse ajim-submission-20261006^{}`.
 
-The system is written for **page-level evidence retrieval**, not
-generative answering: results always carry a document, a page number, an
-extracted match, and a context snippet.
+## Directory structure
 
----
+```
+S2_frozen_source/       57 unchanged source files, including the original MIT license
+records/               56 unchanged S3 files
+  reproduce/           frozen targets, runners, input hashes, dependency lock
+  historical/          original protocols, annotations and earlier outputs
+  current/             four retained runs from 4 October 2026, not new release runs
+SHA256SUMS.csv          frozen payload integrity manifest
+FREEZE.json            submission snapshot and manifest digest
+tools/verify_release.py read-only hashes, counts and 60 retained-array comparisons
+LICENSE                unchanged copy of the prototype MIT license
+LICENSE_SCOPE.md        boundaries for code, records and third-party literature
+THIRD_PARTY_NOTICES.md  dependency licensing inventory and preservation policy
+```
 
-## Highlights
+## Obtain and verify the frozen materials
 
-- **Five search modes**: exact, scientific name, full-text (FTS5), semantic
-  (embedding similarity), and hybrid combining all of them.
-- **Per-page evidence**: every hit includes the page image, the page text,
-  the matched term, a context snippet, and a deep link to the original PDF
-  with `#page=N` so the browser jumps straight to that page.
-- **Bilingual UI**: the interface defaults to English and can be switched
-  to Chinese with one click in the top-right corner.
-- **Offline-first**: works without any external services. LLM and
-  embedding APIs are optional accelerators; rule-based extraction and
-  full-text search remain available without them.
-- **OpenAI-compatible APIs**: any chat / embedding endpoint that follows
-  the OpenAI API shape can be plugged in (e.g. DeepSeek, Qwen, OpenAI,
-  Azure OpenAI, local vLLM).
-- **Pluggable OCR**: optional pytesseract for scanned pages.
+Download this tag's source archive using GitHub's Code or tag page, or clone the
+repository and check out `ajim-submission-20261006`. Run from the repository root:
 
----
+```console
+python tools/verify_release.py
+```
 
-## Quick start (one click)
+Python 3.11 or newer is sufficient for this check; it uses only the standard
+library. It verifies the manifest digest, all 113 file lengths and SHA-256 digests,
+exact file counts, and recomputes 60 comparisons between the retained arrays.
+It writes no files and neither downloads source PDFs nor reruns the experiment.
+Run this check before installing dependencies or using the prototype.
 
-After cloning the repository:
+## Install and run the optional prototype interface
 
-| Platform | Command |
-|----------|---------|
-| Windows  | double-click `start.bat` |
-| Linux / macOS | `bash start.sh` |
+The frozen launchers expect Python 3.11+ and Node.js 18+. From `S2_frozen_source/`,
+use `start.bat` on Windows or `bash start.sh` on Linux/macOS. Alternatively:
 
-The first run installs the Python virtual environment and the npm
-dependencies, then starts both servers. Open
-**http://localhost:5173** in a browser. The interface defaults to
-English; click **中文** in the header to switch language.
-
-Requirements on the host:
-
-- Python **3.11+**
-- Node.js **18+**
-- (optional) Tesseract OCR with `chi_sim` language pack, only needed for
-  scanned PDFs
-
----
-
-## Manual setup
-
-### Backend
-
-```bash
-cd backend
+```console
+cd S2_frozen_source/backend
 python -m venv .venv
-# Windows
-.venv\Scripts\activate
-# Linux / macOS
-source .venv/bin/activate
-
-pip install -r requirements.txt
-cp .env.example .env       # then edit .env to add API keys (optional)
-
-uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```
 
-Swagger UI: **http://localhost:8000/docs**
+Activate `.venv` (`.venv\Scripts\activate` on Windows or
+`source .venv/bin/activate` on Linux/macOS), then run:
 
-### Frontend
-
-```bash
-cd frontend
-npm install
-npm run dev -- --host 0.0.0.0 --port 5173
+```console
+python -m pip install -r requirements.txt
+uvicorn app.main:app --host 127.0.0.1 --port 8000
 ```
 
-Open **http://localhost:5173**.
+In another terminal:
 
-The Vite dev server proxies `/api/*` to `http://127.0.0.1:8000`, so the
-two processes work together as long as both are running locally.
-
-### Production build (frontend)
-
-```bash
-cd frontend
-npm run build       # outputs to frontend/dist/
+```console
+cd S2_frozen_source/frontend
+npm ci
+npm run dev -- --host 127.0.0.1 --port 5173
 ```
 
-Serve `frontend/dist/` with any static web server (nginx, Caddy, etc.)
-and reverse-proxy `/api/*` to the backend.
+Open `http://localhost:5173`. The supplied `backend/.env.example` contains empty
+credential fields. An empty configuration supports rule-based operation; optional
+OCR, LLM and embedding features are separate paths and were not evaluated by the
+retained historical-page experiment. The frozen application README and guides
+describe the prototype's broader optional interface; they are not evidence that
+every path was evaluated or that production functionality was released.
 
----
+## Replay instructions and historical record scope
 
-## Configuration
+The original sample has 2 volumes, 10 pages and 15 frozen targets: literal returns
+14/15, name-index returns 13/15, and 153/153 offset conformance. The extension has
+3 volumes, 18 pages and 35 targets: literal returns 32/35, name-index returns
+22/35, and 254/254 offset conformance. Report these samples separately. The union
+is 3 volumes, 28 distinct pages and 50 targets; these selected pages do not support
+a collection-wide success rate or an expert taxonomic accuracy estimate.
 
-All configuration is read from `backend/.env`. A complete example lives
-at `backend/.env.example`. The minimum useful configuration is empty —
-the system runs in offline mode with rule-based extraction and full-text
-search.
+The four retained runs are from 4 October 2026. `current` is the original input
+package's stage name. This release performs integrity and retained-array checks,
+not new PDF experiments, and does not regenerate or overwrite any research result.
+Initial candidate readings and annotations were assistant/tool-assisted. The
+authors' later confirmation of strings and locators is distinct from expert
+taxonomic assessment; historical participation fields remain unchanged.
 
-### LLM (optional, for richer keyword extraction)
+For a new replay, create a separate virtual environment and install
+`records/reproduce/requirements-replay.txt`. The exact original resolved versions
+are in `requirements-resolved.lock`; cross-platform install success is not claimed.
+Obtain the three full public PDFs listed in the two input specifications, store
+them as `<identifier>.pdf` in a separate `public_inputs` directory, and verify their
+specified SHA-256 digests. Scans and page images are not redistributed here.
+Use new, nonexistent output directories, for example:
 
-```env
-LLM_API_BASE_URL=https://api.deepseek.com
-LLM_API_KEY=sk-...
-LLM_MODEL=deepseek-v4-flash
+```console
+python -X utf8 records/reproduce/run_trace_adapter.py records/reproduce/reproduce_baseline.py --source-dir S2_frozen_source --cached-pdf-dir public_inputs --work-dir replay_runs/baseline_a
+python -X utf8 records/reproduce/run_trace_adapter.py records/reproduce/run_extension_replay.py --source-dir S2_frozen_source --cached-pdf-dir public_inputs --work-dir replay_runs/extension_a
 ```
 
-Any OpenAI-compatible endpoint works. The system asks the model to
-extract structured metadata (scientific names, Chinese names, locations,
-keywords, evidence type) from each page and validates every returned
-entry against the page text to guard against fabrication.
+Repeat with new directories for independent B runs. Inspect mismatches rather than
+forcing expected outputs. The unchanged runners copy the prototype into disposable
+stores, use the existing PDF text layer, disable OCR, LLM and vector computation,
+and block network connections during application processing. Input downloads, if
+needed, precede that processing. Do not point runs at `records/current` or any
+production store. `records/current/execution_commands.json` retains the historical
+portable command rendering; adapt source paths to this repository structure.
 
-### Embedding (optional, for semantic search)
+Frozen records such as `records/README.txt` retain the older TXT-only packaging
+instructions and the historically true statement that no hosted repository was
+then asserted. For this published snapshot, use this root README and the direct
+paths above. The older wording is preserved to retain the records' original hashes.
 
-```env
-EMBEDDING_API_BASE_URL=https://uni-api.cstcloud.cn/v1
-EMBEDDING_API_KEY=sk-...
-EMBEDDING_MODEL=qwen3-embedding:8b
-```
+## License boundaries
 
-If no embedding API is configured, the system tries
-`sentence-transformers` locally (`pip install sentence-transformers`).
-If neither is available, semantic search is disabled and the other four
-search modes still work.
-
-### Database
-
-The default database is a single SQLite file at `data/app.db`. SQLite
-with FTS5 trigram tokenizer handles bilingual full-text search well and
-keeps the project zero-config for new users.
-
-To use a different database (PostgreSQL, MySQL, SQL Server, etc.), set
-`DATABASE_URL` in `.env` to a SQLAlchemy connection string, for
-example:
-
-```env
-DATABASE_URL=postgresql+psycopg://user:pass@host/biolit
-```
-
-The full-text mode automatically falls back to a SQL `LIKE` scan on
-non-SQLite backends; the four other search modes are unchanged.
-
-### Storage paths
-
-```env
-DATA_DIR=../data
-DB_PATH=../data/app.db
-PAGE_IMAGE_DPI=144
-```
-
-`data/uploads/` holds the original PDFs, `data/page_images/` holds the
-rendered page screenshots used in the viewer.
-
----
-
-## Optional: install Tesseract OCR
-
-For scanned PDFs without a text layer.
-
-| Platform | Command |
-|----------|---------|
-| Debian/Ubuntu | `sudo apt-get install tesseract-ocr tesseract-ocr-chi-sim` |
-| macOS (Homebrew) | `brew install tesseract tesseract-lang` |
-| Windows | Install from <https://github.com/UB-Mannheim/tesseract/wiki> and add `tesseract.exe` to PATH |
-
-If Tesseract is not present, the system processes text-layer PDFs
-normally and silently skips OCR for scanned pages.
-
----
-
-## Using the application
-
-The companion document **[USER_GUIDE.md](./USER_GUIDE.md)** walks through
-the typical workflow: upload, monitor processing, search across modes,
-view evidence and export results.
-
----
-
-## Repository layout
-
-```
-biolit-evidence-finder/
-├── backend/
-│   ├── app/
-│   │   ├── main.py              # FastAPI entry point
-│   │   ├── config.py            # .env-driven settings
-│   │   ├── database.py          # SQLAlchemy engine + FTS5 bootstrap
-│   │   ├── models.py            # documents / pages / occurrences / chunks
-│   │   ├── schemas.py           # Pydantic IO schemas
-│   │   ├── routers/             # documents / search / settings / stats
-│   │   └── services/            # pdf, ocr, extraction, llm, embedding,
-│   │                              search, export
-│   ├── scripts/                 # demo PDF generator, smoke test,
-│   │                              export and reset utilities
-│   ├── requirements.txt
-│   └── .env.example
-├── frontend/
-│   └── src/
-│       ├── pages/               # Dashboard, Upload, Documents, Search,
-│       │                          Viewer, Settings
-│       ├── components/, api/, types/, i18n/
-│       ├── App.tsx, main.tsx, index.css
-│       └── ...                  # vite.config.ts, tailwind, tsconfig
-├── data/
-│   ├── uploads/                 # original PDFs
-│   ├── page_images/             # rendered page screenshots
-│   └── app.db                   # SQLite database
-├── start.bat / start.sh         # one-click launchers
-├── docker-compose.yml
-├── README.md / USER_GUIDE.md / DEPLOY.md
-```
-
----
-
-## Data management
-
-### Generate a demo PDF
-
-```bash
-cd backend
-python scripts/create_demo_pdf.py demo.pdf
-```
-
-Then upload `demo.pdf` through the UI to verify the full pipeline.
-
-### Export the index as JSON
-
-```bash
-cd backend
-python scripts/export_data.py            # -> ./biolit_export.json
-python scripts/export_data.py /path/out.json
-```
-
-The export contains all documents, pages, occurrences, chunks (without
-binary embeddings), and search logs. Original PDFs in
-`data/uploads/` are not duplicated.
-
-### Reset all data
-
-```bash
-cd backend
-python scripts/reset_data.py --yes              # wipe everything
-python scripts/reset_data.py --yes --backup     # export to JSON first
-```
-
-This clears the database tables and the FTS5 index, then removes files
-under `data/uploads/` and `data/page_images/`. The schema is recreated
-automatically on the next backend start.
-
----
-
-## API reference
-
-Interactive Swagger UI: **http://localhost:8000/docs**
-
-Selected endpoints:
-
-```
-GET  /api/health
-GET  /api/stats
-GET  /api/settings/status
-
-POST   /api/documents/upload                  # multipart files=
-GET    /api/documents
-GET    /api/documents/{id}
-DELETE /api/documents/{id}
-POST   /api/documents/{id}/process            # re-process a document
-
-GET  /api/documents/{id}/pages
-GET  /api/documents/{id}/pages/{page_number}
-GET  /api/documents/{id}/file
-GET  /api/documents/{id}/page-image/{page_number}
-
-GET  /api/search?q=...&mode=exact|scientific|fulltext|semantic|hybrid&limit=
-GET  /api/export/search-results?q=...&mode=...&format=csv|json
-```
-
-A typical search response:
-
-```json
-{
-  "query": "Camellia sinensis",
-  "mode": "scientific",
-  "result_count": 2,
-  "results": [
-    {
-      "document_id": 1,
-      "document_title": "Flora of China — Theaceae.pdf",
-      "file_name": "Flora of China — Theaceae.pdf",
-      "page_number": 235,
-      "matched_term": "Camellia sinensis",
-      "context": "... Camellia sinensis (L.) Kuntze 茶树 ...",
-      "score": 0.85,
-      "match_type": "scientific_name",
-      "viewer_url": "/viewer/1?page=235&q=Camellia%20sinensis&mode=scientific"
-    }
-  ]
-}
-```
-
----
-
-## Citation
-
-If you use BioLitEvidence Finder in your research, please cite the
-accompanying publication. A `CITATION.cff` will be added with the formal
-release.
-
----
-
-## License
-
-Released under the MIT License (see `LICENSE`).
+The original MIT license applies to the supplied prototype software and its
+associated software documentation. It does not automatically license all S3
+records, quoted literature, external PDFs, page images, or internal collections.
+Third-party packages keep their own licenses; no dependencies are vendored.
+See `LICENSE_SCOPE.md` and `THIRD_PARTY_NOTICES.md`. Source links and input hashes
+identify external copies but do not grant redistribution permission.

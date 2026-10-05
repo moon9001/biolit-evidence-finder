@@ -1,0 +1,30 @@
+{
+  "created_at_utc": "2026-10-04T04:24:06.313048+00:00",
+  "design": "Additional disjoint fixed-page descriptive verification; not a statistically independent benchmark",
+  "source_identifiers": [
+    "mobot31753002692298",
+    "mobot31753000294055",
+    "mobot31753002073309"
+  ],
+  "page_label_selection": [
+    "25",
+    "75",
+    "150",
+    "225",
+    "300",
+    "400"
+  ],
+  "selection_rule": "Use each stated body-page label in each volume, record the first matching sequence position, retain any inaccessible or uninformative page without outcome-based replacement. None is one of the ten original pages.",
+  "anchor_rule": "Select up to two visibly readable scientific-name strings per page before executing prototype searches; record visual inspection as assistant/tool assisted, no human ground truth. Prefer full binomials when present, otherwise preserve abbreviations exactly. Retain text-layer discrepancies.",
+  "sample_size_planned": "18 additional pages across 3 volumes",
+  "exclusions": "No restricted platform content, no human participants, no classification of accepted names or synonyms, no OCR/LLM/vector service during replay.",
+  "conditions": "Use the unchanged anonymous source snapshot, PyMuPDF 1.28.2, new disposable database for each run. Record failures and offsets; do not change extraction logic.",
+  "planned_controls": [
+    "Repeat the replay in a new store",
+    "Absent strings verified absent in the full selected text",
+    "Upper/lower query case handling",
+    "Stored labels versus search result fields",
+    "Multiple occurrences versus first-context grouping"
+  ],
+  "claim_scope": "String handling and page locator behavior within the selected pages only; no precision/recall or user/taxonomic benefit."
+}

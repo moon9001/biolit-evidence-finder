@@ -1,0 +1,22 @@
+{
+  "status": "historical records; not current accesses or current execution",
+  "observer": "automated read-only source or locator inspection; no independent human/expert confirmation",
+  "records": [
+    "baseline_reproduced_here.json",
+    "extension_run_1.json",
+    "extension_run_2.json",
+    "extension_controls_1.json",
+    "extension_controls_2.json",
+    "extension_protocol_before_replay.json",
+    "baseline_case_summary.csv",
+    "baseline_documentary_claim_check.csv",
+    "baseline_public_locator_checks.csv",
+    "baseline_selected_source_pages.csv",
+    "baseline_selected_target_checks.csv",
+    "baseline_software_behavior_checks.csv",
+    "baseline_source_inspection_annotations.json",
+    "public_input_provenance.json"
+  ],
+  "platform_reaccess_this_round": false,
+  "same_scan_verified": false
+}

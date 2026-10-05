@@ -1,0 +1,629 @@
+{
+  "selected_pages_checked": 18,
+  "selected_anchors_rechecked": 35,
+  "negative_controls": [
+    {
+      "query": "Zznotpresentus qzxnever",
+      "absent_in_selected_text": true,
+      "counts": {
+        "exact": 0,
+        "scientific": 0
+      },
+      "zero_results": true
+    },
+    {
+      "query": "Zzabsentgenus qzxabsent",
+      "absent_in_selected_text": true,
+      "counts": {
+        "exact": 0,
+        "scientific": 0
+      },
+      "zero_results": true
+    }
+  ],
+  "query_case_controls": [
+    {
+      "query": "Liriodendron Tulipifera",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Liriodendron Tulipifera",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Schizandra chinensis",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Schizandra chinensis",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Garcinia multiflora",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Garcinia multiflora",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Garcinia oblongifolia",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Garcinia oblongifolia",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rourea Millettii",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rourea Millettii",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rourea santaloides",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rourea santaloides",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Spiraea pubescens",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Spiraea pubescens",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Spiraea chinensis",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Spiraea chinensis",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Melastoma repens",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Melastoma repens",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Osbeckia repens",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Osbeckia repens",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Dipsacus japonicus",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Dipsacus japonicus",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Dipsacus Gmelini",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Dipsacus Gmelini",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Hydrangea umbellata",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Hydrangea umbellata",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Hydrangea Davidi",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Hydrangea Davidi",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Padus acrophylla",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Padus acrophylla",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "P. virginiana",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "P. virginiana",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Deutzia sessilifolia",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Deutzia sessilifolia",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Hydrangea xanthoneura",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Hydrangea xanthoneura",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Prunus tomentosa",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Prunus tomentosa",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Syringa tomentella",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Syringa tomentella",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Syringa velutina",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Syringa velutina",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Magnolia conspicua",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Magnolia conspicua",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Magnolia Yulan",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Magnolia Yulan",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Picea retroflexa",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Picea retroflexa",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "P. asperata",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "P. asperata",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Actinodaphne cupularis",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Actinodaphne cupularis",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Litsea cupularis",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Litsea cupularis",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Poncirus trifoliata",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Poncirus trifoliata",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Citrus trifoliata",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Citrus trifoliata",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rhamnella Wilsonii",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rhamnella Wilsonii",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rhamnella Martinii",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Rhamnella Martinii",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Pyrus Aria",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Pyrus Aria",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Pyrus Bodinieri",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Pyrus Bodinieri",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Cleyera ochnacea",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Cleyera ochnacea",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Ternstroemia Lushia",
+      "mode": "exact",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    },
+    {
+      "query": "Ternstroemia Lushia",
+      "mode": "scientific",
+      "lowercase_agrees": true,
+      "uppercase_agrees": true
+    }
+  ],
+  "repeated_occurrence_groups": [
+    {
+      "candidate_id": "N01",
+      "term": "Kadsura chinensis",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. commutata",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N03",
+      "term": "R. santaloides",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. dasyantha",
+      "stored_occurrences": 3,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N04",
+      "term": "S. pubescens",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Cupula intus",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N08",
+      "term": "Folia subtus",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. glomeruliflora",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. longifolia",
+      "stored_occurrences": 3,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N09",
+      "term": "D. mexicana",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N11",
+      "term": "S. tomentella",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Edgeworthia papyrifera",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "M. obovata",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia hirsuta",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N12",
+      "term": "Magnolia obovata",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N14",
+      "term": "Nees von",
+      "stored_occurrences": 4,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih fruit",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Chih peel",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N15",
+      "term": "Poncirus trifoliata",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    },
+    {
+      "candidate_id": "N18",
+      "term": "E. japonica",
+      "stored_occurrences": 2,
+      "returned_groups": 1,
+      "one_group": true
+    }
+  ],
+  "source_form_diagnostics": [
+    {
+      "query": "Spiræa pubescens",
+      "candidate_id": "N04",
+      "exact_page_returned": true,
+      "scientific_page_returned": false,
+      "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+    },
+    {
+      "query": "Spiræa chinensis",
+      "candidate_id": "N04",
+      "exact_page_returned": true,
+      "scientific_page_returned": false,
+      "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+    },
+    {
+      "query": "Padus acro-\nphylla",
+      "candidate_id": "N08",
+      "exact_page_returned": false,
+      "scientific_page_returned": false,
+      "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+    },
+    {
+      "query": "Padus acro- \nphylla",
+      "candidate_id": "N08",
+      "exact_page_returned": true,
+      "scientific_page_returned": false,
+      "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+    }
+  ],
+  "semantic_without_embeddings": {
+    "result_count": 0,
+    "note": "no_embeddings"
+  },
+  "hybrid_without_embeddings": {
+    "result_count": 1,
+    "note": "no_embeddings"
+  },
+  "network_blocked": true,
+  "retrieval_or_extraction_logic_modified": false,
+  "interpretation": "Software controls within fixed selected input; not evidence of calibrated probabilities, global search quality, or human judgment."
+}

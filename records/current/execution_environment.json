@@ -1,0 +1,29 @@
+{
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-2025Server-10.0.26100-SP0",
+  "packages": {
+    "SQLAlchemy": "2.0.35",
+    "annotated-types": "0.8.0",
+    "anyio": "4.15.1",
+    "certifi": "2026.7.22",
+    "fastapi": "0.115.0",
+    "greenlet": "3.5.6",
+    "h11": "0.16.0",
+    "httpcore": "1.0.9",
+    "httpx": "0.27.2",
+    "idna": "3.20",
+    "numpy": "2.3.5",
+    "pillow": "12.3.0",
+    "pydantic": "2.9.2",
+    "pydantic-settings": "2.5.2",
+    "pydantic_core": "2.23.4",
+    "pymupdf": "1.28.2",
+    "python-dotenv": "1.0.1",
+    "python-multipart": "0.0.12",
+    "sniffio": "1.3.1",
+    "starlette": "0.38.6",
+    "typing_extensions": "4.16.0"
+  },
+  "direct_requirements_sha256": "8896f4419b93385791069fb1638c916caa5d72f042186fe2eb647517ac6f0709",
+  "adapter_sha256": "753618ad6dc1c87e88550952aed11930baa4ba60cff3f0631c08fb5548467b26"
+}

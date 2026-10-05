@@ -1,0 +1,425 @@
+{
+  "comparisons": [
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 15,
+      "second_count": 15
+    },
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 15,
+      "second_count": 15
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "queries",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "targets",
+      "equal": true,
+      "first_count": 15,
+      "second_count": 15
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "documents",
+      "equal": true,
+      "first_count": 2,
+      "second_count": 2
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "occurrences",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "chunks",
+      "equal": true,
+      "first_count": 41,
+      "second_count": 41
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "page_text_digests",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "occurrence_extractors",
+      "equal": true,
+      "first_count": 1,
+      "second_count": 1
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "embedding_vectors_present",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 35,
+      "second_count": 35
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 35,
+      "second_count": 35
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "queries",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "targets",
+      "equal": true,
+      "first_count": 35,
+      "second_count": 35
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "documents",
+      "equal": true,
+      "first_count": 3,
+      "second_count": 3
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "occurrences",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "chunks",
+      "equal": true,
+      "first_count": 90,
+      "second_count": 90
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "page_text_digests",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "occurrence_extractors",
+      "equal": true,
+      "first_count": 1,
+      "second_count": 1
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "embedding_vectors_present",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "selected_pages_checked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "selected_anchors_rechecked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "negative_controls",
+      "equal": true,
+      "first_count": 2,
+      "second_count": 2
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "query_case_controls",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "repeated_occurrence_groups",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "source_form_diagnostics",
+      "equal": true,
+      "first_count": 4,
+      "second_count": 4
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "semantic_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "hybrid_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "network_blocked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "retrieval_or_extraction_logic_modified",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "interpretation",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "selected_pages_checked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "selected_anchors_rechecked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "negative_controls",
+      "equal": true,
+      "first_count": 2,
+      "second_count": 2
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "query_case_controls",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "repeated_occurrence_groups",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "source_form_diagnostics",
+      "equal": true,
+      "first_count": 4,
+      "second_count": 4
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "semantic_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "hybrid_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "network_blocked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "retrieval_or_extraction_logic_modified",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "interpretation",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    }
+  ],
+  "differences": []
+}

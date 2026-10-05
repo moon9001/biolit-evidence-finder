@@ -1,0 +1,2325 @@
+{
+  "run_at": "2026-10-04T07:18:31.537791+08:00",
+  "protocol_sha256": "1f46e596ec1637efa4180bd426583fd449bbc59f4da1cba935ffea17099e5b66",
+  "input_kind": "unaltered pages copied from public historical PDFs; original labels retained and derivative sequence positions explicitly mapped",
+  "selection_kind": "purposeful demonstration sample, not random or blind evaluation",
+  "software_snapshot": "BioLitEvidence Finder 0.1.0; unchanged reviewer snapshot",
+  "source_logic_modified": false,
+  "isolated_run_directory_basename": "isolated_run_2a3a896396",
+  "network_during_replay": "blocked",
+  "generative_or_vector_models_exercised": false,
+  "human_or_expert_participation": false,
+  "documents": [
+    {
+      "source_identifier": "mobot31753002692298",
+      "document_id": 1,
+      "status": "completed",
+      "processed_selected_pages": 7,
+      "source_page_content_modified": false,
+      "provider_calls_enabled": false
+    },
+    {
+      "source_identifier": "mobot31753000294055",
+      "document_id": 2,
+      "status": "completed",
+      "processed_selected_pages": 3,
+      "source_page_content_modified": false,
+      "provider_calls_enabled": false
+    }
+  ],
+  "page_mapping": [
+    {
+      "candidate_id": "E01",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 1,
+      "source_zero_based_sequence": 105,
+      "source_one_based_sequence": 106,
+      "original_pdf_label": "103",
+      "printed_locator": "103",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n105",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E02",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 2,
+      "source_zero_based_sequence": 493,
+      "source_one_based_sequence": 494,
+      "original_pdf_label": "491",
+      "printed_locator": "491",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n493",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E03",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 3,
+      "source_zero_based_sequence": 515,
+      "source_one_based_sequence": 516,
+      "original_pdf_label": "513",
+      "printed_locator": "513",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n515",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E04",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 4,
+      "source_zero_based_sequence": 5,
+      "source_one_based_sequence": 6,
+      "original_pdf_label": "3",
+      "printed_locator": "3",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n5",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E05",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 5,
+      "source_zero_based_sequence": 491,
+      "source_one_based_sequence": 492,
+      "original_pdf_label": "489",
+      "printed_locator": "489",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n491",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E06",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 6,
+      "source_zero_based_sequence": 526,
+      "source_one_based_sequence": 527,
+      "original_pdf_label": "3",
+      "printed_locator": "Pl. 3",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n526",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E07",
+      "identifier": "mobot31753002692298",
+      "excerpt_sequence": 7,
+      "source_zero_based_sequence": 357,
+      "source_one_based_sequence": 358,
+      "original_pdf_label": "355",
+      "printed_locator": "355",
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n357",
+      "document_id": 1
+    },
+    {
+      "candidate_id": "E08",
+      "identifier": "mobot31753000294055",
+      "excerpt_sequence": 1,
+      "source_zero_based_sequence": 119,
+      "source_one_based_sequence": 120,
+      "original_pdf_label": "110",
+      "printed_locator": "110",
+      "public_page_url": "https://archive.org/details/mobot31753000294055/page/n119",
+      "document_id": 2
+    },
+    {
+      "candidate_id": "E09",
+      "identifier": "mobot31753000294055",
+      "excerpt_sequence": 2,
+      "source_zero_based_sequence": 321,
+      "source_one_based_sequence": 322,
+      "original_pdf_label": "310",
+      "printed_locator": "310",
+      "public_page_url": "https://archive.org/details/mobot31753000294055/page/n321",
+      "document_id": 2
+    },
+    {
+      "candidate_id": "E10",
+      "identifier": "mobot31753000294055",
+      "excerpt_sequence": 3,
+      "source_zero_based_sequence": 622,
+      "source_one_based_sequence": 623,
+      "original_pdf_label": "610",
+      "printed_locator": "610",
+      "public_page_url": "https://archive.org/details/mobot31753000294055/page/n622",
+      "document_id": 2
+    }
+  ],
+  "page_checks": [
+    {
+      "candidate_id": "E01",
+      "label": "103",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "4d9f084d05e163ca6c1e9f62a51621994c7700697bb1b0435598d63ee6ba7c99"
+    },
+    {
+      "candidate_id": "E02",
+      "label": "491",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "bfc1ea5062d34e20024137624ba1e5e3c6ee243fb32f078b80ef801b3d6b7455"
+    },
+    {
+      "candidate_id": "E03",
+      "label": "513",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "fc5e914ee251c223aa17b4bbf9c6496690132f7a6cfdcb14ef1a690a909ebd40"
+    },
+    {
+      "candidate_id": "E04",
+      "label": "3",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "082d00967606cd6daa500a4b26443dc80be40336a4da4b08b506a1a78245192f"
+    },
+    {
+      "candidate_id": "E05",
+      "label": "489",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "76381f2dda36251fcafa3226de4a8b2c9c1bc3bcfaa2b030295f4010ba765b68"
+    },
+    {
+      "candidate_id": "E06",
+      "label": "3",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "af597ad2d41874f2824c7a95c4383d4d7d5ffb06f61c6f1f07f1d30a402dfc4b"
+    },
+    {
+      "candidate_id": "E07",
+      "label": "355",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "c07799fe3f5d9535fbe5113ec364952b09e044ad0755376b282beda63438eb5f"
+    },
+    {
+      "candidate_id": "E08",
+      "label": "110",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "f4cc1a89401a5cee938f515658d5fec656e1b4f601757ed3713266a83ae4f6a5"
+    },
+    {
+      "candidate_id": "E09",
+      "label": "310",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "f272906b41887cf704b3fdd92d0be56e3baa73513f5c1b65f733d0b6c5f72763"
+    },
+    {
+      "candidate_id": "E10",
+      "label": "610",
+      "label_preserved": true,
+      "source_text_preserved": true,
+      "page_detail_label_present": true,
+      "new_recognition_used": false,
+      "page_text_sha256": "81d2db83ab5f710b514f0b0bb25451966af0f6734521aaa8f8b7991e1f37aff5"
+    }
+  ],
+  "name_occurrences": [
+    {
+      "candidate_id": "E01",
+      "term": "Discus parvus",
+      "term_type": "scientific_name",
+      "start": 136,
+      "end": 149,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a6ae4c43cf4323c6728ddb60b975c234e28ffefbe6d4fe6c24e395cddb2c7a0c"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Ovarium ses",
+      "term_type": "scientific_name",
+      "start": 238,
+      "end": 249,
+      "span_matches_normalized_term": true,
+      "context_sha256": "bffa352f10988eee08d90aa1717e5a3538af4f860538652f3030eaf728860e62"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Semina reniformia",
+      "term_type": "scientific_name",
+      "start": 482,
+      "end": 499,
+      "span_matches_normalized_term": true,
+      "context_sha256": "85344c767f97ef2b2ee5a69ff562b39c571ab5cdd3af10a882d6939251c6227d"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Herba perennis",
+      "term_type": "scientific_name",
+      "start": 588,
+      "end": 602,
+      "span_matches_normalized_term": true,
+      "context_sha256": "54545d98e9c6dca7a29dfa3a8948e478f7cf7fcb2461a4bdafa6abfeb85adc65"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Folia alterna",
+      "term_type": "scientific_name",
+      "start": 658,
+      "end": 671,
+      "span_matches_normalized_term": true,
+      "context_sha256": "1a5b1eac59f0e9ebe18a115bab903f0b8c2eecb0c2429449036985d0b24d9154"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Flores parvi",
+      "term_type": "scientific_name",
+      "start": 688,
+      "end": 700,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c98681cab820c7abed01c7dd8635202d81649b365efe0efa0b88378183f08b38"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Psilopeganum sinense",
+      "term_type": "scientific_name",
+      "start": 759,
+      "end": 779,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0f65129294a693d9221654f5809592ce560e827a715ecb8e903f6bab5160c730"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Planta circiter",
+      "term_type": "scientific_name",
+      "start": 811,
+      "end": 826,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0d23e8303cea02b2c371ef2a2ddfb8c844708512f553d7d8690047d196691b03"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Foliola breviter",
+      "term_type": "scientific_name",
+      "start": 912,
+      "end": 928,
+      "span_matches_normalized_term": true,
+      "context_sha256": "5ab4cf5b68847329a62ec6bd9774c54428e2a3845eb6f4a41f5b3d0e1258b10b"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Fructus late",
+      "term_type": "scientific_name",
+      "start": 1281,
+      "end": 1293,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c57a83c96c8dd7813b51794b9ffb24165102327e6fd3d0c2fdafcc826ca6018e"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Thamnosma has",
+      "term_type": "scientific_name",
+      "start": 1665,
+      "end": 1678,
+      "span_matches_normalized_term": true,
+      "context_sha256": "735f9822a45bceb900134ab40cd2c3dc1d93a640974a34a19ff5fdebb3d48726"
+    },
+    {
+      "candidate_id": "E01",
+      "term": "Dictamnus albus",
+      "term_type": "scientific_name",
+      "start": 1962,
+      "end": 1977,
+      "span_matches_normalized_term": true,
+      "context_sha256": "ac26f8c13aeff7393e7a71ce4c4a4b3ff94edaf7e8dce3df9809bed8e3118499"
+    },
+    {
+      "candidate_id": "E02",
+      "term": "Psilopeganum sinense",
+      "term_type": "scientific_name",
+      "start": 228,
+      "end": 248,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a3b98040edbb24366c6b5e822ab7cec8bce91bc4788a5995c811ca0620fd4a60"
+    },
+    {
+      "candidate_id": "E02",
+      "term": "Fordia cauliflora",
+      "term_type": "scientific_name",
+      "start": 485,
+      "end": 502,
+      "span_matches_normalized_term": true,
+      "context_sha256": "1ef52858f159c5c7f742a6ea3844e29f4985b64653ed53da1411f1aa19b51409"
+    },
+    {
+      "candidate_id": "E02",
+      "term": "Gleditschia australis",
+      "term_type": "scientific_name",
+      "start": 872,
+      "end": 893,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0b93e9c351f6e00fe645b6566b50f0ed43e66330794efee3d74ef0f0216da4f1"
+    },
+    {
+      "candidate_id": "E02",
+      "term": "Sedum filipes",
+      "term_type": "scientific_name",
+      "start": 1313,
+      "end": 1326,
+      "span_matches_normalized_term": true,
+      "context_sha256": "614f61c6a55d949c42c3c04eb2cbe786d297553f035ce1d12cf9a9e602c1338c"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pyrus macrophylla",
+      "term_type": "scientific_name",
+      "start": 21,
+      "end": 39,
+      "span_matches_normalized_term": true,
+      "context_sha256": "52c1d1e14b94c0a5e86c0ae102cca552d7de59b5b66b7ade483d8c3da9e1c94e"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Psammanthe marina",
+      "term_type": "scientific_name",
+      "start": 400,
+      "end": 417,
+      "span_matches_normalized_term": true,
+      "context_sha256": "cca389172ff187283239076a552fa9fb4c676d3eb284aa7f5944cde5674493de"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pseudegle sepiaria",
+      "term_type": "scientific_name",
+      "start": 432,
+      "end": 450,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b4b843789cd256afed69527f0f94f3d3138e816b39e2269d2c65067b25a38255"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Psidium caninum",
+      "term_type": "scientific_name",
+      "start": 463,
+      "end": 478,
+      "span_matches_normalized_term": true,
+      "context_sha256": "3636f99971f36d8adcfcce488843fd047a3dbab0f937df2be4d4c48307810c6c"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Ptarmica alpina",
+      "term_type": "scientific_name",
+      "start": 742,
+      "end": 757,
+      "span_matches_normalized_term": true,
+      "context_sha256": "5f106b11b91dbd0ce49cc4007446c59f00ba334b1387536374468e6ede1afa9a"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pteroloma triquetrum",
+      "term_type": "scientific_name",
+      "start": 900,
+      "end": 920,
+      "span_matches_normalized_term": true,
+      "context_sha256": "85aed1b087a12eef83e2373b277b950b2c4f30d4126f732d5b10f6c36923c94f"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pteronia tomentosa",
+      "term_type": "scientific_name",
+      "start": 936,
+      "end": 954,
+      "span_matches_normalized_term": true,
+      "context_sha256": "37b839318b65fac143a39e3f6390a6e6665bc6ceba8d1e79ed27aab38e1b3dea"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pyracantha coccinea",
+      "term_type": "scientific_name",
+      "start": 1156,
+      "end": 1175,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c98ee1238163ad9af7ede606b5d0be905fb0c3cb7be8b28057967a92d6c62f62"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pyrethrum indicum",
+      "term_type": "scientific_name",
+      "start": 1230,
+      "end": 1247,
+      "span_matches_normalized_term": true,
+      "context_sha256": "dcee9ec7d62bbaedb9d1fd261c07619703731a0be1ddbe11f7a038998a30bbd0"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Pyxipoma polyandrum",
+      "term_type": "scientific_name",
+      "start": 1746,
+      "end": 1765,
+      "span_matches_normalized_term": true,
+      "context_sha256": "ef3e03bf70dd8e01462cbc0c68b81f858fa09d331df845d527546f7d739f0d76"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Quinaria lansium",
+      "term_type": "scientific_name",
+      "start": 1780,
+      "end": 1796,
+      "span_matches_normalized_term": true,
+      "context_sha256": "dc88810ec46bd622e747004f4642b14562b228b6af702ac26891f7835df8bf81"
+    },
+    {
+      "candidate_id": "E03",
+      "term": "Rap integerrima",
+      "term_type": "scientific_name",
+      "start": 2553,
+      "end": 2568,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7090ed56d388eb8a6867361ea4ca5e400f72f8e8a4e77c84b3c6f4d5ef503d8e"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis brevicaudata",
+      "term_type": "scientific_name",
+      "start": 24,
+      "end": 45,
+      "span_matches_normalized_term": true,
+      "context_sha256": "4fb038e736ab8c9c12f4223abcba7dff6a562bb6142fa2967e97800a62ee889d"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Tsunglin range",
+      "term_type": "scientific_name",
+      "start": 280,
+      "end": 294,
+      "span_matches_normalized_term": true,
+      "context_sha256": "356866260dc12dae0265df5228db89bac8d40a439cabd1226b24551f6806c82b"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis czssariata",
+      "term_type": "scientific_name",
+      "start": 397,
+      "end": 416,
+      "span_matches_normalized_term": true,
+      "context_sha256": "75d4ff6990ad3fdeebae76ca73f9363e54af19ce5fcdf844e6cd208a225e3931"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Hance quotes",
+      "term_type": "scientific_name",
+      "start": 525,
+      "end": 537,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a78c8bc6f55b6e47bf280717e34f3dcfaa3d5ef424222c8f4a011e86bc879a04"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Kew plant",
+      "term_type": "scientific_name",
+      "start": 589,
+      "end": 598,
+      "span_matches_normalized_term": true,
+      "context_sha256": "22bb928e22ce06cab9b014b731daf1ad5666b76b1235be0a41ffc0ac9d131d0f"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis chinensis",
+      "term_type": "scientific_name",
+      "start": 669,
+      "end": 687,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e5345cca9b87443e388accd89e5831b91c45125aa61ab48f75a710bf9f9244b0"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis sinensis",
+      "term_type": "scientific_name",
+      "start": 849,
+      "end": 866,
+      "span_matches_normalized_term": true,
+      "context_sha256": "1c8690cc8339a2ca5460077ed3b8982043580d510334c49e27e00bd845b68ca5"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis minor",
+      "term_type": "scientific_name",
+      "start": 899,
+      "end": 913,
+      "span_matches_normalized_term": true,
+      "context_sha256": "aae8c3fa2b784b0ffdf3febe69224270621d0cb1571194f10d7aa1dd773238c7"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis terniflora",
+      "term_type": "scientific_name",
+      "start": 1007,
+      "end": 1026,
+      "span_matches_normalized_term": true,
+      "context_sha256": "df5812fb43e626619b2048cc4e25e1356b8a72dab51453f306e3ea1ed39da95f"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Flammule var",
+      "term_type": "scientific_name",
+      "start": 1048,
+      "end": 1060,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7f0c705fcf01ca35f79e720fc316b2e8aefba099921736b81f0c6b4ee5a43249"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis crassifolia",
+      "term_type": "scientific_name",
+      "start": 1432,
+      "end": 1452,
+      "span_matches_normalized_term": true,
+      "context_sha256": "f571539be1af393ca77e7aa6fa53b59ec91f1b91ce66f4a9c031057914f90c7d"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Clematis grata",
+      "term_type": "scientific_name",
+      "start": 1589,
+      "end": 1603,
+      "span_matches_normalized_term": true,
+      "context_sha256": "8fe01d6bea64c0c1b33c5fa3946ab2cb3677c178c4110869b6f251300543bdb5"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "Tsunglin range",
+      "term_type": "scientific_name",
+      "start": 1720,
+      "end": 1734,
+      "span_matches_normalized_term": true,
+      "context_sha256": "20661357c8a5eb748342df976dd366f0165cb2d17ecbc95cb3ce32c41113cb7a"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Scorzonera parviflora",
+      "term_type": "scientific_name",
+      "start": 38,
+      "end": 59,
+      "span_matches_normalized_term": true,
+      "context_sha256": "6000553ab6f9ccf9f07c627d83eb1fb5dfd6f4048b96f6c2fe34e2e6b14640ef"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Siberia eastward",
+      "term_type": "scientific_name",
+      "start": 306,
+      "end": 322,
+      "span_matches_normalized_term": true,
+      "context_sha256": "d73e99cc080b1245c77a5c174c8513587e2bc373d6f88ce41bd48c32d854e4c6"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Scorzonera radiata",
+      "term_type": "scientific_name",
+      "start": 328,
+      "end": 346,
+      "span_matches_normalized_term": true,
+      "context_sha256": "ae7adfbd492bbccb427cf7d0ae773f8581d45c426a0ece286d9c616d7b553f2a"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Nymphea acutiloba",
+      "term_type": "scientific_name",
+      "start": 639,
+      "end": 656,
+      "span_matches_normalized_term": true,
+      "context_sha256": "3f930b3d1d4afc5e1a99ddcb6dc6cf19f3ca7a114760bd483bc397be0e878883"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Dielytra spectabilis",
+      "term_type": "scientific_name",
+      "start": 721,
+      "end": 741,
+      "span_matches_normalized_term": true,
+      "context_sha256": "668ebcdb69fd101cb2e1cfb9e923e203495cbed96987b19f1262d9d8d45e2e31"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Fifteenth line",
+      "term_type": "scientific_name",
+      "start": 788,
+      "end": 802,
+      "span_matches_normalized_term": true,
+      "context_sha256": "ee0da1336aa379146e9a829423a8299c9de2ce7660234287387ee5cea26d5949"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Lethia read",
+      "term_type": "scientific_name",
+      "start": 817,
+      "end": 828,
+      "span_matches_normalized_term": true,
+      "context_sha256": "94ed848fe8c3fc1041513f67395e6107217650022320821995b99ba9fe3a967a"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Psilopeganum sinense",
+      "term_type": "scientific_name",
+      "start": 844,
+      "end": 864,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0f2e321df76b231af8943ad60d6c12bdd4a6d01b563bb6583b88ab88edf77398"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Flores albi",
+      "term_type": "scientific_name",
+      "start": 870,
+      "end": 881,
+      "span_matches_normalized_term": true,
+      "context_sha256": "22ba6201adf88b547d2f496aefd98e3cfd7085f2b644fbf491d3786c5298c835"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Flores flavi",
+      "term_type": "scientific_name",
+      "start": 887,
+      "end": 899,
+      "span_matches_normalized_term": true,
+      "context_sha256": "f580b2a4ab4f764ac8940f0b8411c1b827a7245989807fa73e1189b9fc42f4a1"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Fourth line",
+      "term_type": "scientific_name",
+      "start": 902,
+      "end": 913,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7003491051aea4ef273b495837c0283824503bd8223646d8e2c6591aef5496f8"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Wilfordii add",
+      "term_type": "scientific_name",
+      "start": 971,
+      "end": 984,
+      "span_matches_normalized_term": true,
+      "context_sha256": "1f9b9f1f777485bb01bc72f4184d0121fdb41298305c7c256b6fb23205246daa"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Rhamnus davuricus",
+      "term_type": "scientific_name",
+      "start": 1013,
+      "end": 1030,
+      "span_matches_normalized_term": true,
+      "context_sha256": "d58f588ef049b0870ce6c56f2776754122b4ebfad992b9352822614a7effbbf3"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Ninth line",
+      "term_type": "scientific_name",
+      "start": 1080,
+      "end": 1090,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c5baf2ff97f3bcedfd4ca0bba378717898895f0796b0682102f725ce8025af02"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Top line",
+      "term_type": "scientific_name",
+      "start": 1124,
+      "end": 1132,
+      "span_matches_normalized_term": true,
+      "context_sha256": "299b3b339cabd2dc0aed64048136bd95a6c4e706737c4e0c0a05a3bdb3f199ba"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Sixteenth line",
+      "term_type": "scientific_name",
+      "start": 1164,
+      "end": 1178,
+      "span_matches_normalized_term": true,
+      "context_sha256": "75360bdce0ce916359270c9b33a40a62def96f110492a4a44423c28189e33665"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Franchet sends",
+      "term_type": "scientific_name",
+      "start": 1218,
+      "end": 1232,
+      "span_matches_normalized_term": true,
+      "context_sha256": "5967e02b3a366df9719f57f59a5358cfc8633396904c6e30fa3ebd22831dc46b"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Trigonella ruthenica",
+      "term_type": "scientific_name",
+      "start": 1248,
+      "end": 1268,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a0126dc5a259cc43c864466d5822a5408400b6c99553d40fde794c7e1d50fa07"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Medicago falcata",
+      "term_type": "scientific_name",
+      "start": 1331,
+      "end": 1347,
+      "span_matches_normalized_term": true,
+      "context_sha256": "f9563af3096ba7080fc33ccb9e5771db76f2ce0d800430937004314df8f06e34"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Tephrosia oraria",
+      "term_type": "scientific_name",
+      "start": 1350,
+      "end": 1366,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c4b341bb16594de0a3b70433544191a955e68c91c42bf052a90190da55437ee0"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Fordia cauliflora",
+      "term_type": "scientific_name",
+      "start": 1408,
+      "end": 1425,
+      "span_matches_normalized_term": true,
+      "context_sha256": "73024ecf1bdc624638511c03aec5e57978ee974f8aed4a3ce796e98dec9fdf9c"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Ford writes",
+      "term_type": "scientific_name",
+      "start": 1431,
+      "end": 1442,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b78170cefe98bd6ff22ca2ecca1053db0c75348644ca4ce2da05665b70e4c3f4"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Dumasia vil",
+      "term_type": "scientific_name",
+      "start": 1524,
+      "end": 1535,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7a8f1e40a671c8d6071c6541e3edbab2a4d4f466e84929dcfb520970babf5c13"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Second line",
+      "term_type": "scientific_name",
+      "start": 1598,
+      "end": 1609,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0a8322a216dc612189e434267a7f4c1fd8a3b33f19ab80a916197f99b6c896ef"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Japan under",
+      "term_type": "scientific_name",
+      "start": 1650,
+      "end": 1661,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e34d92e5695b0a0953a50eab743ad6365f5ef1ebf2925031a81709b32cfd4928"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Prunus macrophylla",
+      "term_type": "scientific_name",
+      "start": 1662,
+      "end": 1680,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7f8fcc6ada7a262b8f8a132b0716ce2469f3e66b73ed24ebe84ba1aa92736142"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Prunus oxycarpa",
+      "term_type": "scientific_name",
+      "start": 1683,
+      "end": 1698,
+      "span_matches_normalized_term": true,
+      "context_sha256": "54f8906cf90094a1ab45f3008fb253783953d8954a81b3a28ed9351b3ef9d300"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Kerria japonica",
+      "term_type": "scientific_name",
+      "start": 1741,
+      "end": 1756,
+      "span_matches_normalized_term": true,
+      "context_sha256": "bc51812c5ce83b4bcc5e704c0333c126fc3ef412eba054a20c70f36f9b388b77"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "Henry writes",
+      "term_type": "scientific_name",
+      "start": 1765,
+      "end": 1777,
+      "span_matches_normalized_term": true,
+      "context_sha256": "5eb6261cbb71cb57e765160581b7853538dd8bfbdaa222f50e76ccbb0f3f4bf5"
+    },
+    {
+      "candidate_id": "E06",
+      "term": "Smith delet",
+      "term_type": "scientific_name",
+      "start": 104,
+      "end": 115,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a0ccac47e6d4500bdd81d2706df73b743c96b120ebc211290fd65799953eb17a"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Frutex sempervirens",
+      "term_type": "scientific_name",
+      "start": 76,
+      "end": 95,
+      "span_matches_normalized_term": true,
+      "context_sha256": "289f42ba9bb4b5a291f81a5efb36e1c1a4fc26dc2dbc631984ef9e9164a621f7"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Folia longiuscule",
+      "term_type": "scientific_name",
+      "start": 153,
+      "end": 170,
+      "span_matches_normalized_term": true,
+      "context_sha256": "be3cfd37a4fbe470d8f7f65d9cc3e1899a5adefb035e01b9761420d423274059"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Flores albo-virides",
+      "term_type": "scientific_name",
+      "start": 338,
+      "end": 357,
+      "span_matches_normalized_term": true,
+      "context_sha256": "80124a7f4bcd665b2e4279bb9298430fa8087c8d94e25d6984cebc279eb6498d"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Viburnum rhytidophyllum",
+      "term_type": "scientific_name",
+      "start": 952,
+      "end": 975,
+      "span_matches_normalized_term": true,
+      "context_sha256": "8e5dd2173ae98cd0cd1b1eadb2fcf25604dfd0201a8db3f9cffbd17d7914e192"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Folia petiolata",
+      "term_type": "scientific_name",
+      "start": 1076,
+      "end": 1091,
+      "span_matches_normalized_term": true,
+      "context_sha256": "8e03d21912fc12f8bb8e07707a933079341d77e6ad9bbbd1e7f57a1d7ee2c67e"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Flores dense",
+      "term_type": "scientific_name",
+      "start": 1299,
+      "end": 1311,
+      "span_matches_normalized_term": true,
+      "context_sha256": "956e5d48a7cd768ead019a481d56bed19e128f2e97ca3842dc9ba67bed8345b7"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Patung district",
+      "term_type": "scientific_name",
+      "start": 1461,
+      "end": 1476,
+      "span_matches_normalized_term": true,
+      "context_sha256": "07a67cab58f1ff6bbb5c829edf51ceec48f2e1c169c102462b8e8bc55db92ba7"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Commonly cultivated",
+      "term_type": "scientific_name",
+      "start": 1835,
+      "end": 1854,
+      "span_matches_normalized_term": true,
+      "context_sha256": "4647dd1464f64b599085ff69fba86b02acd07f4398dcabd29161f0b20e008dfc"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Viburnum schensianum",
+      "term_type": "scientific_name",
+      "start": 1896,
+      "end": 1916,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e58a13264376cb477ac361178175b9a1dae8005fe45b2947b17c59ec48b027ee"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "Viburnum sempervirens",
+      "term_type": "scientific_name",
+      "start": 2033,
+      "end": 2054,
+      "span_matches_normalized_term": true,
+      "context_sha256": "9529f7a6534438111a985efb20ec2f8abb90739f7795f9626733da910af1308b"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Viburnum macrocephalum",
+      "term_type": "scientific_name",
+      "start": 129,
+      "end": 151,
+      "span_matches_normalized_term": true,
+      "context_sha256": "01ade19e39c22ed370a279347595a8d34c639e53fd858afde357907ba7e68ef2"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Viburnum hypoleucum",
+      "term_type": "scientific_name",
+      "start": 414,
+      "end": 433,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b3973742e04e7251fd7a1f3cc628db5b2704b3cfc02a0c2297c3e94e7654783b"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Yangtze banks",
+      "term_type": "scientific_name",
+      "start": 548,
+      "end": 561,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a90dd9eb3cb826c08d7446f0466fa79be3d8eb12df00e681cbd6d45314ee71e7"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Viburnum utile",
+      "term_type": "scientific_name",
+      "start": 636,
+      "end": 650,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0e9ad94a260da2dd17a21d975aa372c03dbbaebb756974ba223a3344723ec3dc"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Viburnum rhytidophyllum",
+      "term_type": "scientific_name",
+      "start": 1359,
+      "end": 1382,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a4e8f7d75e3a65aa429e1030fa92b6ff983742135f96e2a67a10df1fd7e8ca5f"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Viburnum cylindricum",
+      "term_type": "scientific_name",
+      "start": 1637,
+      "end": 1657,
+      "span_matches_normalized_term": true,
+      "context_sha256": "65651153bfaf1d4922718c308b73833769bf236a28dbceac74950ea33cd5f37a"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "Viburnum coriaceum",
+      "term_type": "scientific_name",
+      "start": 1769,
+      "end": 1787,
+      "span_matches_normalized_term": true,
+      "context_sha256": "53d088b44563450dd5de7cc9df7aa55184204feac6656272c9f5a3e8c94eee41"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Viburnum rhytidophyllum",
+      "term_type": "scientific_name",
+      "start": 33,
+      "end": 56,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c86f05aaf222eb3f375dd51215e4064844e70bab836f307280fb3aac1c32ba8b"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Callicarpa vastifolia",
+      "term_type": "scientific_name",
+      "start": 80,
+      "end": 101,
+      "span_matches_normalized_term": true,
+      "context_sha256": "2cbe35e49c851dc265df0076eaa29849357d31a541d92b604bcd566561e3126c"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Callicarpa vastifolia",
+      "term_type": "scientific_name",
+      "start": 142,
+      "end": 163,
+      "span_matches_normalized_term": true,
+      "context_sha256": "628a6b66f02000bea820f70c9d5b3bb2cc8cd10c498a70e3b244b6fab3314e61"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Viburnum brevipes",
+      "term_type": "scientific_name",
+      "start": 485,
+      "end": 502,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b1379bf29cc1fd3fe8666f76bc85d9688ebf65c8253c212c3fa2c31a24739a5c"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Viburnum calvum",
+      "term_type": "scientific_name",
+      "start": 1934,
+      "end": 1949,
+      "span_matches_normalized_term": true,
+      "context_sha256": "646f57db3abd479a75681f5ee1f29acf45878e5318292decf4f1ed4f430f88e2"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Folia coriacea",
+      "term_type": "scientific_name",
+      "start": 2113,
+      "end": 2127,
+      "span_matches_normalized_term": true,
+      "context_sha256": "72c2a7a4930ec7c4dc7e6300bc4dd81dc35a1bb3ae93e25c11d9e1f55044f010"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Inflorescentia umbellata",
+      "term_type": "scientific_name",
+      "start": 2557,
+      "end": 2581,
+      "span_matches_normalized_term": true,
+      "context_sha256": "990ac2af93c03c165e19f76dd3e79d59a7700f77b4f750533c3e9ed577362a4a"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "Fructus desideratur",
+      "term_type": "scientific_name",
+      "start": 3010,
+      "end": 3029,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c4e509f30595924d42cf05d78841ccf575879404c15f450fe5ff4eeb31c61fca"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium bracteatum",
+      "term_type": "scientific_name",
+      "start": 5,
+      "end": 25,
+      "span_matches_normalized_term": true,
+      "context_sha256": "f52bfb6d1f64090e4e199c7e26e92a23e5a05acc20f0c2f4f540b92e8f86fa9a"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium bracteatum",
+      "term_type": "scientific_name",
+      "start": 33,
+      "end": 53,
+      "span_matches_normalized_term": true,
+      "context_sha256": "5a92356daa3aa2cf6d747fa56e9bb9c4fb454604e6cb51e8162c3195804966ce"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium chinense",
+      "term_type": "scientific_name",
+      "start": 103,
+      "end": 121,
+      "span_matches_normalized_term": true,
+      "context_sha256": "3ff372127eebcd6b750efff86f131dcb0cff0827c3fe466dc3b6b090c26eb246"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium fragile",
+      "term_type": "scientific_name",
+      "start": 319,
+      "end": 336,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e962c94c85df299c91c1b8f1583fd408af544a7dacb5508040f36dcd8e115330"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium iteophyllum",
+      "term_type": "scientific_name",
+      "start": 368,
+      "end": 389,
+      "span_matches_normalized_term": true,
+      "context_sha256": "d2eef10d2c13acee0db1f58fc4c692f426713fb7dbf55d3cbe19217c4f6810a9"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium iteophyllum",
+      "term_type": "scientific_name",
+      "start": 397,
+      "end": 418,
+      "span_matches_normalized_term": true,
+      "context_sha256": "73f529f0a35588333f87238d897a8e7e7ce7cf008f4873a50f6981ce3b4fd1c0"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium japonicum",
+      "term_type": "scientific_name",
+      "start": 442,
+      "end": 461,
+      "span_matches_normalized_term": true,
+      "context_sha256": "0578c834e1b7c7dbacb1a01171dcf0a26d380d792859acac38985eadc5b8cd89"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium laetum",
+      "term_type": "scientific_name",
+      "start": 469,
+      "end": 485,
+      "span_matches_normalized_term": true,
+      "context_sha256": "3ee6b0d8e7d5890c096c1cf759f533abc37328cfdc4eaf051aef503d9206707e"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium mandarinorum",
+      "term_type": "scientific_name",
+      "start": 493,
+      "end": 515,
+      "span_matches_normalized_term": true,
+      "context_sha256": "f89efd8ebf969bd5e1933135c8f23af77f26840298b99d25986b3fdeea3e5465"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium moupinense",
+      "term_type": "scientific_name",
+      "start": 523,
+      "end": 543,
+      "span_matches_normalized_term": true,
+      "context_sha256": "efe7e564f79de3dad955f908a7f6047b11467857ad8243e4d2ffeaa0d98e5897"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium setosum",
+      "term_type": "scientific_name",
+      "start": 577,
+      "end": 594,
+      "span_matches_normalized_term": true,
+      "context_sha256": "afaaed4aefecd3a6e7f51c87743a4b5bb45ebfe26a7031ede1bbef0a0c129f23"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium urceolatum",
+      "term_type": "scientific_name",
+      "start": 602,
+      "end": 622,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7c1833715f5b9806e7dc94c61c1ca41e569ad26616bc3a889308a61a9211d02b"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vaccinium viburnoides",
+      "term_type": "scientific_name",
+      "start": 630,
+      "end": 651,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e08b4ba37934f2da925676e460b280f773b13526c23794f94642989fd40b2c0d"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vesalea floribunda",
+      "term_type": "scientific_name",
+      "start": 709,
+      "end": 727,
+      "span_matches_normalized_term": true,
+      "context_sha256": "06b0b53f036f660df54ce11abb80b0db5376d7574621e02adab4646646c24498"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vesalea hirsuta",
+      "term_type": "scientific_name",
+      "start": 735,
+      "end": 750,
+      "span_matches_normalized_term": true,
+      "context_sha256": "8cc07c7e4914063f5e22b7607f3db71006ac91e3bb7a541af64ef063829f6b6d"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Tomen erubescens",
+      "term_type": "scientific_name",
+      "start": 835,
+      "end": 851,
+      "span_matches_normalized_term": true,
+      "context_sha256": "6c5b872df96e0cd3849e25500761bef3c79834f0357ca87e2555159ac5427ee1"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum foetidum",
+      "term_type": "scientific_name",
+      "start": 870,
+      "end": 887,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e86e5c5b3a422fb62a15556d1a4c94c1239577c3f486ed69f30ff07e97acdadb"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum foetidum",
+      "term_type": "scientific_name",
+      "start": 902,
+      "end": 919,
+      "span_matches_normalized_term": true,
+      "context_sha256": "fe31fc584aa9a146465662fc509c8c4e14d7df59ad84e41ce45319004795e8c8"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum hirtulum",
+      "term_type": "scientific_name",
+      "start": 1004,
+      "end": 1021,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b44ded3c695223d20c0d17ebb6e385d8af99f8d8581a2e2640eaf459420d07f4"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum hupehense",
+      "term_type": "scientific_name",
+      "start": 1029,
+      "end": 1047,
+      "span_matches_normalized_term": true,
+      "context_sha256": "d64f45ae07975fba2b56518f24a7857fa951b624d50e49e34ccd0100ccec5c07"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum hypoleucum",
+      "term_type": "scientific_name",
+      "start": 1055,
+      "end": 1074,
+      "span_matches_normalized_term": true,
+      "context_sha256": "9daa36aacbecd1917cc0cbe82f3d8789c97a016c42e3513a99aac4d702e50740"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum ichangense",
+      "term_type": "scientific_name",
+      "start": 1082,
+      "end": 1101,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c4a885eacc5438efdb246491e31d8a8b94ccf3fb9cbcec1841f69b16a94e57df"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum kansuense",
+      "term_type": "scientific_name",
+      "start": 1109,
+      "end": 1127,
+      "span_matches_normalized_term": true,
+      "context_sha256": "52436389d19e8b8c1b850e7ab29d3ba312dafa3aa2a540abcc55d5eeb02741d6"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum laterale",
+      "term_type": "scientific_name",
+      "start": 1135,
+      "end": 1152,
+      "span_matches_normalized_term": true,
+      "context_sha256": "71c557d2bc383bf29edaad77d9327128305f11517e12c4894be18ef1c79c7667"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum lobophyllum",
+      "term_type": "scientific_name",
+      "start": 1160,
+      "end": 1180,
+      "span_matches_normalized_term": true,
+      "context_sha256": "eca699949253ffaa21a8879bf366f1ef0e81ce41db4a0563296c35ccb7dc29eb"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum lobophyllum",
+      "term_type": "scientific_name",
+      "start": 1188,
+      "end": 1208,
+      "span_matches_normalized_term": true,
+      "context_sha256": "a83462cf173079e5a90781a825532484e9fd49617e5b3ae6927f3c7f73b2b2e0"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum luzonicum",
+      "term_type": "scientific_name",
+      "start": 1236,
+      "end": 1254,
+      "span_matches_normalized_term": true,
+      "context_sha256": "8afff424a8e59de995bbd15d82d0108e59e3156e8ddda18e1c6ce00a4af859fd"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum macrocephalum",
+      "term_type": "scientific_name",
+      "start": 1280,
+      "end": 1302,
+      "span_matches_normalized_term": true,
+      "context_sha256": "6e978d33d50aa8257e23fd6d1f25cfcece49c95d3769989ca9a8b8aa2e7b8dff"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum oliganthum",
+      "term_type": "scientific_name",
+      "start": 1310,
+      "end": 1329,
+      "span_matches_normalized_term": true,
+      "context_sha256": "4dd66fd11b735bac8ab7f02e8a918997c2b96e1fba599f989d780441c671a465"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum ovatifolium",
+      "term_type": "scientific_name",
+      "start": 1337,
+      "end": 1357,
+      "span_matches_normalized_term": true,
+      "context_sha256": "9d3218e034758c645c973c92d5ffb2685d1a34532a8873956b6383b1211ea6ca"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum propinquum",
+      "term_type": "scientific_name",
+      "start": 1389,
+      "end": 1408,
+      "span_matches_normalized_term": true,
+      "context_sha256": "35aaa450601962b3f4b07263c2b9308a2f1784a8235444dc086f0a000d585510"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum rhytidophyllum",
+      "term_type": "scientific_name",
+      "start": 1416,
+      "end": 1439,
+      "span_matches_normalized_term": true,
+      "context_sha256": "9564682b941d19b44d1c7f2d20e9e3a353d6f836bae8ad04777359a913e1b8b1"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum shensianum",
+      "term_type": "scientific_name",
+      "start": 1549,
+      "end": 1568,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e06e2cea7ff09c334e93a5da715ed8e6342761faa1b6673fd44ee9e6ef233946"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum sympodiale",
+      "term_type": "scientific_name",
+      "start": 1576,
+      "end": 1595,
+      "span_matches_normalized_term": true,
+      "context_sha256": "e1163735b6e6954baf5bd07334b0f2c1ac981fd9bf2aed93e0ae3673453e422d"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum theiferum",
+      "term_type": "scientific_name",
+      "start": 1628,
+      "end": 1646,
+      "span_matches_normalized_term": true,
+      "context_sha256": "7b9ecc17c050a9eb5866192d4b5b46430d34cf49c3c48d582f25da00780abd20"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum tomentosum",
+      "term_type": "scientific_name",
+      "start": 1654,
+      "end": 1673,
+      "span_matches_normalized_term": true,
+      "context_sha256": "db2df7f5d7dcc88648e4c575d1d04d859bd644896840579fcddff5659bf91112"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viburnum utile",
+      "term_type": "scientific_name",
+      "start": 1681,
+      "end": 1695,
+      "span_matches_normalized_term": true,
+      "context_sha256": "599fc7a7962d9640c1ea890f885ddb0ac00ef0272b6e7b53e3da6534619c1715"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Viticella florida",
+      "term_type": "scientific_name",
+      "start": 1799,
+      "end": 1816,
+      "span_matches_normalized_term": true,
+      "context_sha256": "6a7f47fbbbaffe49b0b006d28bc35401b584cdca105fffe127210920753fdf12"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis aconitifolia",
+      "term_type": "scientific_name",
+      "start": 1837,
+      "end": 1855,
+      "span_matches_normalized_term": true,
+      "context_sha256": "bd635252fb9e739280e23778791a2506b4ba8a161aef57cf10ac682f478dc9a0"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis adstricta",
+      "term_type": "scientific_name",
+      "start": 1863,
+      "end": 1878,
+      "span_matches_normalized_term": true,
+      "context_sha256": "94ea0ee81b72f9de196f95fd2e015acb29fe935e8a2f0ddb040438fc8a29479f"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis armata",
+      "term_type": "scientific_name",
+      "start": 1886,
+      "end": 1898,
+      "span_matches_normalized_term": true,
+      "context_sha256": "6bc7b5f97d81d0fc0c03c516d1d80508625052f9166a22b7416318c48538651a"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis armata",
+      "term_type": "scientific_name",
+      "start": 1906,
+      "end": 1918,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c21db4857d2dd0901f36949791bc4f7d08d098bc11cf3c5eb589a205ef1eccf8"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis betulifolia",
+      "term_type": "scientific_name",
+      "start": 1943,
+      "end": 1960,
+      "span_matches_normalized_term": true,
+      "context_sha256": "80db3df6e4c253cc478ecb6e34720813b0698287c8414c71ea76976d428ee6ff"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis bryoniaefolia",
+      "term_type": "scientific_name",
+      "start": 1968,
+      "end": 1987,
+      "span_matches_normalized_term": true,
+      "context_sha256": "5731af700ddabcd0d218404d8ab7b96dbfbbc9d68ada2d61b8230f888f53c85b"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis ficifolia",
+      "term_type": "scientific_name",
+      "start": 2054,
+      "end": 2069,
+      "span_matches_normalized_term": true,
+      "context_sha256": "79419767b9e5a1f9123d9799840b4dc35203912a09551ea3fcadecc0ab67a312"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis flexuosa",
+      "term_type": "scientific_name",
+      "start": 2077,
+      "end": 2091,
+      "span_matches_normalized_term": true,
+      "context_sha256": "337bda89a1341651ee2a5b7a23643e80ed9ab48f1990df2cb55ba31004a0464e"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis flexuosa",
+      "term_type": "scientific_name",
+      "start": 2099,
+      "end": 2113,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c862e0543dfdbe2e15058fbdc8f24d1a30abc01c3038779ac799746ecec97ebf"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis flezuosa",
+      "term_type": "scientific_name",
+      "start": 2138,
+      "end": 2152,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b0bd0050fa6145b40ec8a15f28e63489ab40dc60829a8e5fee2903c18418f2b1"
+    },
+    {
+      "candidate_id": "E10",
+      "term": "Vitis himalayana",
+      "term_type": "scientific_name",
+      "start": 2221,
+      "end": 2237,
+      "span_matches_normalized_term": true,
+      "context_sha256": "b02b6e56b24646cec3c91d6415f65757630dc7dc025e934fb527121bab1bd4f5"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "C. ternifolia",
+      "term_type": "scientific_name_abbrev",
+      "start": 1317,
+      "end": 1330,
+      "span_matches_normalized_term": true,
+      "context_sha256": "46ee841fa02e7465b19884d532973982c7ef777f3dd4b581f07f54f5b49391cc"
+    },
+    {
+      "candidate_id": "E04",
+      "term": "C. terniflora",
+      "term_type": "scientific_name_abbrev",
+      "start": 1359,
+      "end": 1372,
+      "span_matches_normalized_term": true,
+      "context_sha256": "29c70d0a58d504bfa7b15a5a50fccc7235d1358304c3b0279a62c85b6433f449"
+    },
+    {
+      "candidate_id": "E05",
+      "term": "N. tetragona",
+      "term_type": "scientific_name_abbrev",
+      "start": 661,
+      "end": 673,
+      "span_matches_normalized_term": true,
+      "context_sha256": "3bed9253b93f18121c1c5e1d11656de6e0315f0083df81f746fc94a07d888950"
+    },
+    {
+      "candidate_id": "E07",
+      "term": "V. sempervirens",
+      "term_type": "scientific_name_abbrev",
+      "start": 847,
+      "end": 862,
+      "span_matches_normalized_term": true,
+      "context_sha256": "105d1e6607a5fb9910ea70f118cd0d4362aec54b110cd45ee1dfa85142f9c3ea"
+    },
+    {
+      "candidate_id": "E08",
+      "term": "V. tomentosum",
+      "term_type": "scientific_name_abbrev",
+      "start": 1931,
+      "end": 1944,
+      "span_matches_normalized_term": true,
+      "context_sha256": "d2a781e3078f2ed7438451946256fc36ae1c4429f0c54c8290952d1549907ac1"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "V. rhytidophyllum",
+      "term_type": "scientific_name_abbrev",
+      "start": 228,
+      "end": 245,
+      "span_matches_normalized_term": true,
+      "context_sha256": "fd53e5a64edf711b1751c6facc7c79fd1921935c41dea84281196babe4c9d939"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "V. brevipes",
+      "term_type": "scientific_name_abbrev",
+      "start": 1360,
+      "end": 1371,
+      "span_matches_normalized_term": true,
+      "context_sha256": "9adc1c9651914ff9325bb2f9a3d25b14cdf37a813c391ff929f8f554859e3013"
+    },
+    {
+      "candidate_id": "E09",
+      "term": "V. dilatatum",
+      "term_type": "scientific_name_abbrev",
+      "start": 1771,
+      "end": 1783,
+      "span_matches_normalized_term": true,
+      "context_sha256": "c3d73138211558c974a845dfb729b831f5bc6f9270fd119e5f9fd05af71a55dc"
+    }
+  ],
+  "query_results": [
+    {
+      "query": "Psilopeganum sinense",
+      "mode": "exact",
+      "result_count": 4,
+      "unique_selected_pages": [
+        "E01",
+        "E02",
+        "E05",
+        "E06"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E01",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 1,
+          "source_one_based_sequence": 106,
+          "original_pdf_label": "103",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E02",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 2,
+          "source_one_based_sequence": 494,
+          "original_pdf_label": "491",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E05",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 5,
+          "source_one_based_sequence": 492,
+          "original_pdf_label": "489",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E06",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 6,
+          "source_one_based_sequence": 527,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Psilopeganum sinense",
+      "mode": "scientific",
+      "result_count": 3,
+      "unique_selected_pages": [
+        "E01",
+        "E02",
+        "E05"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E01",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 1,
+          "source_one_based_sequence": 106,
+          "original_pdf_label": "103",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E02",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 2,
+          "source_one_based_sequence": 494,
+          "original_pdf_label": "491",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E05",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 5,
+          "source_one_based_sequence": 492,
+          "original_pdf_label": "489",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis chinensis",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis chinensis",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis chinensis",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis chinensis",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis sinensis",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis sinensis",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis sinensis",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis sinensis",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis minor",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis minor",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis minor",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis minor",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis terniflora",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis terniflora",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Clematis terniflora",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "Clematis terniflora",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "C. terniflora",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "C. terniflora",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "C. terniflora",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "C. terniflora",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "C. ternifolia",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "C. ternifolia",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "C. ternifolia",
+      "mode": "scientific",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E04"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E04",
+          "matched_term": "C. ternifolia",
+          "excerpt_sequence": 4,
+          "source_one_based_sequence": 6,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Viburnum rhytidophyllum",
+      "mode": "exact",
+      "result_count": 4,
+      "unique_selected_pages": [
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E07",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 7,
+          "source_one_based_sequence": 358,
+          "original_pdf_label": "355",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E08",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 1,
+          "source_one_based_sequence": 120,
+          "original_pdf_label": "110",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E09",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 2,
+          "source_one_based_sequence": 322,
+          "original_pdf_label": "310",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E10",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 3,
+          "source_one_based_sequence": 623,
+          "original_pdf_label": "610",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Viburnum rhytidophyllum",
+      "mode": "scientific",
+      "result_count": 4,
+      "unique_selected_pages": [
+        "E07",
+        "E08",
+        "E09",
+        "E10"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E08",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 1,
+          "source_one_based_sequence": 120,
+          "original_pdf_label": "110",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E09",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 2,
+          "source_one_based_sequence": 322,
+          "original_pdf_label": "310",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E10",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 3,
+          "source_one_based_sequence": 623,
+          "original_pdf_label": "610",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E07",
+          "matched_term": "Viburnum rhytidophyllum",
+          "excerpt_sequence": 7,
+          "source_one_based_sequence": 358,
+          "original_pdf_label": "355",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Psilopeganum",
+      "mode": "exact",
+      "result_count": 4,
+      "unique_selected_pages": [
+        "E01",
+        "E02",
+        "E05",
+        "E06"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E01",
+          "matched_term": "Psilopeganum",
+          "excerpt_sequence": 1,
+          "source_one_based_sequence": 106,
+          "original_pdf_label": "103",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E02",
+          "matched_term": "Psilopeganum",
+          "excerpt_sequence": 2,
+          "source_one_based_sequence": 494,
+          "original_pdf_label": "491",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E05",
+          "matched_term": "Psilopeganum",
+          "excerpt_sequence": 5,
+          "source_one_based_sequence": 492,
+          "original_pdf_label": "489",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E06",
+          "matched_term": "Psilopeganum",
+          "excerpt_sequence": 6,
+          "source_one_based_sequence": 527,
+          "original_pdf_label": "3",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Psilopeganum",
+      "mode": "scientific",
+      "result_count": 3,
+      "unique_selected_pages": [
+        "E01",
+        "E02",
+        "E05"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E01",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 1,
+          "source_one_based_sequence": 106,
+          "original_pdf_label": "103",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E02",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 2,
+          "source_one_based_sequence": 494,
+          "original_pdf_label": "491",
+          "result_label_field_present": false
+        },
+        {
+          "candidate_id": "E05",
+          "matched_term": "Psilopeganum sinense",
+          "excerpt_sequence": 5,
+          "source_one_based_sequence": 492,
+          "original_pdf_label": "489",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Pelopeganum",
+      "mode": "exact",
+      "result_count": 1,
+      "unique_selected_pages": [
+        "E03"
+      ],
+      "note": null,
+      "results": [
+        {
+          "candidate_id": "E03",
+          "matched_term": "Pelopeganum",
+          "excerpt_sequence": 3,
+          "source_one_based_sequence": 516,
+          "original_pdf_label": "513",
+          "result_label_field_present": false
+        }
+      ]
+    },
+    {
+      "query": "Pelopeganum",
+      "mode": "scientific",
+      "result_count": 0,
+      "unique_selected_pages": [],
+      "note": null,
+      "results": []
+    }
+  ],
+  "selected_target_checks": [
+    {
+      "candidate_id": "E01",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E02",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E03",
+      "target_query": "Psilopeganum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": false,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "E05",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E06",
+      "target_query": "Psilopeganum sinense",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": false
+    },
+    {
+      "candidate_id": "E07",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E08",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E09",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E10",
+      "target_query": "Viburnum rhytidophyllum",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis chinensis",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis sinensis",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis minor",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "Clematis terniflora",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "C. terniflora",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    },
+    {
+      "candidate_id": "E04",
+      "target_query": "C. ternifolia",
+      "target_scope": "selected literal or genus clue; not accepted-name identification",
+      "exact_selected_page_returned": true,
+      "scientific_selected_page_returned": true
+    }
+  ],
+  "software_checks": [
+    {
+      "check_id": "semantic_disabled_reports_no_embeddings",
+      "passed": true,
+      "numerator": null,
+      "denominator": null,
+      "note": "No semantic, reranking or generative effectiveness is claimed."
+    },
+    {
+      "check_id": "no_source_confirmation_or_claim_assessment_fields",
+      "passed": true,
+      "numerator": null,
+      "denominator": null,
+      "note": "A code-level missing-record finding, not an expert verdict."
+    },
+    {
+      "check_id": "two_public_excerpt_documents_processed",
+      "passed": true,
+      "numerator": 2,
+      "denominator": 2,
+      "note": ""
+    },
+    {
+      "check_id": "ten_selected_pages_processed",
+      "passed": true,
+      "numerator": 10,
+      "denominator": 10,
+      "note": ""
+    },
+    {
+      "check_id": "actual_pdf_labels_preserved",
+      "passed": true,
+      "numerator": 10,
+      "denominator": 10,
+      "note": ""
+    },
+    {
+      "check_id": "source_text_layer_preserved",
+      "passed": true,
+      "numerator": 10,
+      "denominator": 10,
+      "note": ""
+    },
+    {
+      "check_id": "detail_output_retains_labels",
+      "passed": true,
+      "numerator": 10,
+      "denominator": 10,
+      "note": ""
+    },
+    {
+      "check_id": "new_recognition_service_not_used",
+      "passed": true,
+      "numerator": null,
+      "denominator": null,
+      "note": ""
+    },
+    {
+      "check_id": "occurrence_offsets_identify_their_own_tokens",
+      "passed": true,
+      "numerator": 153,
+      "denominator": 153,
+      "note": "This checks saved offsets against input text, not whether every extracted token is a genuine scientific name."
+    },
+    {
+      "check_id": "search_results_omit_printed_label",
+      "passed": true,
+      "numerator": 35,
+      "denominator": 35,
+      "note": "Confirms a limitation; a passed conformance assertion does not mean the limitation is resolved."
+    },
+    {
+      "check_id": "result_groups_unique_by_page_and_token",
+      "passed": true,
+      "numerator": null,
+      "denominator": null,
+      "note": ""
+    }
+  ],
+  "runtime_versions": {
+    "python": "3.12.14",
+    "pymupdf": "1.28.2"
+  },
+  "do_not_interpret_as": [
+    "precision",
+    "recall",
+    "taxonomic validation",
+    "user study",
+    "performance advantage"
+  ]
+}

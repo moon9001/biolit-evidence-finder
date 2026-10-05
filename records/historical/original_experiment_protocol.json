@@ -1,0 +1,41 @@
+{
+  "recorded_at": "2026-10-04T07:09:05.714546+08:00",
+  "design": "purposively selected descriptive case verification and isolated software replay",
+  "not_a_blind_evaluation": true,
+  "selection_basis": "existing candidate notes and publicly collected locators; selected before this replay",
+  "samples": [
+    {
+      "work": "mobot31753002692298",
+      "zero_based_positions": [
+        5,
+        105,
+        357,
+        491,
+        493,
+        515,
+        526
+      ]
+    },
+    {
+      "work": "mobot31753000294055",
+      "zero_based_positions": [
+        119,
+        321,
+        622
+      ]
+    }
+  ],
+  "checks": [
+    "Re-observe the five selected platform locator records using four bounded public searches.",
+    "Compare public displayed labels and page positions with an independently available external scan; do not infer identical copies.",
+    "Inspect the selected source pages and distinguish transcription, page role, and taxonomic interpretation.",
+    "Run the unchanged prototype on page-preserving excerpts of the public PDFs in a new disposable local store.",
+    "Check literal target strings, repeated-occurrence grouping, printed-label retention, and context-extension constraints.",
+    "Retain failures and ambiguous observations; do not present counts as collection-wide accuracy, recall, efficiency, or user benefit."
+  ],
+  "offline_conditions": "No language-model, vector-provider or new recognition service; only the existing PDF text layer and rule extraction.",
+  "claim_for_documentary_context_check": "The final statement in the selected volume describes the flowers of Psilopeganum sinense as white.",
+  "claim_scope": "What the selected historical document says after its correction, not a claim about the species in nature.",
+  "inspection_identity": "documentary source inspection; no human/external expert participation has been recorded",
+  "original_manuscript_unchanged": true
+}

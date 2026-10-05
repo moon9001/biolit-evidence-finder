@@ -1,0 +1,90 @@
+[
+  {
+    "batch": "baseline_a",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "run_trace_adapter.py",
+      "reproduce_baseline.py",
+      "--source-dir",
+      "../S2_frozen_source",
+      "--cached-pdf-dir",
+      "public_inputs",
+      "--dependency-dir",
+      "packages",
+      "--work-dir",
+      "baseline_a"
+    ],
+    "started_utc": "2026-10-04T15:45:52.782984+00:00",
+    "finished_utc": "2026-10-04T15:46:04.988667+00:00",
+    "exit_code": 0,
+    "command_note": "portable relative-path rendering of the executed command; unredacted command retained internally"
+  },
+  {
+    "batch": "extension_a",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "run_trace_adapter.py",
+      "run_extension_replay.py",
+      "--source-dir",
+      "../S2_frozen_source",
+      "--cached-pdf-dir",
+      "public_inputs",
+      "--dependency-dir",
+      "packages",
+      "--work-dir",
+      "extension_a"
+    ],
+    "started_utc": "2026-10-04T15:46:05.632603+00:00",
+    "finished_utc": "2026-10-04T15:46:19.336017+00:00",
+    "exit_code": 0,
+    "command_note": "portable relative-path rendering of the executed command; unredacted command retained internally"
+  },
+  {
+    "batch": "baseline_b",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "run_trace_adapter.py",
+      "reproduce_baseline.py",
+      "--source-dir",
+      "../S2_frozen_source",
+      "--cached-pdf-dir",
+      "public_inputs",
+      "--dependency-dir",
+      "packages",
+      "--work-dir",
+      "baseline_b"
+    ],
+    "started_utc": "2026-10-04T15:46:20.169961+00:00",
+    "finished_utc": "2026-10-04T15:46:28.804985+00:00",
+    "exit_code": 0,
+    "command_note": "portable relative-path rendering of the executed command; unredacted command retained internally"
+  },
+  {
+    "batch": "extension_b",
+    "command": [
+      "python",
+      "-X",
+      "utf8",
+      "run_trace_adapter.py",
+      "run_extension_replay.py",
+      "--source-dir",
+      "../S2_frozen_source",
+      "--cached-pdf-dir",
+      "public_inputs",
+      "--dependency-dir",
+      "packages",
+      "--work-dir",
+      "extension_b"
+    ],
+    "started_utc": "2026-10-04T15:46:29.504157+00:00",
+    "finished_utc": "2026-10-04T15:46:44.224899+00:00",
+    "exit_code": 0,
+    "command_note": "portable relative-path rendering of the executed command; unredacted command retained internally"
+  }
+]

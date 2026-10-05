@@ -1,0 +1,16 @@
+candidate_id,target_query,target_scope,exact_selected_page_returned,scientific_selected_page_returned
+E01,Psilopeganum sinense,selected literal or genus clue; not accepted-name identification,True,True
+E02,Psilopeganum sinense,selected literal or genus clue; not accepted-name identification,True,True
+E03,Psilopeganum,selected literal or genus clue; not accepted-name identification,False,False
+E05,Psilopeganum sinense,selected literal or genus clue; not accepted-name identification,True,True
+E06,Psilopeganum sinense,selected literal or genus clue; not accepted-name identification,True,False
+E07,Viburnum rhytidophyllum,selected literal or genus clue; not accepted-name identification,True,True
+E08,Viburnum rhytidophyllum,selected literal or genus clue; not accepted-name identification,True,True
+E09,Viburnum rhytidophyllum,selected literal or genus clue; not accepted-name identification,True,True
+E10,Viburnum rhytidophyllum,selected literal or genus clue; not accepted-name identification,True,True
+E04,Clematis chinensis,selected literal or genus clue; not accepted-name identification,True,True
+E04,Clematis sinensis,selected literal or genus clue; not accepted-name identification,True,True
+E04,Clematis minor,selected literal or genus clue; not accepted-name identification,True,True
+E04,Clematis terniflora,selected literal or genus clue; not accepted-name identification,True,True
+E04,C. terniflora,selected literal or genus clue; not accepted-name identification,True,True
+E04,C. ternifolia,selected literal or genus clue; not accepted-name identification,True,True

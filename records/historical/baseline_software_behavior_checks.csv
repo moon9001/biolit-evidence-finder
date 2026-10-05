@@ -1,0 +1,12 @@
+check_id,passed,numerator,denominator,note
+semantic_disabled_reports_no_embeddings,True,,,"No semantic, reranking or generative effectiveness is claimed."
+no_source_confirmation_or_claim_assessment_fields,True,,,"A code-level missing-record finding, not an expert verdict."
+two_public_excerpt_documents_processed,True,2,2,
+ten_selected_pages_processed,True,10,10,
+actual_pdf_labels_preserved,True,10,10,
+source_text_layer_preserved,True,10,10,
+detail_output_retains_labels,True,10,10,
+new_recognition_service_not_used,True,,,
+occurrence_offsets_identify_their_own_tokens,True,153,153,"This checks saved offsets against input text, not whether every extracted token is a genuine scientific name."
+search_results_omit_printed_label,True,35,35,Confirms a limitation; a passed conformance assertion does not mean the limitation is resolved.
+result_groups_unique_by_page_and_token,True,,,

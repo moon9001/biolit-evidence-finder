@@ -1,0 +1,847 @@
+{
+  "archive_files_checked": 217,
+  "archive_hash_mismatches": [],
+  "selection": {
+    "baseline_volumes": 2,
+    "baseline_pages": 10,
+    "baseline_targets": 15,
+    "extension_volumes": 3,
+    "extension_pages": 18,
+    "extension_targets": 35,
+    "overlap": [],
+    "union_volumes": 3,
+    "union_pages": 28,
+    "target_total": 50,
+    "extension_labels_by_volume": {
+      "mobot31753002692298": [
+        "25",
+        "75",
+        "150",
+        "225",
+        "300",
+        "400"
+      ],
+      "mobot31753000294055": [
+        "25",
+        "75",
+        "150",
+        "225",
+        "300",
+        "400"
+      ],
+      "mobot31753002073309": [
+        "25",
+        "75",
+        "150",
+        "225",
+        "300",
+        "400"
+      ]
+    }
+  },
+  "input_page_checks_pass": true,
+  "summaries": [
+    {
+      "sample": "baseline",
+      "round": "a",
+      "pages": 10,
+      "targets": 15,
+      "literal_target_pages_returned": 14,
+      "scientific_target_pages_returned": 13,
+      "label_preserved": 10,
+      "detail_labels": 10,
+      "offset_span_matches": 153,
+      "offset_count": 153,
+      "search_result_count": 35,
+      "search_results_with_labels": 0,
+      "query_mode_pairs": 20,
+      "actual_ocr_pages": 0,
+      "actual_llm_occurrences": 0,
+      "stored_embeddings": 0,
+      "provider_service_functions_called": {},
+      "blocked_network_attempts": 0,
+      "run_at_utc": "2026-10-04T15:46:04.917415+00:00",
+      "exit_code": 0
+    },
+    {
+      "sample": "baseline",
+      "round": "b",
+      "pages": 10,
+      "targets": 15,
+      "literal_target_pages_returned": 14,
+      "scientific_target_pages_returned": 13,
+      "label_preserved": 10,
+      "detail_labels": 10,
+      "offset_span_matches": 153,
+      "offset_count": 153,
+      "search_result_count": 35,
+      "search_results_with_labels": 0,
+      "query_mode_pairs": 20,
+      "actual_ocr_pages": 0,
+      "actual_llm_occurrences": 0,
+      "stored_embeddings": 0,
+      "provider_service_functions_called": {},
+      "blocked_network_attempts": 0,
+      "run_at_utc": "2026-10-04T15:46:28.738007+00:00",
+      "exit_code": 0
+    },
+    {
+      "sample": "extension",
+      "round": "a",
+      "pages": 18,
+      "targets": 35,
+      "literal_target_pages_returned": 32,
+      "scientific_target_pages_returned": 22,
+      "label_preserved": 18,
+      "detail_labels": 18,
+      "offset_span_matches": 254,
+      "offset_count": 254,
+      "search_result_count": 54,
+      "search_results_with_labels": 0,
+      "query_mode_pairs": 70,
+      "actual_ocr_pages": 0,
+      "actual_llm_occurrences": 0,
+      "stored_embeddings": 0,
+      "provider_service_functions_called": {},
+      "blocked_network_attempts": 0,
+      "run_at_utc": "2026-10-04T15:46:18.334676+00:00",
+      "exit_code": 0
+    },
+    {
+      "sample": "extension",
+      "round": "b",
+      "pages": 18,
+      "targets": 35,
+      "literal_target_pages_returned": 32,
+      "scientific_target_pages_returned": 22,
+      "label_preserved": 18,
+      "detail_labels": 18,
+      "offset_span_matches": 254,
+      "offset_count": 254,
+      "search_result_count": 54,
+      "search_results_with_labels": 0,
+      "query_mode_pairs": 70,
+      "actual_ocr_pages": 0,
+      "actual_llm_occurrences": 0,
+      "stored_embeddings": 0,
+      "provider_service_functions_called": {},
+      "blocked_network_attempts": 0,
+      "run_at_utc": "2026-10-04T15:46:43.113484+00:00",
+      "exit_code": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 15,
+      "second_count": 15
+    },
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline_a vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 15,
+      "second_count": 15
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline_b vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "queries",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "targets",
+      "equal": true,
+      "first_count": 15,
+      "second_count": 15
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline current A vs B",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "documents",
+      "equal": true,
+      "first_count": 2,
+      "second_count": 2
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "occurrences",
+      "equal": true,
+      "first_count": 153,
+      "second_count": 153
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "chunks",
+      "equal": true,
+      "first_count": 41,
+      "second_count": 41
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "page_text_digests",
+      "equal": true,
+      "first_count": 10,
+      "second_count": 10
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "occurrence_extractors",
+      "equal": true,
+      "first_count": 1,
+      "second_count": 1
+    },
+    {
+      "comparison": "baseline documents/pages/offsets A vs B",
+      "field": "embedding_vectors_present",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 35,
+      "second_count": 35
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension_a vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "queries",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "targets",
+      "equal": true,
+      "first_count": 35,
+      "second_count": 35
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension_b vs historical",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "queries",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "targets",
+      "equal": true,
+      "first_count": 35,
+      "second_count": 35
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension current A vs B",
+      "field": "occurrence_offsets",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "documents",
+      "equal": true,
+      "first_count": 3,
+      "second_count": 3
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "pages",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "occurrences",
+      "equal": true,
+      "first_count": 254,
+      "second_count": 254
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "chunks",
+      "equal": true,
+      "first_count": 90,
+      "second_count": 90
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "page_text_digests",
+      "equal": true,
+      "first_count": 18,
+      "second_count": 18
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "occurrence_extractors",
+      "equal": true,
+      "first_count": 1,
+      "second_count": 1
+    },
+    {
+      "comparison": "extension documents/pages/offsets A vs B",
+      "field": "embedding_vectors_present",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "selected_pages_checked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "selected_anchors_rechecked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "negative_controls",
+      "equal": true,
+      "first_count": 2,
+      "second_count": 2
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "query_case_controls",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "repeated_occurrence_groups",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "source_form_diagnostics",
+      "equal": true,
+      "first_count": 4,
+      "second_count": 4
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "semantic_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "hybrid_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "network_blocked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "retrieval_or_extraction_logic_modified",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs B",
+      "field": "interpretation",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "selected_pages_checked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "selected_anchors_rechecked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "negative_controls",
+      "equal": true,
+      "first_count": 2,
+      "second_count": 2
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "query_case_controls",
+      "equal": true,
+      "first_count": 70,
+      "second_count": 70
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "repeated_occurrence_groups",
+      "equal": true,
+      "first_count": 20,
+      "second_count": 20
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "source_form_diagnostics",
+      "equal": true,
+      "first_count": 4,
+      "second_count": 4
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "semantic_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "hybrid_without_embeddings",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "network_blocked",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "retrieval_or_extraction_logic_modified",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    },
+    {
+      "comparison": "extension controls A vs historical",
+      "field": "interpretation",
+      "equal": true,
+      "first_count": null,
+      "second_count": null
+    }
+  ],
+  "differences": [],
+  "controls": {
+    "selected_pages_checked": 18,
+    "selected_anchors_rechecked": 35,
+    "negative_control_searches": 4,
+    "negative_all_zero": true,
+    "query_case_pairs": 70,
+    "query_case_all_agree": true,
+    "repeated_groups": 20,
+    "repeated_all_one_group": true,
+    "semantic_without_embeddings": {
+      "result_count": 0,
+      "note": "no_embeddings"
+    },
+    "hybrid_without_embeddings": {
+      "result_count": 1,
+      "note": "no_embeddings"
+    },
+    "post_hoc_source_form_diagnostics": [
+      {
+        "query": "Spir\u00e6a pubescens",
+        "candidate_id": "N04",
+        "exact_page_returned": true,
+        "scientific_page_returned": false,
+        "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+      },
+      {
+        "query": "Spir\u00e6a chinensis",
+        "candidate_id": "N04",
+        "exact_page_returned": true,
+        "scientific_page_returned": false,
+        "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+      },
+      {
+        "query": "Padus acro-\nphylla",
+        "candidate_id": "N08",
+        "exact_page_returned": false,
+        "scientific_page_returned": false,
+        "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+      },
+      {
+        "query": "Padus acro- \nphylla",
+        "candidate_id": "N08",
+        "exact_page_returned": true,
+        "scientific_page_returned": false,
+        "purpose": "Post hoc source-form diagnostic; excluded from the frozen 35-anchor denominator"
+      }
+    ]
+  },
+  "query_transformations": [
+    {
+      "candidate_id": "N04",
+      "source_identifier": "mobot31753002692298",
+      "pdf_page_label": "225",
+      "original_one_based_sequence": 228,
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n227",
+      "frozen_query": "Spiraea pubescens",
+      "observed_printed_form": "Spir\u00e6a pubescens",
+      "literal_target_page_returned": false,
+      "scientific_target_page_returned": false,
+      "failure_reason": "Printed ligature \u00e6 differs from query ae; name rule also excludes \u00e6.",
+      "query_representation_note": "The frozen query expands the printed ligature. This is a query representation difference, not an OCR error.",
+      "reading_basis": "documentary visual page inspection; no independent human ground truth"
+    },
+    {
+      "candidate_id": "N04",
+      "source_identifier": "mobot31753002692298",
+      "pdf_page_label": "225",
+      "original_one_based_sequence": 228,
+      "public_page_url": "https://archive.org/details/mobot31753002692298/page/n227",
+      "frozen_query": "Spiraea chinensis",
+      "observed_printed_form": "Spir\u00e6a chinensis",
+      "literal_target_page_returned": false,
+      "scientific_target_page_returned": false,
+      "failure_reason": "Printed ligature \u00e6 differs from query ae; name rule also excludes \u00e6.",
+      "query_representation_note": "The frozen query expands the printed ligature. This is a query representation difference, not an OCR error.",
+      "reading_basis": "documentary visual page inspection; no independent human ground truth"
+    },
+    {
+      "candidate_id": "N08",
+      "source_identifier": "mobot31753000294055",
+      "pdf_page_label": "75",
+      "original_one_based_sequence": 85,
+      "public_page_url": "https://archive.org/details/mobot31753000294055/page/n84",
+      "frozen_query": "Padus acrophylla",
+      "observed_printed_form": "Padus acro- / phylla",
+      "literal_target_page_returned": false,
+      "scientific_target_page_returned": false,
+      "failure_reason": "Word split with a line-end hyphen; the query joins the word.",
+      "query_representation_note": "The frozen query joins a visible line-end hyphen. No source text correction was made.",
+      "reading_basis": "documentary visual page inspection; no independent human ground truth"
+    }
+  ],
+  "failure_count": 15,
+  "failures": [
+    {
+      "sample": "baseline",
+      "candidate_id": "E03",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "513",
+      "original_sequence": 516,
+      "frozen_query": "Psilopeganum",
+      "printed_form": "Psilopeganum",
+      "literal_returned": false,
+      "scientific_returned": false,
+      "recorded_explanation": "Printed genus Psilopeganum recorded as Pelopeganum in the existing text layer; isolated genus outside binomial rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "baseline",
+      "candidate_id": "E06",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "3",
+      "original_sequence": 527,
+      "frozen_query": "Psilopeganum sinense",
+      "printed_form": "PSILOPEGANUM SINENSE",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "All-uppercase plate caption omitted by conservative genus/epithet extraction rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N01",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "25",
+      "original_sequence": 28,
+      "frozen_query": "Liriodendron Tulipifera",
+      "printed_form": "Liriodendron Tulipifera",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N03",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "150",
+      "original_sequence": 153,
+      "frozen_query": "Rourea Millettii",
+      "printed_form": "Rourea Millettii",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N04",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "225",
+      "original_sequence": 228,
+      "frozen_query": "Spiraea pubescens",
+      "printed_form": "Spir\u00e6a pubescens",
+      "literal_returned": false,
+      "scientific_returned": false,
+      "recorded_explanation": "Printed ligature \u00e6 differs from query ae; name rule also excludes \u00e6.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N04",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "225",
+      "original_sequence": 228,
+      "frozen_query": "Spiraea chinensis",
+      "printed_form": "Spir\u00e6a chinensis",
+      "literal_returned": false,
+      "scientific_returned": false,
+      "recorded_explanation": "Printed ligature \u00e6 differs from query ae; name rule also excludes \u00e6.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N06",
+      "source_identifier": "mobot31753002692298",
+      "pdf_label": "400",
+      "original_sequence": 403,
+      "frozen_query": "Dipsacus Gmelini",
+      "printed_form": "Dipsacus Gmelini",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N07",
+      "source_identifier": "mobot31753000294055",
+      "pdf_label": "25",
+      "original_sequence": 35,
+      "frozen_query": "Hydrangea Davidi",
+      "printed_form": "Hydrangea Davidi",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N08",
+      "source_identifier": "mobot31753000294055",
+      "pdf_label": "75",
+      "original_sequence": 85,
+      "frozen_query": "Padus acrophylla",
+      "printed_form": "Padus acro- / phylla",
+      "literal_returned": false,
+      "scientific_returned": false,
+      "recorded_explanation": "Word split with a line-end hyphen; the query joins the word.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N12",
+      "source_identifier": "mobot31753000294055",
+      "pdf_label": "400",
+      "original_sequence": 414,
+      "frozen_query": "Magnolia Yulan",
+      "printed_form": "Magnolia Yulan",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N16",
+      "source_identifier": "mobot31753002073309",
+      "pdf_label": "225",
+      "original_sequence": 230,
+      "frozen_query": "Rhamnella Wilsonii",
+      "printed_form": "Rhamnella Wilsonii",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N16",
+      "source_identifier": "mobot31753002073309",
+      "pdf_label": "225",
+      "original_sequence": 230,
+      "frozen_query": "Rhamnella Martinii",
+      "printed_form": "Rhamnella Martinii",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N17",
+      "source_identifier": "mobot31753002073309",
+      "pdf_label": "300",
+      "original_sequence": 305,
+      "frozen_query": "Pyrus Aria",
+      "printed_form": "Pyrus Aria",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N17",
+      "source_identifier": "mobot31753002073309",
+      "pdf_label": "300",
+      "original_sequence": 305,
+      "frozen_query": "Pyrus Bodinieri",
+      "printed_form": "Pyrus Bodinieri",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    },
+    {
+      "sample": "extension",
+      "candidate_id": "N18",
+      "source_identifier": "mobot31753002073309",
+      "pdf_label": "400",
+      "original_sequence": 405,
+      "frozen_query": "Ternstroemia Lushia",
+      "printed_form": "Ternstroemia Lushia",
+      "literal_returned": true,
+      "scientific_returned": false,
+      "recorded_explanation": "Capitalized species epithet does not satisfy the current lowercase-epithet rule.",
+      "reading_status": "documentary inspection; no independent human/expert confirmation"
+    }
+  ],
+  "no_pooled_performance_estimate": true
+}
